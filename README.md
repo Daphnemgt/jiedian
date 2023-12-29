@@ -4,7 +4,9 @@ TG电报代理频道🔗 https://t.me/bkjdfg
 
 ✅每天分享各种高速8K节点订阅，白嫖分享的覆盖面非常广，基本上你想要的都能免费获取！
 
-🐔频道永久订阅（翻墙导入） https://raw.githubusercontent.com/Daphnemgt/jiedian/main/v2ray
+🐔2vray订阅 https://raw.githubusercontent.com/Daphnemgt/jiedian/main/v2ray
+
+🐔clash订阅 https://raw.githubusercontent.com/Daphnemgt/jiedian/main/clash.yaml
 
 ✅订阅转换网址： https://acl4ssr-sub.github.io/
 
@@ -15,3 +17,7 @@ TG电报代理频道🔗 https://t.me/bkjdfg
 🏩 2vray订阅1：https://raw.fgit.cf/Daphnemgt/jiedian/main/v2ray
 
 🏩 2vray订阅2：https://raw.gitmirror.com/Daphnemgt/jiedian/main/v2ray
+
+✌️ clash订阅1 https://raw.fgit.cf/Daphnemgt/jiedian/main/clash.yaml
+
+🐔 clash订阅2: https://raw.gitmirror.com/Daphnemgt/jiedian/main/clash.yaml
