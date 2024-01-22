@@ -3,575 +3,640 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
+external-controller: ':9090'
 proxies:
-  - {name: 🇻🇳 越南_Telegram@kxswa, server: vn18.4gchill.com, port: 80, type: vmess, uuid: 67d5296e-a2ee-4a9f-89e6-365da540c55d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /4gchill.com, headers: {Host: dl.ks.freefiremobile.com}}}
-  - {name: 🇻🇳 越南_Telegram@kxswa 2, server: vn08.4gchill.com, port: 80, type: vmess, uuid: 67d5296e-a2ee-4a9f-89e6-365da540c55d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /4gchill.com, headers: {Host: dl.ks.freefiremobile.com}}}
-  - {name: 🇻🇳 越南_Telegram@kxswa 3, server: vn04.4gchill.com, port: 80, type: vmess, uuid: 67d5296e-a2ee-4a9f-89e6-365da540c55d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /4gchill.com, headers: {Host: dl.ks.freefiremobile.com}}}
-  - {name: 🇻🇳 越南_Telegram@kxswa 4, server: vn11.4gchill.com, port: 443, type: vmess, uuid: 67d5296e-a2ee-4a9f-89e6-365da540c55d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: vn11.4gchill.com, grpc-opts: {grpc-service-name: vn10.4gchill.com}}
-  - {name: 🇬🇧 英国_Telegram@kxswa, server: 45.154.14.209, port: 48852, type: vmess, uuid: 557769ba-e085-49ef-8ac6-96cf3d1a9730, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa, server: 103.172.116.79, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 2, server: 3.1.194.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 香港_Telegram@kxswa, server: 1.65.139.54, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: /, tls: false, mux: true, skip-cert-verify: true}}
-  - {name: 🇭🇰 香港_Telegram@kxswa 2, server: hk03.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, skip-cert-verify: true}
-  - {name: 🇭🇰 香港_Telegram@kxswa 3, server: in01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: in01.trojanyyds.xyz, skip-cert-verify: true}
-  - {name: 🇭🇰 香港_Telegram@kxswa 4, server: vpnhat.liangyuandiancloud.com, port: 443, type: trojan, password: 17cae44f-1b58-4407-bb31-8273b7a51ff2, skip-cert-verify: true}
-  - {name: 🇭🇰 香港_Telegram@kxswa 5, server: 103.30.76.173, port: 30515, type: vmess, uuid: d027cd70-ed8b-4cb6-98f3-fc6b974d086c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: 🇭🇰 香港_Telegram@kxswa 6, server: 47.243.59.144, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: /, tls: false, mux: true, skip-cert-verify: true}}
-  - {name: 🇭🇰 香港_Telegram@kxswa 7, server: nc.cn2.go002.xyz, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: 893562d2-2e36-4c87-aebc-3ca3fc78de3e}
-  - {name: 🇭🇰 香港_Telegram@kxswa 8, server: service.ouluyun9803.com, port: 26668, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123}
-  - {name: 🇭🇰 香港_Telegram@kxswa 9, server: 223.113.130.97, port: 50080, type: vmess, uuid: f6af82ce-fda6-31d2-86b9-db2eaec6b19e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-1.cn-db.top}}}
-  - {name: 🇭🇰 香港_Telegram@kxswa 10, server: 183.236.51.6, port: 10802, type: trojan, password: 63817ea4-7062-4ec6-b7c0-61279b48cf73, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港_Telegram@kxswa 11, server: 183.236.51.7, port: 10806, type: trojan, password: 1669de26-7366-4420-980a-495543716f72, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港_Telegram@kxswa 12, server: 223.113.130.97, port: 58080, type: vmess, uuid: f6af82ce-fda6-31d2-86b9-db2eaec6b19e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-2.cn-db.top}}}
-  - {name: 🇭🇰 香港_Telegram@kxswa 13, server: 103.68.61.175, port: 567, type: trojan, password: 94744160-abe9-44ca-b085-0f6994e1944e, sni: hk.zgc.su, skip-cert-verify: true}
-  - {name: 🇭🇰 香港_Telegram@kxswa 14, server: 120.233.45.99, port: 2082, type: vmess, uuid: f6af82ce-fda6-31d2-86b9-db2eaec6b19e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-2.cn-db.top}}}
-  - {name: 🇭🇰 香港_Telegram@kxswa 15, server: 120.233.45.99, port: 2052, type: vmess, uuid: f6af82ce-fda6-31d2-86b9-db2eaec6b19e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-1.cn-db.top}}}
-  - {name: 🇭🇰 香港_Telegram@kxswa 16, server: hkt.littleqqq.co, port: 20759, type: vmess, uuid: abf3a7c1-e673-43ba-8d90-5396e51fec74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hkt.littleqqq.co}}}
-  - {name: 🇭🇰 香港_Telegram@kxswa 17, server: 223.113.130.97, port: 2095, type: vmess, uuid: f6af82ce-fda6-31d2-86b9-db2eaec6b19e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-2.cn-db.top}}}
-  - {name: 🇭🇰 香港_Telegram@kxswa 18, server: 183.236.51.6, port: 10805, type: trojan, password: 1669de26-7366-4420-980a-495543716f72, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港_Telegram@kxswa 19, server: 207.148.45.85, port: 39201, type: vmess, uuid: fd9f5a81-4d40-40b3-eb2f-dfe0a4e7bb2a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇭🇰 香港_Telegram@kxswa 20, server: 183.236.51.7, port: 10807, type: trojan, password: 1669de26-7366-4420-980a-495543716f72, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港_Telegram@kxswa 21, server: 120.233.45.104, port: 2082, type: vmess, uuid: f6af82ce-fda6-31d2-86b9-db2eaec6b19e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: data-hk-1.cn-db.top}}}
-  - {name: 乌兹别克斯坦_Telegram@kxswa, server: 37.110.209.228, port: 443, type: vmess, uuid: 368ee843-d2a3-425c-be57-135b9ec6b81f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: best.servecounterstrike.com}}}
-  - {name: 🇨🇳 台湾_Telegram@kxswa, server: 1.162.139.104, port: 21353, type: vmess, uuid: c24b520b-e0c6-4bb0-b951-dd87cc07a518, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾_Telegram@kxswa 2, server: b23.ntbq.dynu.net, port: 2024, type: vmess, uuid: 2358c269-178a-43c0-a208-c6cc52d398f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾_Telegram@kxswa 3, server: c12.twtc.dynu.net, port: 6122, type: vmess, uuid: 2358c269-178a-43c0-a208-c6cc52d398f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾_Telegram@kxswa 4, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 2358c269-178a-43c0-a208-c6cc52d398f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾_Telegram@kxswa 5, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: c64adf03-3bfe-47e0-b38b-870a9f8032e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾_Telegram@kxswa 6, server: nb24.ntbq.dynu.net, port: 4443, type: vmess, uuid: b6fdc502-3ae5-47a7-9fa4-3fa7febb76c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾_Telegram@kxswa 7, server: tw1-vds3.anyhk.co, port: 21353, type: vmess, uuid: c24b520b-e0c6-4bb0-b951-dd87cc07a518, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾_Telegram@kxswa 8, server: 118.167.71.177, port: 12002, type: vmess, uuid: 2358c269-178a-43c0-a208-c6cc52d398f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇨🇭 瑞士_Telegram@kxswa, server: krse10.ip8.shop, port: 25362, type: vmess, uuid: 71618f91-d149-4b45-91c9-f94dd4e2499a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇯🇵 日本_Telegram@kxswa, server: ch.mjt000.com, port: 443, type: trojan, password: 0cdc54e5-c8e1-4350-a7b2-047e5f4c02f9, sni: ch.mjt000.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本_Telegram@kxswa 2, server: ua.mjt000.com, port: 443, type: trojan, password: 0cdc54e5-c8e1-4350-a7b2-047e5f4c02f9, sni: ua.mjt000.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本_Telegram@kxswa 3, server: jp.doushimeng.com, port: 21853, type: ss, cipher: chacha20-ietf-poly1305, password: c4e25e61-eae3-41a9-8866-3d10f56aaf0c}
-  - {name: 🇧🇩 孟加拉国_Telegram@kxswa, server: 43.245.140.2, port: 443, type: vmess, uuid: 7282d494-b506-4f34-9950-fb0c18820439, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: yasoft8889.zapto.org}}}
-  - {name: 🇲🇳 蒙古_Telegram@kxswa, server: 180.149.90.66, port: 443, type: vmess, uuid: b82493e3-07b4-4cf2-b585-965575cfeb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: softiri.serveirc.com}}}
-  - {name: 🇲🇳 蒙古_Telegram@kxswa 2, server: 180.149.90.66, port: 443, type: vmess, uuid: f5c137d1-ca89-42c0-b604-db39aef60a73, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: tabyan777.sytes.net}}}
-  - {name: 🇲🇳 蒙古_Telegram@kxswa 3, server: 180.149.90.66, port: 443, type: vmess, uuid: 932e7399-2e7b-4642-b7d5-d2af283c7f86, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: arvancloud.servehttp.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa, server: 104.16.109.205, port: 2082, type: vmess, uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/CuTy87zAzV/, headers: {Host: us4Bb5oSgJA.fzbqfrse.xyz}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 2, server: 104.21.229.78, port: 2082, type: vmess, uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/CuTy87zAzV/, headers: {Host: us4Bb5oSgJA.fzbqfrse.xyz}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 3, server: 104.18.139.100, port: 2082, type: vmess, uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/CuTy87zAzV/, headers: {Host: us4Bb5oSgJA.fzbqfrse.xyz}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 4, server: cfcdn1.sanfencdn9.com, port: 2082, type: vmess, uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/CuTy87zAzV/, headers: {Host: us4Bb5oSgJA.fzbqfrse.xyz}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 5, server: cfcdn1.sanfencdn9.com, port: 8880, type: vmess, uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 6, server: cf.openxai.link, port: 8080, type: vmess, uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu3.openxai.link}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 7, server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/34kKXbLM, headers: {Host: yvhnbevxhk1.yofnhkfc.xyz}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 8, server: 104.18.253.93, port: 2052, type: vmess, uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/9TfVEyku, headers: {Host: wtywwcrzjp5.yofnhkfc.xyz}}}
-  - {name: 🇨🇦 加拿大_Telegram@kxswa, server: frontend.yijianlian.app, port: 54001, type: trojan, password: eaadcee8-f807-4365-89b2-07c890c2120e, skip-cert-verify: true}
-  - {name: 🇨🇦 加拿大_Telegram@kxswa 2, server: frontend.yijianlian.app, port: 54570, type: trojan, password: eaadcee8-f807-4365-89b2-07c890c2120e, skip-cert-verify: true}
-  - {name: 🇨🇦 加拿大_Telegram@kxswa 3, server: frontend.yijianlian.app, port: 54530, type: trojan, password: eaadcee8-f807-4365-89b2-07c890c2120e, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国_Telegram@kxswa, server: 61.97.249.50, port: 53243, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇰🇷 韩国_Telegram@kxswa 2, server: c001.panda003.net, port: 53243, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇰🇷 韩国_Telegram@kxswa 3, server: p227.panda004.net, port: 2020, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇰🇿 哈萨克斯坦_Telegram@kxswa, server: 92.46.108.106, port: 443, type: vmess, uuid: 4abdf58e-0516-468d-9571-fe25cb4897ef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: skuone.serveminecraft.net}}}
-  - {name: 🇰🇿 哈萨克斯坦_Telegram@kxswa 2, server: 217.76.64.195, port: 443, type: vmess, uuid: 4abdf58e-0516-468d-9571-fe25cb4897ef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: skuone.serveminecraft.net}}}
-  - {name: 🇬🇪 格鲁吉亚_Telegram@kxswa, server: 94.43.206.202, port: 80, type: vmess, uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: irisoft.servecounterstrike.com}}}
-  - {name: 🇷🇺 俄罗斯联邦_Telegram@kxswa, server: es2-vmess.sshmax.xyz, port: 80, type: vmess, uuid: b3882186-ea80-45fd-bb95-6f0217404671, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: es2-vmess.sshmax.xyz}}}
-  - {name: 🇩🇪 德国_Telegram@kxswa, server: 5.104.108.109, port: 443, type: trojan, password: 9a47ef97-0ec3-4679-9a64-3657b1e5d4b6, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇩🇪 德国_Telegram@kxswa 2, server: 92.223.124.36, port: 443, type: vmess, uuid: 368ee843-d2a3-425c-be57-135b9ec6b81f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: best.servecounterstrike.com}}}
-  - {name: 🇧🇷 巴西_Telegram@kxswa, server: 92.223.12.9, port: 443, type: vmess, uuid: 4abdf58e-0516-468d-9571-fe25cb4897ef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: skuone.serveminecraft.net}}}
+  - {"name":"🇻🇳
+    越南_节点发布1月22号@djkkdcx","server":"vn18.4gchill.com","port":80,"type":"vmess","uuid":"67d5296e-a2ee-4a9f-89e6-365da540c55d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/4gchill.com","headers":{"Host":"dl.ks.freefiremobile.com"}}}
+  - {"name":"🇻🇳 越南_节点发布1月22号@djkkdcx
+    2","server":"vn08.4gchill.com","port":80,"type":"vmess","uuid":"67d5296e-a2ee-4a9f-89e6-365da540c55d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/4gchill.com","headers":{"Host":"dl.ks.freefiremobile.com"}}}
+  - {"name":"🇻🇳 越南_节点发布1月22号@djkkdcx
+    3","server":"vn04.4gchill.com","port":80,"type":"vmess","uuid":"67d5296e-a2ee-4a9f-89e6-365da540c55d","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/4gchill.com","headers":{"Host":"dl.ks.freefiremobile.com"}}}
+  - {"name":"🇻🇳 越南_节点发布1月22号@djkkdcx
+    4","server":"vn11.4gchill.com","port":443,"type":"vmess","uuid":"67d5296e-a2ee-4a9f-89e6-365da540c55d","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"grpc","servername":"vn11.4gchill.com","grpc-opts":{"grpc-service-name":"vn10.4gchill.com"}}
+  - {"name":"🇬🇧
+    英国_节点发布1月22号@djkkdcx","server":"45.154.14.209","port":48852,"type":"vmess","uuid":"557769ba-e085-49ef-8ac6-96cf3d1a9730","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"http","http-opts":{"method":"GET","path":["/"]}}
+  - {"name":"🇸🇬
+    新加坡_节点发布1月22号@djkkdcx","server":"103.172.116.79","port":9060,"type":"ss","cipher":"aes-256-cfb","password":"ueLXVkvh4hckhErQ"}
+  - {"name":"🇸🇬 新加坡_节点发布1月22号@djkkdcx
+    2","server":"3.1.194.182","port":443,"type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇭🇰
+    香港_节点发布1月22号@djkkdcx","server":"1.65.139.54","port":443,"type":"ss","cipher":"aes-128-gcm","password":"a-wym4ovY4Yw","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"/","tls":false,"mux":true,"skip-cert-verify":true}}
+  - {"name":"🇭🇰 香港_节点发布1月22号@djkkdcx
+    2","server":"hk03.trojanyyds.xyz","port":443,"type":"trojan","password":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","skip-cert-verify":true}
+  - {"name":"🇭🇰 香港_节点发布1月22号@djkkdcx
+    3","server":"in01.trojanyyds.xyz","port":443,"type":"trojan","password":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","sni":"in01.trojanyyds.xyz","skip-cert-verify":true}
+  - {"name":"🇭🇰 香港_节点发布1月22号@djkkdcx
+    4","server":"vpnhat.liangyuandiancloud.com","port":443,"type":"trojan","password":"17cae44f-1b58-4407-bb31-8273b7a51ff2","skip-cert-verify":true}
+  - {"name":"🇭🇰 香港_节点发布1月22号@djkkdcx
+    5","server":"103.30.76.173","port":30515,"type":"vmess","uuid":"d027cd70-ed8b-4cb6-98f3-fc6b974d086c","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"http","http-opts":{"method":"GET","path":["/"]}}
+  - {"name":"🇭🇰 香港_节点发布1月22号@djkkdcx
+    6","server":"47.243.59.144","port":443,"type":"ss","cipher":"aes-128-gcm","password":"a-wym4ovY4Yw","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"/","tls":false,"mux":true,"skip-cert-verify":true}}
+  - {"name":"🇭🇰 香港_节点发布1月22号@djkkdcx
+    7","server":"nc.cn2.go002.xyz","port":19511,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"893562d2-2e36-4c87-aebc-3ca3fc78de3e"}
+  - {"name":"🇭🇰 香港_节点发布1月22号@djkkdcx
+    8","server":"service.ouluyun9803.com","port":26668,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"cfa17a0d-5e7d-4871-976e-f116e0818123"}
+  - {"name":"🇭🇰 香港_节点发布1月22号@djkkdcx
+    9","server":"223.113.130.97","port":50080,"type":"vmess","uuid":"f6af82ce-fda6-31d2-86b9-db2eaec6b19e","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/db00","headers":{"Host":"cache-hk-1.cn-db.top"}}}
+  - {"name":"🇭🇰 香港_节点发布1月22号@djkkdcx
+    10","server":"183.236.51.6","port":10802,"type":"trojan","password":"63817ea4-7062-4ec6-b7c0-61279b48cf73","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
+  - {"name":"🇭🇰 香港_节点发布1月22号@djkkdcx
+    11","server":"183.236.51.7","port":10806,"type":"trojan","password":"1669de26-7366-4420-980a-495543716f72","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
+  - {"name":"🇭🇰 香港_节点发布1月22号@djkkdcx
+    12","server":"223.113.130.97","port":58080,"type":"vmess","uuid":"f6af82ce-fda6-31d2-86b9-db2eaec6b19e","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/db00","headers":{"Host":"cache-hk-2.cn-db.top"}}}
+  - {"name":"🇭🇰 香港_节点发布1月22号@djkkdcx
+    13","server":"103.68.61.175","port":567,"type":"trojan","password":"94744160-abe9-44ca-b085-0f6994e1944e","sni":"hk.zgc.su","skip-cert-verify":true}
+  - {"name":"🇭🇰 香港_节点发布1月22号@djkkdcx
+    14","server":"120.233.45.99","port":2082,"type":"vmess","uuid":"f6af82ce-fda6-31d2-86b9-db2eaec6b19e","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/db00","headers":{"Host":"cache-hk-2.cn-db.top"}}}
+  - {"name":"🇭🇰 香港_节点发布1月22号@djkkdcx
+    15","server":"120.233.45.99","port":2052,"type":"vmess","uuid":"f6af82ce-fda6-31d2-86b9-db2eaec6b19e","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/db00","headers":{"Host":"cache-hk-1.cn-db.top"}}}
+  - {"name":"🇭🇰 香港_节点发布1月22号@djkkdcx
+    16","server":"hkt.littleqqq.co","port":20759,"type":"vmess","uuid":"abf3a7c1-e673-43ba-8d90-5396e51fec74","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"Host":"hkt.littleqqq.co"}}}
+  - {"name":"🇭🇰 香港_节点发布1月22号@djkkdcx
+    17","server":"223.113.130.97","port":2095,"type":"vmess","uuid":"f6af82ce-fda6-31d2-86b9-db2eaec6b19e","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/db00","headers":{"Host":"cache-hk-2.cn-db.top"}}}
+  - {"name":"🇭🇰 香港_节点发布1月22号@djkkdcx
+    18","server":"183.236.51.6","port":10805,"type":"trojan","password":"1669de26-7366-4420-980a-495543716f72","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
+  - {"name":"🇭🇰 香港_节点发布1月22号@djkkdcx
+    19","server":"207.148.45.85","port":39201,"type":"vmess","uuid":"fd9f5a81-4d40-40b3-eb2f-dfe0a4e7bb2a","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true}
+  - {"name":"🇭🇰 香港_节点发布1月22号@djkkdcx
+    20","server":"183.236.51.7","port":10807,"type":"trojan","password":"1669de26-7366-4420-980a-495543716f72","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
+  - {"name":"🇭🇰 香港_节点发布1月22号@djkkdcx
+    21","server":"120.233.45.104","port":2082,"type":"vmess","uuid":"f6af82ce-fda6-31d2-86b9-db2eaec6b19e","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/db00","headers":{"Host":"data-hk-1.cn-db.top"}}}
+  - {"name":"乌兹别克斯坦_节点发布1月22号@djkkdcx","server":"37.110.209.228","port":443,"type":"vmess","uuid":"368ee843-d2a3-425c-be57-135b9ec6b81f","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@forwardv2ray","headers":{"Host":"best.servecounterstrike.com"}}}
+  - {"name":"🇨🇳
+    台湾_节点发布1月22号@djkkdcx","server":"1.162.139.104","port":21353,"type":"vmess","uuid":"c24b520b-e0c6-4bb0-b951-dd87cc07a518","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true}
+  - {"name":"🇨🇳 台湾_节点发布1月22号@djkkdcx
+    2","server":"b23.ntbq.dynu.net","port":2024,"type":"vmess","uuid":"2358c269-178a-43c0-a208-c6cc52d398f9","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true}
+  - {"name":"🇨🇳 台湾_节点发布1月22号@djkkdcx
+    3","server":"c12.twtc.dynu.net","port":6122,"type":"vmess","uuid":"2358c269-178a-43c0-a208-c6cc52d398f9","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true}
+  - {"name":"🇨🇳 台湾_节点发布1月22号@djkkdcx
+    4","server":"nb22.ntbq.dynu.net","port":12002,"type":"vmess","uuid":"2358c269-178a-43c0-a208-c6cc52d398f9","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true}
+  - {"name":"🇨🇳 台湾_节点发布1月22号@djkkdcx
+    5","server":"nb22.ntbq.dynu.net","port":12002,"type":"vmess","uuid":"c64adf03-3bfe-47e0-b38b-870a9f8032e8","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true}
+  - {"name":"🇨🇳 台湾_节点发布1月22号@djkkdcx
+    6","server":"nb24.ntbq.dynu.net","port":4443,"type":"vmess","uuid":"b6fdc502-3ae5-47a7-9fa4-3fa7febb76c4","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true}
+  - {"name":"🇨🇳 台湾_节点发布1月22号@djkkdcx
+    7","server":"tw1-vds3.anyhk.co","port":21353,"type":"vmess","uuid":"c24b520b-e0c6-4bb0-b951-dd87cc07a518","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true}
+  - {"name":"🇨🇳 台湾_节点发布1月22号@djkkdcx
+    8","server":"118.167.71.177","port":12002,"type":"vmess","uuid":"2358c269-178a-43c0-a208-c6cc52d398f9","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true}
+  - {"name":"🇨🇭
+    瑞士_节点发布1月22号@djkkdcx","server":"krse10.ip8.shop","port":25362,"type":"vmess","uuid":"71618f91-d149-4b45-91c9-f94dd4e2499a","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true}
+  - {"name":"🇯🇵
+    日本_节点发布1月22号@djkkdcx","server":"ch.mjt000.com","port":443,"type":"trojan","password":"0cdc54e5-c8e1-4350-a7b2-047e5f4c02f9","sni":"ch.mjt000.com","skip-cert-verify":true}
+  - {"name":"🇯🇵 日本_节点发布1月22号@djkkdcx
+    2","server":"ua.mjt000.com","port":443,"type":"trojan","password":"0cdc54e5-c8e1-4350-a7b2-047e5f4c02f9","sni":"ua.mjt000.com","skip-cert-verify":true}
+  - {"name":"🇯🇵 日本_节点发布1月22号@djkkdcx
+    3","server":"jp.doushimeng.com","port":21853,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"c4e25e61-eae3-41a9-8866-3d10f56aaf0c"}
+  - {"name":"🇧🇩
+    孟加拉国_节点发布1月22号@djkkdcx","server":"43.245.140.2","port":443,"type":"vmess","uuid":"7282d494-b506-4f34-9950-fb0c18820439","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@forwardv2ray","headers":{"Host":"yasoft8889.zapto.org"}}}
+  - {"name":"🇲🇳
+    蒙古_节点发布1月22号@djkkdcx","server":"180.149.90.66","port":443,"type":"vmess","uuid":"b82493e3-07b4-4cf2-b585-965575cfeb32","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@forwardv2ray","headers":{"Host":"softiri.serveirc.com"}}}
+  - {"name":"🇲🇳 蒙古_节点发布1月22号@djkkdcx
+    2","server":"180.149.90.66","port":443,"type":"vmess","uuid":"f5c137d1-ca89-42c0-b604-db39aef60a73","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@forwardv2ray","headers":{"Host":"tabyan777.sytes.net"}}}
+  - {"name":"🇲🇳 蒙古_节点发布1月22号@djkkdcx
+    3","server":"180.149.90.66","port":443,"type":"vmess","uuid":"932e7399-2e7b-4642-b7d5-d2af283c7f86","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@forwardv2ray","headers":{"Host":"arvancloud.servehttp.com"}}}
+  - {"name":"🇺🇸
+    美国_节点发布1月22号@djkkdcx","server":"104.16.109.205","port":2082,"type":"vmess","uuid":"27c7e182-88bf-4fc6-bbdd-83453061f47f","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/CuTy87zAzV/","headers":{"Host":"us4Bb5oSgJA.fzbqfrse.xyz"}}}
+  - {"name":"🇺🇸 美国_节点发布1月22号@djkkdcx
+    2","server":"104.21.229.78","port":2082,"type":"vmess","uuid":"27c7e182-88bf-4fc6-bbdd-83453061f47f","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/CuTy87zAzV/","headers":{"Host":"us4Bb5oSgJA.fzbqfrse.xyz"}}}
+  - {"name":"🇺🇸 美国_节点发布1月22号@djkkdcx
+    3","server":"104.18.139.100","port":2082,"type":"vmess","uuid":"27c7e182-88bf-4fc6-bbdd-83453061f47f","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/CuTy87zAzV/","headers":{"Host":"us4Bb5oSgJA.fzbqfrse.xyz"}}}
+  - {"name":"🇺🇸 美国_节点发布1月22号@djkkdcx
+    4","server":"cfcdn1.sanfencdn9.com","port":2082,"type":"vmess","uuid":"27c7e182-88bf-4fc6-bbdd-83453061f47f","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/CuTy87zAzV/","headers":{"Host":"us4Bb5oSgJA.fzbqfrse.xyz"}}}
+  - {"name":"🇺🇸 美国_节点发布1月22号@djkkdcx
+    5","server":"cfcdn1.sanfencdn9.com","port":8880,"type":"vmess","uuid":"27c7e182-88bf-4fc6-bbdd-83453061f47f","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/bYdJ7Vc2We","headers":{"Host":"us6gzxQRrE4.fzbqfrse.xyz"}}}
+  - {"name":"🇺🇸 美国_节点发布1月22号@djkkdcx
+    6","server":"cf.openxai.link","port":8080,"type":"vmess","uuid":"477af724-de79-40dc-80ef-bf3bca0be3ce","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"eu3.openxai.link"}}}
+  - {"name":"🇺🇸 美国_节点发布1月22号@djkkdcx
+    7","server":"cfcdn2.sanfencdn9.com","port":2052,"type":"vmess","uuid":"27c7e182-88bf-4fc6-bbdd-83453061f47f","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/34kKXbLM","headers":{"Host":"yvhnbevxhk1.yofnhkfc.xyz"}}}
+  - {"name":"🇺🇸 美国_节点发布1月22号@djkkdcx
+    8","server":"104.18.253.93","port":2052,"type":"vmess","uuid":"27c7e182-88bf-4fc6-bbdd-83453061f47f","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/9TfVEyku","headers":{"Host":"wtywwcrzjp5.yofnhkfc.xyz"}}}
+  - {"name":"🇨🇦
+    加拿大_节点发布1月22号@djkkdcx","server":"frontend.yijianlian.app","port":54001,"type":"trojan","password":"eaadcee8-f807-4365-89b2-07c890c2120e","skip-cert-verify":true}
+  - {"name":"🇨🇦 加拿大_节点发布1月22号@djkkdcx
+    2","server":"frontend.yijianlian.app","port":54570,"type":"trojan","password":"eaadcee8-f807-4365-89b2-07c890c2120e","skip-cert-verify":true}
+  - {"name":"🇨🇦 加拿大_节点发布1月22号@djkkdcx
+    3","server":"frontend.yijianlian.app","port":54530,"type":"trojan","password":"eaadcee8-f807-4365-89b2-07c890c2120e","skip-cert-verify":true}
+  - {"name":"🇰🇷
+    韩国_节点发布1月22号@djkkdcx","server":"61.97.249.50","port":53243,"type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"🇰🇷 韩国_节点发布1月22号@djkkdcx
+    2","server":"c001.panda003.net","port":53243,"type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"🇰🇷 韩国_节点发布1月22号@djkkdcx
+    3","server":"p227.panda004.net","port":2020,"type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"🇰🇿
+    哈萨克斯坦_节点发布1月22号@djkkdcx","server":"92.46.108.106","port":443,"type":"vmess","uuid":"4abdf58e-0516-468d-9571-fe25cb4897ef","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@forwardv2ray","headers":{"Host":"skuone.serveminecraft.net"}}}
+  - {"name":"🇰🇿 哈萨克斯坦_节点发布1月22号@djkkdcx
+    2","server":"217.76.64.195","port":443,"type":"vmess","uuid":"4abdf58e-0516-468d-9571-fe25cb4897ef","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@forwardv2ray","headers":{"Host":"skuone.serveminecraft.net"}}}
+  - {"name":"🇬🇪
+    格鲁吉亚_节点发布1月22号@djkkdcx","server":"94.43.206.202","port":80,"type":"vmess","uuid":"66fef53b-1b57-466d-89a4-bd99b90f6473","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@forwardv2ray","headers":{"Host":"irisoft.servecounterstrike.com"}}}
+  - {"name":"🇷🇺
+    俄罗斯联邦_节点发布1月22号@djkkdcx","server":"es2-vmess.sshmax.xyz","port":80,"type":"vmess","uuid":"b3882186-ea80-45fd-bb95-6f0217404671","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"Host":"es2-vmess.sshmax.xyz"}}}
+  - {"name":"🇩🇪
+    德国_节点发布1月22号@djkkdcx","server":"5.104.108.109","port":443,"type":"trojan","password":"9a47ef97-0ec3-4679-9a64-3657b1e5d4b6","sni":"20-24-33-134.nhost.00cdn.com","skip-cert-verify":true}
+  - {"name":"🇩🇪 德国_节点发布1月22号@djkkdcx
+    2","server":"92.223.124.36","port":443,"type":"vmess","uuid":"368ee843-d2a3-425c-be57-135b9ec6b81f","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@forwardv2ray","headers":{"Host":"best.servecounterstrike.com"}}}
+  - {"name":"🇧🇷
+    巴西_节点发布1月22号@djkkdcx","server":"92.223.12.9","port":443,"type":"vmess","uuid":"4abdf58e-0516-468d-9571-fe25cb4897ef","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@forwardv2ray","headers":{"Host":"skuone.serveminecraft.net"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇻🇳 越南_Telegram@kxswa
-      - 🇻🇳 越南_Telegram@kxswa 2
-      - 🇻🇳 越南_Telegram@kxswa 3
-      - 🇻🇳 越南_Telegram@kxswa 4
-      - 🇬🇧 英国_Telegram@kxswa
-      - 🇸🇬 新加坡_Telegram@kxswa
-      - 🇸🇬 新加坡_Telegram@kxswa 2
-      - 🇭🇰 香港_Telegram@kxswa
-      - 🇭🇰 香港_Telegram@kxswa 2
-      - 🇭🇰 香港_Telegram@kxswa 3
-      - 🇭🇰 香港_Telegram@kxswa 4
-      - 🇭🇰 香港_Telegram@kxswa 5
-      - 🇭🇰 香港_Telegram@kxswa 6
-      - 🇭🇰 香港_Telegram@kxswa 7
-      - 🇭🇰 香港_Telegram@kxswa 8
-      - 🇭🇰 香港_Telegram@kxswa 9
-      - 🇭🇰 香港_Telegram@kxswa 10
-      - 🇭🇰 香港_Telegram@kxswa 11
-      - 🇭🇰 香港_Telegram@kxswa 12
-      - 🇭🇰 香港_Telegram@kxswa 13
-      - 🇭🇰 香港_Telegram@kxswa 14
-      - 🇭🇰 香港_Telegram@kxswa 15
-      - 🇭🇰 香港_Telegram@kxswa 16
-      - 🇭🇰 香港_Telegram@kxswa 17
-      - 🇭🇰 香港_Telegram@kxswa 18
-      - 🇭🇰 香港_Telegram@kxswa 19
-      - 🇭🇰 香港_Telegram@kxswa 20
-      - 🇭🇰 香港_Telegram@kxswa 21
-      - 乌兹别克斯坦_Telegram@kxswa
-      - 🇨🇳 台湾_Telegram@kxswa
-      - 🇨🇳 台湾_Telegram@kxswa 2
-      - 🇨🇳 台湾_Telegram@kxswa 3
-      - 🇨🇳 台湾_Telegram@kxswa 4
-      - 🇨🇳 台湾_Telegram@kxswa 5
-      - 🇨🇳 台湾_Telegram@kxswa 6
-      - 🇨🇳 台湾_Telegram@kxswa 7
-      - 🇨🇳 台湾_Telegram@kxswa 8
-      - 🇨🇭 瑞士_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa 2
-      - 🇯🇵 日本_Telegram@kxswa 3
-      - 🇧🇩 孟加拉国_Telegram@kxswa
-      - 🇲🇳 蒙古_Telegram@kxswa
-      - 🇲🇳 蒙古_Telegram@kxswa 2
-      - 🇲🇳 蒙古_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 2
-      - 🇺🇸 美国_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa 4
-      - 🇺🇸 美国_Telegram@kxswa 5
-      - 🇺🇸 美国_Telegram@kxswa 6
-      - 🇺🇸 美国_Telegram@kxswa 7
-      - 🇺🇸 美国_Telegram@kxswa 8
-      - 🇨🇦 加拿大_Telegram@kxswa
-      - 🇨🇦 加拿大_Telegram@kxswa 2
-      - 🇨🇦 加拿大_Telegram@kxswa 3
-      - 🇰🇷 韩国_Telegram@kxswa
-      - 🇰🇷 韩国_Telegram@kxswa 2
-      - 🇰🇷 韩国_Telegram@kxswa 3
-      - 🇰🇿 哈萨克斯坦_Telegram@kxswa
-      - 🇰🇿 哈萨克斯坦_Telegram@kxswa 2
-      - 🇬🇪 格鲁吉亚_Telegram@kxswa
-      - 🇷🇺 俄罗斯联邦_Telegram@kxswa
-      - 🇩🇪 德国_Telegram@kxswa
-      - 🇩🇪 德国_Telegram@kxswa 2
-      - 🇧🇷 巴西_Telegram@kxswa
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx 2
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx 3
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx 4
+      - 🇬🇧 英国_节点发布1月22号@djkkdcx
+      - 🇸🇬 新加坡_节点发布1月22号@djkkdcx
+      - 🇸🇬 新加坡_节点发布1月22号@djkkdcx 2
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 2
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 3
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 4
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 5
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 6
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 7
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 8
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 9
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 10
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 11
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 12
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 13
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 14
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 15
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 16
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 17
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 18
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 19
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 20
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 21
+      - 乌兹别克斯坦_节点发布1月22号@djkkdcx
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 2
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 3
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 4
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 5
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 6
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 7
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 8
+      - 🇨🇭 瑞士_节点发布1月22号@djkkdcx
+      - 🇯🇵 日本_节点发布1月22号@djkkdcx
+      - 🇯🇵 日本_节点发布1月22号@djkkdcx 2
+      - 🇯🇵 日本_节点发布1月22号@djkkdcx 3
+      - 🇧🇩 孟加拉国_节点发布1月22号@djkkdcx
+      - 🇲🇳 蒙古_节点发布1月22号@djkkdcx
+      - 🇲🇳 蒙古_节点发布1月22号@djkkdcx 2
+      - 🇲🇳 蒙古_节点发布1月22号@djkkdcx 3
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 2
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 3
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 4
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 5
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 6
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 7
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 8
+      - 🇨🇦 加拿大_节点发布1月22号@djkkdcx
+      - 🇨🇦 加拿大_节点发布1月22号@djkkdcx 2
+      - 🇨🇦 加拿大_节点发布1月22号@djkkdcx 3
+      - 🇰🇷 韩国_节点发布1月22号@djkkdcx
+      - 🇰🇷 韩国_节点发布1月22号@djkkdcx 2
+      - 🇰🇷 韩国_节点发布1月22号@djkkdcx 3
+      - 🇰🇿 哈萨克斯坦_节点发布1月22号@djkkdcx
+      - 🇰🇿 哈萨克斯坦_节点发布1月22号@djkkdcx 2
+      - 🇬🇪 格鲁吉亚_节点发布1月22号@djkkdcx
+      - 🇷🇺 俄罗斯联邦_节点发布1月22号@djkkdcx
+      - 🇩🇪 德国_节点发布1月22号@djkkdcx
+      - 🇩🇪 德国_节点发布1月22号@djkkdcx 2
+      - 🇧🇷 巴西_节点发布1月22号@djkkdcx
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇻🇳 越南_Telegram@kxswa
-      - 🇻🇳 越南_Telegram@kxswa 2
-      - 🇻🇳 越南_Telegram@kxswa 3
-      - 🇻🇳 越南_Telegram@kxswa 4
-      - 🇬🇧 英国_Telegram@kxswa
-      - 🇸🇬 新加坡_Telegram@kxswa
-      - 🇸🇬 新加坡_Telegram@kxswa 2
-      - 🇭🇰 香港_Telegram@kxswa
-      - 🇭🇰 香港_Telegram@kxswa 2
-      - 🇭🇰 香港_Telegram@kxswa 3
-      - 🇭🇰 香港_Telegram@kxswa 4
-      - 🇭🇰 香港_Telegram@kxswa 5
-      - 🇭🇰 香港_Telegram@kxswa 6
-      - 🇭🇰 香港_Telegram@kxswa 7
-      - 🇭🇰 香港_Telegram@kxswa 8
-      - 🇭🇰 香港_Telegram@kxswa 9
-      - 🇭🇰 香港_Telegram@kxswa 10
-      - 🇭🇰 香港_Telegram@kxswa 11
-      - 🇭🇰 香港_Telegram@kxswa 12
-      - 🇭🇰 香港_Telegram@kxswa 13
-      - 🇭🇰 香港_Telegram@kxswa 14
-      - 🇭🇰 香港_Telegram@kxswa 15
-      - 🇭🇰 香港_Telegram@kxswa 16
-      - 🇭🇰 香港_Telegram@kxswa 17
-      - 🇭🇰 香港_Telegram@kxswa 18
-      - 🇭🇰 香港_Telegram@kxswa 19
-      - 🇭🇰 香港_Telegram@kxswa 20
-      - 🇭🇰 香港_Telegram@kxswa 21
-      - 乌兹别克斯坦_Telegram@kxswa
-      - 🇨🇳 台湾_Telegram@kxswa
-      - 🇨🇳 台湾_Telegram@kxswa 2
-      - 🇨🇳 台湾_Telegram@kxswa 3
-      - 🇨🇳 台湾_Telegram@kxswa 4
-      - 🇨🇳 台湾_Telegram@kxswa 5
-      - 🇨🇳 台湾_Telegram@kxswa 6
-      - 🇨🇳 台湾_Telegram@kxswa 7
-      - 🇨🇳 台湾_Telegram@kxswa 8
-      - 🇨🇭 瑞士_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa 2
-      - 🇯🇵 日本_Telegram@kxswa 3
-      - 🇧🇩 孟加拉国_Telegram@kxswa
-      - 🇲🇳 蒙古_Telegram@kxswa
-      - 🇲🇳 蒙古_Telegram@kxswa 2
-      - 🇲🇳 蒙古_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 2
-      - 🇺🇸 美国_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa 4
-      - 🇺🇸 美国_Telegram@kxswa 5
-      - 🇺🇸 美国_Telegram@kxswa 6
-      - 🇺🇸 美国_Telegram@kxswa 7
-      - 🇺🇸 美国_Telegram@kxswa 8
-      - 🇨🇦 加拿大_Telegram@kxswa
-      - 🇨🇦 加拿大_Telegram@kxswa 2
-      - 🇨🇦 加拿大_Telegram@kxswa 3
-      - 🇰🇷 韩国_Telegram@kxswa
-      - 🇰🇷 韩国_Telegram@kxswa 2
-      - 🇰🇷 韩国_Telegram@kxswa 3
-      - 🇰🇿 哈萨克斯坦_Telegram@kxswa
-      - 🇰🇿 哈萨克斯坦_Telegram@kxswa 2
-      - 🇬🇪 格鲁吉亚_Telegram@kxswa
-      - 🇷🇺 俄罗斯联邦_Telegram@kxswa
-      - 🇩🇪 德国_Telegram@kxswa
-      - 🇩🇪 德国_Telegram@kxswa 2
-      - 🇧🇷 巴西_Telegram@kxswa
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx 2
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx 3
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx 4
+      - 🇬🇧 英国_节点发布1月22号@djkkdcx
+      - 🇸🇬 新加坡_节点发布1月22号@djkkdcx
+      - 🇸🇬 新加坡_节点发布1月22号@djkkdcx 2
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 2
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 3
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 4
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 5
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 6
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 7
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 8
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 9
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 10
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 11
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 12
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 13
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 14
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 15
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 16
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 17
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 18
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 19
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 20
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 21
+      - 乌兹别克斯坦_节点发布1月22号@djkkdcx
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 2
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 3
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 4
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 5
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 6
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 7
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 8
+      - 🇨🇭 瑞士_节点发布1月22号@djkkdcx
+      - 🇯🇵 日本_节点发布1月22号@djkkdcx
+      - 🇯🇵 日本_节点发布1月22号@djkkdcx 2
+      - 🇯🇵 日本_节点发布1月22号@djkkdcx 3
+      - 🇧🇩 孟加拉国_节点发布1月22号@djkkdcx
+      - 🇲🇳 蒙古_节点发布1月22号@djkkdcx
+      - 🇲🇳 蒙古_节点发布1月22号@djkkdcx 2
+      - 🇲🇳 蒙古_节点发布1月22号@djkkdcx 3
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 2
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 3
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 4
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 5
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 6
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 7
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 8
+      - 🇨🇦 加拿大_节点发布1月22号@djkkdcx
+      - 🇨🇦 加拿大_节点发布1月22号@djkkdcx 2
+      - 🇨🇦 加拿大_节点发布1月22号@djkkdcx 3
+      - 🇰🇷 韩国_节点发布1月22号@djkkdcx
+      - 🇰🇷 韩国_节点发布1月22号@djkkdcx 2
+      - 🇰🇷 韩国_节点发布1月22号@djkkdcx 3
+      - 🇰🇿 哈萨克斯坦_节点发布1月22号@djkkdcx
+      - 🇰🇿 哈萨克斯坦_节点发布1月22号@djkkdcx 2
+      - 🇬🇪 格鲁吉亚_节点发布1月22号@djkkdcx
+      - 🇷🇺 俄罗斯联邦_节点发布1月22号@djkkdcx
+      - 🇩🇪 德国_节点发布1月22号@djkkdcx
+      - 🇩🇪 德国_节点发布1月22号@djkkdcx 2
+      - 🇧🇷 巴西_节点发布1月22号@djkkdcx
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇻🇳 越南_Telegram@kxswa
-      - 🇻🇳 越南_Telegram@kxswa 2
-      - 🇻🇳 越南_Telegram@kxswa 3
-      - 🇻🇳 越南_Telegram@kxswa 4
-      - 🇬🇧 英国_Telegram@kxswa
-      - 🇸🇬 新加坡_Telegram@kxswa
-      - 🇸🇬 新加坡_Telegram@kxswa 2
-      - 🇭🇰 香港_Telegram@kxswa
-      - 🇭🇰 香港_Telegram@kxswa 2
-      - 🇭🇰 香港_Telegram@kxswa 3
-      - 🇭🇰 香港_Telegram@kxswa 4
-      - 🇭🇰 香港_Telegram@kxswa 5
-      - 🇭🇰 香港_Telegram@kxswa 6
-      - 🇭🇰 香港_Telegram@kxswa 7
-      - 🇭🇰 香港_Telegram@kxswa 8
-      - 🇭🇰 香港_Telegram@kxswa 9
-      - 🇭🇰 香港_Telegram@kxswa 10
-      - 🇭🇰 香港_Telegram@kxswa 11
-      - 🇭🇰 香港_Telegram@kxswa 12
-      - 🇭🇰 香港_Telegram@kxswa 13
-      - 🇭🇰 香港_Telegram@kxswa 14
-      - 🇭🇰 香港_Telegram@kxswa 15
-      - 🇭🇰 香港_Telegram@kxswa 16
-      - 🇭🇰 香港_Telegram@kxswa 17
-      - 🇭🇰 香港_Telegram@kxswa 18
-      - 🇭🇰 香港_Telegram@kxswa 19
-      - 🇭🇰 香港_Telegram@kxswa 20
-      - 🇭🇰 香港_Telegram@kxswa 21
-      - 乌兹别克斯坦_Telegram@kxswa
-      - 🇨🇳 台湾_Telegram@kxswa
-      - 🇨🇳 台湾_Telegram@kxswa 2
-      - 🇨🇳 台湾_Telegram@kxswa 3
-      - 🇨🇳 台湾_Telegram@kxswa 4
-      - 🇨🇳 台湾_Telegram@kxswa 5
-      - 🇨🇳 台湾_Telegram@kxswa 6
-      - 🇨🇳 台湾_Telegram@kxswa 7
-      - 🇨🇳 台湾_Telegram@kxswa 8
-      - 🇨🇭 瑞士_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa 2
-      - 🇯🇵 日本_Telegram@kxswa 3
-      - 🇧🇩 孟加拉国_Telegram@kxswa
-      - 🇲🇳 蒙古_Telegram@kxswa
-      - 🇲🇳 蒙古_Telegram@kxswa 2
-      - 🇲🇳 蒙古_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 2
-      - 🇺🇸 美国_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa 4
-      - 🇺🇸 美国_Telegram@kxswa 5
-      - 🇺🇸 美国_Telegram@kxswa 6
-      - 🇺🇸 美国_Telegram@kxswa 7
-      - 🇺🇸 美国_Telegram@kxswa 8
-      - 🇨🇦 加拿大_Telegram@kxswa
-      - 🇨🇦 加拿大_Telegram@kxswa 2
-      - 🇨🇦 加拿大_Telegram@kxswa 3
-      - 🇰🇷 韩国_Telegram@kxswa
-      - 🇰🇷 韩国_Telegram@kxswa 2
-      - 🇰🇷 韩国_Telegram@kxswa 3
-      - 🇰🇿 哈萨克斯坦_Telegram@kxswa
-      - 🇰🇿 哈萨克斯坦_Telegram@kxswa 2
-      - 🇬🇪 格鲁吉亚_Telegram@kxswa
-      - 🇷🇺 俄罗斯联邦_Telegram@kxswa
-      - 🇩🇪 德国_Telegram@kxswa
-      - 🇩🇪 德国_Telegram@kxswa 2
-      - 🇧🇷 巴西_Telegram@kxswa
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx 2
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx 3
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx 4
+      - 🇬🇧 英国_节点发布1月22号@djkkdcx
+      - 🇸🇬 新加坡_节点发布1月22号@djkkdcx
+      - 🇸🇬 新加坡_节点发布1月22号@djkkdcx 2
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 2
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 3
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 4
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 5
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 6
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 7
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 8
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 9
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 10
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 11
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 12
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 13
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 14
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 15
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 16
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 17
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 18
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 19
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 20
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 21
+      - 乌兹别克斯坦_节点发布1月22号@djkkdcx
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 2
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 3
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 4
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 5
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 6
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 7
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 8
+      - 🇨🇭 瑞士_节点发布1月22号@djkkdcx
+      - 🇯🇵 日本_节点发布1月22号@djkkdcx
+      - 🇯🇵 日本_节点发布1月22号@djkkdcx 2
+      - 🇯🇵 日本_节点发布1月22号@djkkdcx 3
+      - 🇧🇩 孟加拉国_节点发布1月22号@djkkdcx
+      - 🇲🇳 蒙古_节点发布1月22号@djkkdcx
+      - 🇲🇳 蒙古_节点发布1月22号@djkkdcx 2
+      - 🇲🇳 蒙古_节点发布1月22号@djkkdcx 3
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 2
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 3
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 4
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 5
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 6
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 7
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 8
+      - 🇨🇦 加拿大_节点发布1月22号@djkkdcx
+      - 🇨🇦 加拿大_节点发布1月22号@djkkdcx 2
+      - 🇨🇦 加拿大_节点发布1月22号@djkkdcx 3
+      - 🇰🇷 韩国_节点发布1月22号@djkkdcx
+      - 🇰🇷 韩国_节点发布1月22号@djkkdcx 2
+      - 🇰🇷 韩国_节点发布1月22号@djkkdcx 3
+      - 🇰🇿 哈萨克斯坦_节点发布1月22号@djkkdcx
+      - 🇰🇿 哈萨克斯坦_节点发布1月22号@djkkdcx 2
+      - 🇬🇪 格鲁吉亚_节点发布1月22号@djkkdcx
+      - 🇷🇺 俄罗斯联邦_节点发布1月22号@djkkdcx
+      - 🇩🇪 德国_节点发布1月22号@djkkdcx
+      - 🇩🇪 德国_节点发布1月22号@djkkdcx 2
+      - 🇧🇷 巴西_节点发布1月22号@djkkdcx
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇻🇳 越南_Telegram@kxswa
-      - 🇻🇳 越南_Telegram@kxswa 2
-      - 🇻🇳 越南_Telegram@kxswa 3
-      - 🇻🇳 越南_Telegram@kxswa 4
-      - 🇬🇧 英国_Telegram@kxswa
-      - 🇸🇬 新加坡_Telegram@kxswa
-      - 🇸🇬 新加坡_Telegram@kxswa 2
-      - 🇭🇰 香港_Telegram@kxswa
-      - 🇭🇰 香港_Telegram@kxswa 2
-      - 🇭🇰 香港_Telegram@kxswa 3
-      - 🇭🇰 香港_Telegram@kxswa 4
-      - 🇭🇰 香港_Telegram@kxswa 5
-      - 🇭🇰 香港_Telegram@kxswa 6
-      - 🇭🇰 香港_Telegram@kxswa 7
-      - 🇭🇰 香港_Telegram@kxswa 8
-      - 🇭🇰 香港_Telegram@kxswa 9
-      - 🇭🇰 香港_Telegram@kxswa 10
-      - 🇭🇰 香港_Telegram@kxswa 11
-      - 🇭🇰 香港_Telegram@kxswa 12
-      - 🇭🇰 香港_Telegram@kxswa 13
-      - 🇭🇰 香港_Telegram@kxswa 14
-      - 🇭🇰 香港_Telegram@kxswa 15
-      - 🇭🇰 香港_Telegram@kxswa 16
-      - 🇭🇰 香港_Telegram@kxswa 17
-      - 🇭🇰 香港_Telegram@kxswa 18
-      - 🇭🇰 香港_Telegram@kxswa 19
-      - 🇭🇰 香港_Telegram@kxswa 20
-      - 🇭🇰 香港_Telegram@kxswa 21
-      - 乌兹别克斯坦_Telegram@kxswa
-      - 🇨🇳 台湾_Telegram@kxswa
-      - 🇨🇳 台湾_Telegram@kxswa 2
-      - 🇨🇳 台湾_Telegram@kxswa 3
-      - 🇨🇳 台湾_Telegram@kxswa 4
-      - 🇨🇳 台湾_Telegram@kxswa 5
-      - 🇨🇳 台湾_Telegram@kxswa 6
-      - 🇨🇳 台湾_Telegram@kxswa 7
-      - 🇨🇳 台湾_Telegram@kxswa 8
-      - 🇨🇭 瑞士_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa 2
-      - 🇯🇵 日本_Telegram@kxswa 3
-      - 🇧🇩 孟加拉国_Telegram@kxswa
-      - 🇲🇳 蒙古_Telegram@kxswa
-      - 🇲🇳 蒙古_Telegram@kxswa 2
-      - 🇲🇳 蒙古_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 2
-      - 🇺🇸 美国_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa 4
-      - 🇺🇸 美国_Telegram@kxswa 5
-      - 🇺🇸 美国_Telegram@kxswa 6
-      - 🇺🇸 美国_Telegram@kxswa 7
-      - 🇺🇸 美国_Telegram@kxswa 8
-      - 🇨🇦 加拿大_Telegram@kxswa
-      - 🇨🇦 加拿大_Telegram@kxswa 2
-      - 🇨🇦 加拿大_Telegram@kxswa 3
-      - 🇰🇷 韩国_Telegram@kxswa
-      - 🇰🇷 韩国_Telegram@kxswa 2
-      - 🇰🇷 韩国_Telegram@kxswa 3
-      - 🇰🇿 哈萨克斯坦_Telegram@kxswa
-      - 🇰🇿 哈萨克斯坦_Telegram@kxswa 2
-      - 🇬🇪 格鲁吉亚_Telegram@kxswa
-      - 🇷🇺 俄罗斯联邦_Telegram@kxswa
-      - 🇩🇪 德国_Telegram@kxswa
-      - 🇩🇪 德国_Telegram@kxswa 2
-      - 🇧🇷 巴西_Telegram@kxswa
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx 2
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx 3
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx 4
+      - 🇬🇧 英国_节点发布1月22号@djkkdcx
+      - 🇸🇬 新加坡_节点发布1月22号@djkkdcx
+      - 🇸🇬 新加坡_节点发布1月22号@djkkdcx 2
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 2
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 3
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 4
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 5
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 6
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 7
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 8
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 9
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 10
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 11
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 12
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 13
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 14
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 15
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 16
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 17
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 18
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 19
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 20
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 21
+      - 乌兹别克斯坦_节点发布1月22号@djkkdcx
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 2
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 3
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 4
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 5
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 6
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 7
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 8
+      - 🇨🇭 瑞士_节点发布1月22号@djkkdcx
+      - 🇯🇵 日本_节点发布1月22号@djkkdcx
+      - 🇯🇵 日本_节点发布1月22号@djkkdcx 2
+      - 🇯🇵 日本_节点发布1月22号@djkkdcx 3
+      - 🇧🇩 孟加拉国_节点发布1月22号@djkkdcx
+      - 🇲🇳 蒙古_节点发布1月22号@djkkdcx
+      - 🇲🇳 蒙古_节点发布1月22号@djkkdcx 2
+      - 🇲🇳 蒙古_节点发布1月22号@djkkdcx 3
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 2
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 3
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 4
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 5
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 6
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 7
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 8
+      - 🇨🇦 加拿大_节点发布1月22号@djkkdcx
+      - 🇨🇦 加拿大_节点发布1月22号@djkkdcx 2
+      - 🇨🇦 加拿大_节点发布1月22号@djkkdcx 3
+      - 🇰🇷 韩国_节点发布1月22号@djkkdcx
+      - 🇰🇷 韩国_节点发布1月22号@djkkdcx 2
+      - 🇰🇷 韩国_节点发布1月22号@djkkdcx 3
+      - 🇰🇿 哈萨克斯坦_节点发布1月22号@djkkdcx
+      - 🇰🇿 哈萨克斯坦_节点发布1月22号@djkkdcx 2
+      - 🇬🇪 格鲁吉亚_节点发布1月22号@djkkdcx
+      - 🇷🇺 俄罗斯联邦_节点发布1月22号@djkkdcx
+      - 🇩🇪 德国_节点发布1月22号@djkkdcx
+      - 🇩🇪 德国_节点发布1月22号@djkkdcx 2
+      - 🇧🇷 巴西_节点发布1月22号@djkkdcx
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇻🇳 越南_Telegram@kxswa
-      - 🇻🇳 越南_Telegram@kxswa 2
-      - 🇻🇳 越南_Telegram@kxswa 3
-      - 🇻🇳 越南_Telegram@kxswa 4
-      - 🇬🇧 英国_Telegram@kxswa
-      - 🇸🇬 新加坡_Telegram@kxswa
-      - 🇸🇬 新加坡_Telegram@kxswa 2
-      - 🇭🇰 香港_Telegram@kxswa
-      - 🇭🇰 香港_Telegram@kxswa 2
-      - 🇭🇰 香港_Telegram@kxswa 3
-      - 🇭🇰 香港_Telegram@kxswa 4
-      - 🇭🇰 香港_Telegram@kxswa 5
-      - 🇭🇰 香港_Telegram@kxswa 6
-      - 🇭🇰 香港_Telegram@kxswa 7
-      - 🇭🇰 香港_Telegram@kxswa 8
-      - 🇭🇰 香港_Telegram@kxswa 9
-      - 🇭🇰 香港_Telegram@kxswa 10
-      - 🇭🇰 香港_Telegram@kxswa 11
-      - 🇭🇰 香港_Telegram@kxswa 12
-      - 🇭🇰 香港_Telegram@kxswa 13
-      - 🇭🇰 香港_Telegram@kxswa 14
-      - 🇭🇰 香港_Telegram@kxswa 15
-      - 🇭🇰 香港_Telegram@kxswa 16
-      - 🇭🇰 香港_Telegram@kxswa 17
-      - 🇭🇰 香港_Telegram@kxswa 18
-      - 🇭🇰 香港_Telegram@kxswa 19
-      - 🇭🇰 香港_Telegram@kxswa 20
-      - 🇭🇰 香港_Telegram@kxswa 21
-      - 乌兹别克斯坦_Telegram@kxswa
-      - 🇨🇳 台湾_Telegram@kxswa
-      - 🇨🇳 台湾_Telegram@kxswa 2
-      - 🇨🇳 台湾_Telegram@kxswa 3
-      - 🇨🇳 台湾_Telegram@kxswa 4
-      - 🇨🇳 台湾_Telegram@kxswa 5
-      - 🇨🇳 台湾_Telegram@kxswa 6
-      - 🇨🇳 台湾_Telegram@kxswa 7
-      - 🇨🇳 台湾_Telegram@kxswa 8
-      - 🇨🇭 瑞士_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa 2
-      - 🇯🇵 日本_Telegram@kxswa 3
-      - 🇧🇩 孟加拉国_Telegram@kxswa
-      - 🇲🇳 蒙古_Telegram@kxswa
-      - 🇲🇳 蒙古_Telegram@kxswa 2
-      - 🇲🇳 蒙古_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 2
-      - 🇺🇸 美国_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa 4
-      - 🇺🇸 美国_Telegram@kxswa 5
-      - 🇺🇸 美国_Telegram@kxswa 6
-      - 🇺🇸 美国_Telegram@kxswa 7
-      - 🇺🇸 美国_Telegram@kxswa 8
-      - 🇨🇦 加拿大_Telegram@kxswa
-      - 🇨🇦 加拿大_Telegram@kxswa 2
-      - 🇨🇦 加拿大_Telegram@kxswa 3
-      - 🇰🇷 韩国_Telegram@kxswa
-      - 🇰🇷 韩国_Telegram@kxswa 2
-      - 🇰🇷 韩国_Telegram@kxswa 3
-      - 🇰🇿 哈萨克斯坦_Telegram@kxswa
-      - 🇰🇿 哈萨克斯坦_Telegram@kxswa 2
-      - 🇬🇪 格鲁吉亚_Telegram@kxswa
-      - 🇷🇺 俄罗斯联邦_Telegram@kxswa
-      - 🇩🇪 德国_Telegram@kxswa
-      - 🇩🇪 德国_Telegram@kxswa 2
-      - 🇧🇷 巴西_Telegram@kxswa
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx 2
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx 3
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx 4
+      - 🇬🇧 英国_节点发布1月22号@djkkdcx
+      - 🇸🇬 新加坡_节点发布1月22号@djkkdcx
+      - 🇸🇬 新加坡_节点发布1月22号@djkkdcx 2
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 2
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 3
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 4
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 5
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 6
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 7
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 8
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 9
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 10
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 11
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 12
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 13
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 14
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 15
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 16
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 17
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 18
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 19
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 20
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 21
+      - 乌兹别克斯坦_节点发布1月22号@djkkdcx
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 2
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 3
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 4
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 5
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 6
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 7
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 8
+      - 🇨🇭 瑞士_节点发布1月22号@djkkdcx
+      - 🇯🇵 日本_节点发布1月22号@djkkdcx
+      - 🇯🇵 日本_节点发布1月22号@djkkdcx 2
+      - 🇯🇵 日本_节点发布1月22号@djkkdcx 3
+      - 🇧🇩 孟加拉国_节点发布1月22号@djkkdcx
+      - 🇲🇳 蒙古_节点发布1月22号@djkkdcx
+      - 🇲🇳 蒙古_节点发布1月22号@djkkdcx 2
+      - 🇲🇳 蒙古_节点发布1月22号@djkkdcx 3
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 2
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 3
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 4
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 5
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 6
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 7
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 8
+      - 🇨🇦 加拿大_节点发布1月22号@djkkdcx
+      - 🇨🇦 加拿大_节点发布1月22号@djkkdcx 2
+      - 🇨🇦 加拿大_节点发布1月22号@djkkdcx 3
+      - 🇰🇷 韩国_节点发布1月22号@djkkdcx
+      - 🇰🇷 韩国_节点发布1月22号@djkkdcx 2
+      - 🇰🇷 韩国_节点发布1月22号@djkkdcx 3
+      - 🇰🇿 哈萨克斯坦_节点发布1月22号@djkkdcx
+      - 🇰🇿 哈萨克斯坦_节点发布1月22号@djkkdcx 2
+      - 🇬🇪 格鲁吉亚_节点发布1月22号@djkkdcx
+      - 🇷🇺 俄罗斯联邦_节点发布1月22号@djkkdcx
+      - 🇩🇪 德国_节点发布1月22号@djkkdcx
+      - 🇩🇪 德国_节点发布1月22号@djkkdcx 2
+      - 🇧🇷 巴西_节点发布1月22号@djkkdcx
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇻🇳 越南_Telegram@kxswa
-      - 🇻🇳 越南_Telegram@kxswa 2
-      - 🇻🇳 越南_Telegram@kxswa 3
-      - 🇻🇳 越南_Telegram@kxswa 4
-      - 🇬🇧 英国_Telegram@kxswa
-      - 🇸🇬 新加坡_Telegram@kxswa
-      - 🇸🇬 新加坡_Telegram@kxswa 2
-      - 🇭🇰 香港_Telegram@kxswa
-      - 🇭🇰 香港_Telegram@kxswa 2
-      - 🇭🇰 香港_Telegram@kxswa 3
-      - 🇭🇰 香港_Telegram@kxswa 4
-      - 🇭🇰 香港_Telegram@kxswa 5
-      - 🇭🇰 香港_Telegram@kxswa 6
-      - 🇭🇰 香港_Telegram@kxswa 7
-      - 🇭🇰 香港_Telegram@kxswa 8
-      - 🇭🇰 香港_Telegram@kxswa 9
-      - 🇭🇰 香港_Telegram@kxswa 10
-      - 🇭🇰 香港_Telegram@kxswa 11
-      - 🇭🇰 香港_Telegram@kxswa 12
-      - 🇭🇰 香港_Telegram@kxswa 13
-      - 🇭🇰 香港_Telegram@kxswa 14
-      - 🇭🇰 香港_Telegram@kxswa 15
-      - 🇭🇰 香港_Telegram@kxswa 16
-      - 🇭🇰 香港_Telegram@kxswa 17
-      - 🇭🇰 香港_Telegram@kxswa 18
-      - 🇭🇰 香港_Telegram@kxswa 19
-      - 🇭🇰 香港_Telegram@kxswa 20
-      - 🇭🇰 香港_Telegram@kxswa 21
-      - 乌兹别克斯坦_Telegram@kxswa
-      - 🇨🇳 台湾_Telegram@kxswa
-      - 🇨🇳 台湾_Telegram@kxswa 2
-      - 🇨🇳 台湾_Telegram@kxswa 3
-      - 🇨🇳 台湾_Telegram@kxswa 4
-      - 🇨🇳 台湾_Telegram@kxswa 5
-      - 🇨🇳 台湾_Telegram@kxswa 6
-      - 🇨🇳 台湾_Telegram@kxswa 7
-      - 🇨🇳 台湾_Telegram@kxswa 8
-      - 🇨🇭 瑞士_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa 2
-      - 🇯🇵 日本_Telegram@kxswa 3
-      - 🇧🇩 孟加拉国_Telegram@kxswa
-      - 🇲🇳 蒙古_Telegram@kxswa
-      - 🇲🇳 蒙古_Telegram@kxswa 2
-      - 🇲🇳 蒙古_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 2
-      - 🇺🇸 美国_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa 4
-      - 🇺🇸 美国_Telegram@kxswa 5
-      - 🇺🇸 美国_Telegram@kxswa 6
-      - 🇺🇸 美国_Telegram@kxswa 7
-      - 🇺🇸 美国_Telegram@kxswa 8
-      - 🇨🇦 加拿大_Telegram@kxswa
-      - 🇨🇦 加拿大_Telegram@kxswa 2
-      - 🇨🇦 加拿大_Telegram@kxswa 3
-      - 🇰🇷 韩国_Telegram@kxswa
-      - 🇰🇷 韩国_Telegram@kxswa 2
-      - 🇰🇷 韩国_Telegram@kxswa 3
-      - 🇰🇿 哈萨克斯坦_Telegram@kxswa
-      - 🇰🇿 哈萨克斯坦_Telegram@kxswa 2
-      - 🇬🇪 格鲁吉亚_Telegram@kxswa
-      - 🇷🇺 俄罗斯联邦_Telegram@kxswa
-      - 🇩🇪 德国_Telegram@kxswa
-      - 🇩🇪 德国_Telegram@kxswa 2
-      - 🇧🇷 巴西_Telegram@kxswa
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx 2
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx 3
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx 4
+      - 🇬🇧 英国_节点发布1月22号@djkkdcx
+      - 🇸🇬 新加坡_节点发布1月22号@djkkdcx
+      - 🇸🇬 新加坡_节点发布1月22号@djkkdcx 2
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 2
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 3
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 4
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 5
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 6
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 7
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 8
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 9
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 10
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 11
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 12
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 13
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 14
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 15
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 16
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 17
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 18
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 19
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 20
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 21
+      - 乌兹别克斯坦_节点发布1月22号@djkkdcx
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 2
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 3
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 4
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 5
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 6
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 7
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 8
+      - 🇨🇭 瑞士_节点发布1月22号@djkkdcx
+      - 🇯🇵 日本_节点发布1月22号@djkkdcx
+      - 🇯🇵 日本_节点发布1月22号@djkkdcx 2
+      - 🇯🇵 日本_节点发布1月22号@djkkdcx 3
+      - 🇧🇩 孟加拉国_节点发布1月22号@djkkdcx
+      - 🇲🇳 蒙古_节点发布1月22号@djkkdcx
+      - 🇲🇳 蒙古_节点发布1月22号@djkkdcx 2
+      - 🇲🇳 蒙古_节点发布1月22号@djkkdcx 3
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 2
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 3
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 4
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 5
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 6
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 7
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 8
+      - 🇨🇦 加拿大_节点发布1月22号@djkkdcx
+      - 🇨🇦 加拿大_节点发布1月22号@djkkdcx 2
+      - 🇨🇦 加拿大_节点发布1月22号@djkkdcx 3
+      - 🇰🇷 韩国_节点发布1月22号@djkkdcx
+      - 🇰🇷 韩国_节点发布1月22号@djkkdcx 2
+      - 🇰🇷 韩国_节点发布1月22号@djkkdcx 3
+      - 🇰🇿 哈萨克斯坦_节点发布1月22号@djkkdcx
+      - 🇰🇿 哈萨克斯坦_节点发布1月22号@djkkdcx 2
+      - 🇬🇪 格鲁吉亚_节点发布1月22号@djkkdcx
+      - 🇷🇺 俄罗斯联邦_节点发布1月22号@djkkdcx
+      - 🇩🇪 德国_节点发布1月22号@djkkdcx
+      - 🇩🇪 德国_节点发布1月22号@djkkdcx 2
+      - 🇧🇷 巴西_节点发布1月22号@djkkdcx
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇻🇳 越南_Telegram@kxswa
-      - 🇻🇳 越南_Telegram@kxswa 2
-      - 🇻🇳 越南_Telegram@kxswa 3
-      - 🇻🇳 越南_Telegram@kxswa 4
-      - 🇬🇧 英国_Telegram@kxswa
-      - 🇸🇬 新加坡_Telegram@kxswa
-      - 🇸🇬 新加坡_Telegram@kxswa 2
-      - 🇭🇰 香港_Telegram@kxswa
-      - 🇭🇰 香港_Telegram@kxswa 2
-      - 🇭🇰 香港_Telegram@kxswa 3
-      - 🇭🇰 香港_Telegram@kxswa 4
-      - 🇭🇰 香港_Telegram@kxswa 5
-      - 🇭🇰 香港_Telegram@kxswa 6
-      - 🇭🇰 香港_Telegram@kxswa 7
-      - 🇭🇰 香港_Telegram@kxswa 8
-      - 🇭🇰 香港_Telegram@kxswa 9
-      - 🇭🇰 香港_Telegram@kxswa 10
-      - 🇭🇰 香港_Telegram@kxswa 11
-      - 🇭🇰 香港_Telegram@kxswa 12
-      - 🇭🇰 香港_Telegram@kxswa 13
-      - 🇭🇰 香港_Telegram@kxswa 14
-      - 🇭🇰 香港_Telegram@kxswa 15
-      - 🇭🇰 香港_Telegram@kxswa 16
-      - 🇭🇰 香港_Telegram@kxswa 17
-      - 🇭🇰 香港_Telegram@kxswa 18
-      - 🇭🇰 香港_Telegram@kxswa 19
-      - 🇭🇰 香港_Telegram@kxswa 20
-      - 🇭🇰 香港_Telegram@kxswa 21
-      - 乌兹别克斯坦_Telegram@kxswa
-      - 🇨🇳 台湾_Telegram@kxswa
-      - 🇨🇳 台湾_Telegram@kxswa 2
-      - 🇨🇳 台湾_Telegram@kxswa 3
-      - 🇨🇳 台湾_Telegram@kxswa 4
-      - 🇨🇳 台湾_Telegram@kxswa 5
-      - 🇨🇳 台湾_Telegram@kxswa 6
-      - 🇨🇳 台湾_Telegram@kxswa 7
-      - 🇨🇳 台湾_Telegram@kxswa 8
-      - 🇨🇭 瑞士_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa 2
-      - 🇯🇵 日本_Telegram@kxswa 3
-      - 🇧🇩 孟加拉国_Telegram@kxswa
-      - 🇲🇳 蒙古_Telegram@kxswa
-      - 🇲🇳 蒙古_Telegram@kxswa 2
-      - 🇲🇳 蒙古_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 2
-      - 🇺🇸 美国_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa 4
-      - 🇺🇸 美国_Telegram@kxswa 5
-      - 🇺🇸 美国_Telegram@kxswa 6
-      - 🇺🇸 美国_Telegram@kxswa 7
-      - 🇺🇸 美国_Telegram@kxswa 8
-      - 🇨🇦 加拿大_Telegram@kxswa
-      - 🇨🇦 加拿大_Telegram@kxswa 2
-      - 🇨🇦 加拿大_Telegram@kxswa 3
-      - 🇰🇷 韩国_Telegram@kxswa
-      - 🇰🇷 韩国_Telegram@kxswa 2
-      - 🇰🇷 韩国_Telegram@kxswa 3
-      - 🇰🇿 哈萨克斯坦_Telegram@kxswa
-      - 🇰🇿 哈萨克斯坦_Telegram@kxswa 2
-      - 🇬🇪 格鲁吉亚_Telegram@kxswa
-      - 🇷🇺 俄罗斯联邦_Telegram@kxswa
-      - 🇩🇪 德国_Telegram@kxswa
-      - 🇩🇪 德国_Telegram@kxswa 2
-      - 🇧🇷 巴西_Telegram@kxswa
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx 2
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx 3
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx 4
+      - 🇬🇧 英国_节点发布1月22号@djkkdcx
+      - 🇸🇬 新加坡_节点发布1月22号@djkkdcx
+      - 🇸🇬 新加坡_节点发布1月22号@djkkdcx 2
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 2
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 3
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 4
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 5
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 6
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 7
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 8
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 9
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 10
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 11
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 12
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 13
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 14
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 15
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 16
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 17
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 18
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 19
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 20
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 21
+      - 乌兹别克斯坦_节点发布1月22号@djkkdcx
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 2
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 3
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 4
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 5
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 6
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 7
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 8
+      - 🇨🇭 瑞士_节点发布1月22号@djkkdcx
+      - 🇯🇵 日本_节点发布1月22号@djkkdcx
+      - 🇯🇵 日本_节点发布1月22号@djkkdcx 2
+      - 🇯🇵 日本_节点发布1月22号@djkkdcx 3
+      - 🇧🇩 孟加拉国_节点发布1月22号@djkkdcx
+      - 🇲🇳 蒙古_节点发布1月22号@djkkdcx
+      - 🇲🇳 蒙古_节点发布1月22号@djkkdcx 2
+      - 🇲🇳 蒙古_节点发布1月22号@djkkdcx 3
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 2
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 3
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 4
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 5
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 6
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 7
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 8
+      - 🇨🇦 加拿大_节点发布1月22号@djkkdcx
+      - 🇨🇦 加拿大_节点发布1月22号@djkkdcx 2
+      - 🇨🇦 加拿大_节点发布1月22号@djkkdcx 3
+      - 🇰🇷 韩国_节点发布1月22号@djkkdcx
+      - 🇰🇷 韩国_节点发布1月22号@djkkdcx 2
+      - 🇰🇷 韩国_节点发布1月22号@djkkdcx 3
+      - 🇰🇿 哈萨克斯坦_节点发布1月22号@djkkdcx
+      - 🇰🇿 哈萨克斯坦_节点发布1月22号@djkkdcx 2
+      - 🇬🇪 格鲁吉亚_节点发布1月22号@djkkdcx
+      - 🇷🇺 俄罗斯联邦_节点发布1月22号@djkkdcx
+      - 🇩🇪 德国_节点发布1月22号@djkkdcx
+      - 🇩🇪 德国_节点发布1月22号@djkkdcx 2
+      - 🇧🇷 巴西_节点发布1月22号@djkkdcx
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -594,72 +659,72 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇻🇳 越南_Telegram@kxswa
-      - 🇻🇳 越南_Telegram@kxswa 2
-      - 🇻🇳 越南_Telegram@kxswa 3
-      - 🇻🇳 越南_Telegram@kxswa 4
-      - 🇬🇧 英国_Telegram@kxswa
-      - 🇸🇬 新加坡_Telegram@kxswa
-      - 🇸🇬 新加坡_Telegram@kxswa 2
-      - 🇭🇰 香港_Telegram@kxswa
-      - 🇭🇰 香港_Telegram@kxswa 2
-      - 🇭🇰 香港_Telegram@kxswa 3
-      - 🇭🇰 香港_Telegram@kxswa 4
-      - 🇭🇰 香港_Telegram@kxswa 5
-      - 🇭🇰 香港_Telegram@kxswa 6
-      - 🇭🇰 香港_Telegram@kxswa 7
-      - 🇭🇰 香港_Telegram@kxswa 8
-      - 🇭🇰 香港_Telegram@kxswa 9
-      - 🇭🇰 香港_Telegram@kxswa 10
-      - 🇭🇰 香港_Telegram@kxswa 11
-      - 🇭🇰 香港_Telegram@kxswa 12
-      - 🇭🇰 香港_Telegram@kxswa 13
-      - 🇭🇰 香港_Telegram@kxswa 14
-      - 🇭🇰 香港_Telegram@kxswa 15
-      - 🇭🇰 香港_Telegram@kxswa 16
-      - 🇭🇰 香港_Telegram@kxswa 17
-      - 🇭🇰 香港_Telegram@kxswa 18
-      - 🇭🇰 香港_Telegram@kxswa 19
-      - 🇭🇰 香港_Telegram@kxswa 20
-      - 🇭🇰 香港_Telegram@kxswa 21
-      - 乌兹别克斯坦_Telegram@kxswa
-      - 🇨🇳 台湾_Telegram@kxswa
-      - 🇨🇳 台湾_Telegram@kxswa 2
-      - 🇨🇳 台湾_Telegram@kxswa 3
-      - 🇨🇳 台湾_Telegram@kxswa 4
-      - 🇨🇳 台湾_Telegram@kxswa 5
-      - 🇨🇳 台湾_Telegram@kxswa 6
-      - 🇨🇳 台湾_Telegram@kxswa 7
-      - 🇨🇳 台湾_Telegram@kxswa 8
-      - 🇨🇭 瑞士_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa 2
-      - 🇯🇵 日本_Telegram@kxswa 3
-      - 🇧🇩 孟加拉国_Telegram@kxswa
-      - 🇲🇳 蒙古_Telegram@kxswa
-      - 🇲🇳 蒙古_Telegram@kxswa 2
-      - 🇲🇳 蒙古_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 2
-      - 🇺🇸 美国_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa 4
-      - 🇺🇸 美国_Telegram@kxswa 5
-      - 🇺🇸 美国_Telegram@kxswa 6
-      - 🇺🇸 美国_Telegram@kxswa 7
-      - 🇺🇸 美国_Telegram@kxswa 8
-      - 🇨🇦 加拿大_Telegram@kxswa
-      - 🇨🇦 加拿大_Telegram@kxswa 2
-      - 🇨🇦 加拿大_Telegram@kxswa 3
-      - 🇰🇷 韩国_Telegram@kxswa
-      - 🇰🇷 韩国_Telegram@kxswa 2
-      - 🇰🇷 韩国_Telegram@kxswa 3
-      - 🇰🇿 哈萨克斯坦_Telegram@kxswa
-      - 🇰🇿 哈萨克斯坦_Telegram@kxswa 2
-      - 🇬🇪 格鲁吉亚_Telegram@kxswa
-      - 🇷🇺 俄罗斯联邦_Telegram@kxswa
-      - 🇩🇪 德国_Telegram@kxswa
-      - 🇩🇪 德国_Telegram@kxswa 2
-      - 🇧🇷 巴西_Telegram@kxswa
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx 2
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx 3
+      - 🇻🇳 越南_节点发布1月22号@djkkdcx 4
+      - 🇬🇧 英国_节点发布1月22号@djkkdcx
+      - 🇸🇬 新加坡_节点发布1月22号@djkkdcx
+      - 🇸🇬 新加坡_节点发布1月22号@djkkdcx 2
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 2
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 3
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 4
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 5
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 6
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 7
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 8
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 9
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 10
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 11
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 12
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 13
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 14
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 15
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 16
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 17
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 18
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 19
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 20
+      - 🇭🇰 香港_节点发布1月22号@djkkdcx 21
+      - 乌兹别克斯坦_节点发布1月22号@djkkdcx
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 2
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 3
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 4
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 5
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 6
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 7
+      - 🇨🇳 台湾_节点发布1月22号@djkkdcx 8
+      - 🇨🇭 瑞士_节点发布1月22号@djkkdcx
+      - 🇯🇵 日本_节点发布1月22号@djkkdcx
+      - 🇯🇵 日本_节点发布1月22号@djkkdcx 2
+      - 🇯🇵 日本_节点发布1月22号@djkkdcx 3
+      - 🇧🇩 孟加拉国_节点发布1月22号@djkkdcx
+      - 🇲🇳 蒙古_节点发布1月22号@djkkdcx
+      - 🇲🇳 蒙古_节点发布1月22号@djkkdcx 2
+      - 🇲🇳 蒙古_节点发布1月22号@djkkdcx 3
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 2
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 3
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 4
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 5
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 6
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 7
+      - 🇺🇸 美国_节点发布1月22号@djkkdcx 8
+      - 🇨🇦 加拿大_节点发布1月22号@djkkdcx
+      - 🇨🇦 加拿大_节点发布1月22号@djkkdcx 2
+      - 🇨🇦 加拿大_节点发布1月22号@djkkdcx 3
+      - 🇰🇷 韩国_节点发布1月22号@djkkdcx
+      - 🇰🇷 韩国_节点发布1月22号@djkkdcx 2
+      - 🇰🇷 韩国_节点发布1月22号@djkkdcx 3
+      - 🇰🇿 哈萨克斯坦_节点发布1月22号@djkkdcx
+      - 🇰🇿 哈萨克斯坦_节点发布1月22号@djkkdcx 2
+      - 🇬🇪 格鲁吉亚_节点发布1月22号@djkkdcx
+      - 🇷🇺 俄罗斯联邦_节点发布1月22号@djkkdcx
+      - 🇩🇪 德国_节点发布1月22号@djkkdcx
+      - 🇩🇪 德国_节点发布1月22号@djkkdcx 2
+      - 🇧🇷 巴西_节点发布1月22号@djkkdcx
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
