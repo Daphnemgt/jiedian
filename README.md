@@ -21,8 +21,6 @@ https://mirror.ghproxy.com/https://raw.githubusercontent.com/Daphnemgt/jiedian/m
 
 ✌️ clash订阅1 https://raw.kkgithub.com/Daphnemgt/jiedian/main/clash.yaml
 
-🐔 clash订阅2:
-
-   https://raw.gitmirror.com/Daphnemgt/jiedian/main/clash.yamlhttps://mirror.ghproxy.com/https://raw.githubusercontent.com/Daphnemgt/jiedian/main/clash.yaml
+🐔 clash订阅2: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Daphnemgt/jiedian/main/clash.yaml
 
 🐔 节点已更新！如果节点失效请到TG频道反馈：https://t.me/jjffdcn
