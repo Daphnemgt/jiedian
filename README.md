@@ -16,8 +16,7 @@ TG电报代理频道🔗 https://t.me/bkjdfg
 
 🏩 2vray订阅1：https://raw.kkgithub.com/Daphnemgt/jiedian/main/v2ray
 
-🏩 2vray订阅2：https://raw.gitmirror.com/Daphnemgt/jiedian/main/v2ray
-https://mirror.ghproxy.com/https://raw.githubusercontent.com/Daphnemgt/jiedian/main/v2ray
+🏩 2vray订阅2：https://mirror.ghproxy.com/https://raw.githubusercontent.com/Daphnemgt/jiedian/main/v2ray
 
 ✌️ clash订阅1 https://raw.kkgithub.com/Daphnemgt/jiedian/main/clash.yaml
 
