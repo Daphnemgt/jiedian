@@ -5,118 +5,228 @@ mode: Rule
 log-level: info
 external-controller: ':9090'
 proxies:
-  - {"name":"TG-@djkkdcx-4.19号","server":"104.17.159.12","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"104.21.4.14","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"123.142.105.38","port":31323,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"91.193.58.98","port":2096,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"3.38.176.54","port":8443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"121.131.91.22","port":10194,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"193.122.112.161","port":10003,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"210.111.176.108","port":20082,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"140.238.19.251","port":10261,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"129.154.205.12","port":34237,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"152.70.232.173","port":28756,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"121.124.88.219","port":14429,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"183.104.40.186","port":10200,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"146.56.141.168","port":47590,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"104.18.93.35","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"119.8.62.199","port":13080,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"104.17.159.12","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"47.245.57.38","port":2096,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"152.32.252.175","port":8969,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"47.244.255.95","port":8449,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"104.17.23.9","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"8.217.85.14","port":2087,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"104.17.23.9","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"165.154.42.244","port":34237,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"150.129.41.50","port":1450,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"103.20.222.99","port":40424,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"103.149.144.102","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"104.19.158.7","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"103.234.53.199","port":48417,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"123.58.212.186","port":35123,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"104.19.158.9","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"103.20.222.32","port":29515,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"18.167.172.112","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"119.8.62.199","port":13080,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"118.193.44.62","port":49454,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"47.76.76.116","port":29083,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"104.17.23.11","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"103.234.53.199","port":48714,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"94.74.100.2","port":13080,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"47.76.178.146","port":2096,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"47.76.178.146","port":2083,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"202.81.235.90","port":50400,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"43.154.34.74","port":1935,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"118.193.35.29","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"45.66.128.215","port":50246,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"211.75.74.232","port":4443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"129.154.223.89","port":15800,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"132.226.168.199","port":18421,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"45.66.129.123","port":19036,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"61.101.6.6","port":18010,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"45.66.131.67","port":46788,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"146.56.177.67","port":61153,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"132.226.171.158","port":9527,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"59.17.109.133","port":13666,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"146.56.151.32","port":19,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"132.226.171.158","port":9527,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"45.14.65.9","port":34128,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"121.181.87.111","port":12405,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"211.75.74.232","port":4443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"210.111.176.108","port":20082,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"211.179.163.56","port":26302,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"125.187.182.106","port":30053,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"211.205.225.238","port":35576,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"110.11.25.32","port":10912,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"103.137.63.37","port":53760,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"211.72.156.10","port":23555,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"61.220.41.143","port":36633,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"89.116.161.250","port":8443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"125.229.230.180","port":30722,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"60.248.63.88","port":36697,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"211.75.74.232","port":4443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"118.163.128.81","port":13688,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"211.22.240.107","port":30686,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"118.163.128.81","port":12559,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"91.193.59.37","port":2096,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"154.219.5.49","port":8443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"154.17.2.103","port":11140,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"154.197.121.178","port":8443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"154.219.5.87","port":2053,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"140.99.233.156","port":2087,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"8.222.160.176","port":2087,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"47.236.65.11","port":2083,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"27.50.48.108","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"8.219.77.91","port":2087,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"103.14.35.56","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"139.162.9.77","port":8443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"78.186.25.113","port":28179,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"94.177.8.26","port":130,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"192.9.172.26","port":1808,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"64.227.113.49","port":8443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"134.93.123.83","port":30009,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"65.21.191.248","port":28443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"185.238.228.212","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"217.163.76.75","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"5.75.192.70","port":56500,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"38.180.18.207","port":8443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"188.42.88.54","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"185.170.166.233","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"185.174.138.175","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"185.193.31.35","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"185.176.26.39","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"185.193.31.248","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"185.162.229.39","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"188.42.88.8","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"147.78.140.43","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"188.42.145.131","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"156.238.18.168","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"31.22.116.35","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"185.162.230.52","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"154.92.9.113","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"192.65.217.51","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
-  - {"name":"TG-@djkkdcx-4.19号","server":"45.131.210.152","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    关注TG频道获取更多免费节点","server":"104.17.159.12","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    禁止爬取本订阅节点","server":"104.21.4.14","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    -KR1","server":"123.142.105.38","port":31323,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    -KR2","server":"91.193.58.98","port":2096,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    -KR3","server":"3.38.176.54","port":8443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    -KR4","server":"121.131.91.22","port":10194,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    -KR5","server":"193.122.112.161","port":10003,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    -KR6","server":"210.111.176.108","port":20082,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    -KR7","server":"140.238.19.251","port":10261,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    -KR8","server":"129.154.205.12","port":34237,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    -KR9","server":"152.70.232.173","port":28756,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    -KR10","server":"121.124.88.219","port":14429,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    -KR11","server":"183.104.40.186","port":10200,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    -KR12","server":"146.56.141.168","port":47590,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong1","server":"104.18.93.35","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong2","server":"119.8.62.199","port":13080,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong3","server":"104.17.159.12","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong4","server":"47.245.57.38","port":2096,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong5","server":"152.32.252.175","port":8969,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong6","server":"47.244.255.95","port":8449,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong7","server":"104.17.23.9","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong8","server":"8.217.85.14","port":2087,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong9","server":"104.17.23.9","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong10","server":"165.154.42.244","port":34237,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong11","server":"150.129.41.50","port":1450,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong12","server":"103.20.222.99","port":40424,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong13","server":"103.149.144.102","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong15","server":"104.19.158.7","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong16","server":"103.234.53.199","port":48417,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong17","server":"123.58.212.186","port":35123,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong18","server":"104.19.158.9","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong19","server":"103.20.222.32","port":29515,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong20","server":"18.167.172.112","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong21","server":"119.8.62.199","port":13080,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong22","server":"118.193.44.62","port":49454,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong23","server":"47.76.76.116","port":29083,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong24","server":"104.17.23.11","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong25","server":"103.234.53.199","port":48714,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong26","server":"94.74.100.2","port":13080,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong27","server":"47.76.178.146","port":2096,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong28","server":"47.76.178.146","port":2083,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong29","server":"202.81.235.90","port":50400,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong30","server":"43.154.34.74","port":1935,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇭🇰 Telegram（@djkkdcx） -HK-Hong
+    Kong31","server":"118.193.35.29","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇯🇵 Telegram（@djkkdcx）
+    -JP-Tokyo1","server":"45.66.128.215","port":50246,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇯🇵 Telegram（@djkkdcx）
+    -JP-Tokyo2","server":"211.75.74.232","port":4443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇯🇵 Telegram（@djkkdcx）
+    -JP-Tokyo3","server":"129.154.223.89","port":15800,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇯🇵 Telegram（@djkkdcx）
+    -JP-Tokyo4","server":"132.226.168.199","port":18421,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇯🇵 Telegram（@djkkdcx）
+    -JP-Tokyo5","server":"45.66.129.123","port":19036,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇯🇵 Telegram（@djkkdcx）
+    -JP-Tokyo6","server":"61.101.6.6","port":18010,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇯🇵 Telegram（@djkkdcx）
+    -JP-Tokyo7","server":"45.66.131.67","port":46788,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇯🇵 Telegram（@djkkdcx）
+    -JP-Tokyo8","server":"146.56.177.67","port":61153,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇯🇵 Telegram（@djkkdcx）
+    -JP-Tokyo9","server":"132.226.171.158","port":9527,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇯🇵 Telegram（@djkkdcx）
+    -JP-Tokyo10","server":"59.17.109.133","port":13666,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇯🇵 Telegram（@djkkdcx）
+    -JP-Tokyo11","server":"146.56.151.32","port":19,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇯🇵 Telegram（@djkkdcx）
+    -JP-Tokyo12","server":"132.226.171.158","port":9527,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇯🇵 Telegram（@djkkdcx）
+    -JP-Tokyo13","server":"45.14.65.9","port":34128,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇯🇵 Telegram（@djkkdcx）
+    -JP-Tokyo14","server":"121.181.87.111","port":12405,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇯🇵 Telegram（@djkkdcx）
+    -JP-Tokyo15","server":"211.75.74.232","port":4443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇯🇵 Telegram（@djkkdcx）
+    -JP-Tokyo16","server":"210.111.176.108","port":20082,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇯🇵 Telegram（@djkkdcx）
+    -JP-Tokyo17","server":"211.179.163.56","port":26302,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇯🇵 Telegram（@djkkdcx）
+    -JP-Tokyo18","server":"125.187.182.106","port":30053,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇯🇵 Telegram（@djkkdcx）
+    -JP-Tokyo19","server":"211.205.225.238","port":35576,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇯🇵 Telegram（@djkkdcx）
+    -JP-Tokyo20","server":"110.11.25.32","port":10912,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    -TW1","server":"103.137.63.37","port":53760,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    -TW2","server":"211.72.156.10","port":23555,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    -TW3","server":"61.220.41.143","port":36633,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    -TW4","server":"89.116.161.250","port":8443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    -TW5","server":"125.229.230.180","port":30722,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    -TW6","server":"60.248.63.88","port":36697,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    -TW7","server":"211.75.74.232","port":4443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    -TW8","server":"118.163.128.81","port":13688,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    -TW9","server":"211.22.240.107","port":30686,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    -TW10","server":"118.163.128.81","port":12559,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    -TW11","server":"91.193.59.37","port":2096,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇺🇸 Telegram（@djkkdcx）
+    -US","server":"154.219.5.49","port":8443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    -US1","server":"154.17.2.103","port":11140,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    -US2","server":"154.197.121.178","port":8443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"Telegram（@djkkdcx）
+    -US3","server":"154.219.5.87","port":2053,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇸🇬 Telegram（@djkkdcx）
+    -SG-Singapore1","server":"140.99.233.156","port":2087,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇸🇬 Telegram（@djkkdcx）
+    -SG-Singapore2","server":"8.222.160.176","port":2087,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇸🇬 Telegram（@djkkdcx）
+    -SG-Singapore3","server":"47.236.65.11","port":2083,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇸🇬 Telegram（@djkkdcx）
+    -SG-Singapore4","server":"27.50.48.108","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇸🇬 Telegram（@djkkdcx）
+    -SG-Singapore5","server":"8.219.77.91","port":2087,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇸🇬 Telegram（@djkkdcx）
+    -SG-Singapore6","server":"103.14.35.56","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇸🇬 Telegram（@djkkdcx）
+    -SG-Singapore7","server":"139.162.9.77","port":8443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇹🇷 Telegram（@djkkdcx）
+    -土耳其🇹🇷","server":"78.186.25.113","port":28179,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇦🇹 Telegram（@djkkdcx）
+    -奥地利🇦🇹","server":"94.177.8.26","port":130,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇦🇺 Telegram（@djkkdcx）
+    -澳大利亚🇦🇺","server":"192.9.172.26","port":1808,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇫🇷 Telegram（@djkkdcx）
+    -法国🇫🇷","server":"64.227.113.49","port":8443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇨🇿 Telegram（@djkkdcx）
+    -捷克🇨🇿","server":"134.93.123.83","port":30009,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇫🇮 Telegram（@djkkdcx）
+    -芬兰🇫🇮","server":"65.21.191.248","port":28443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇿🇦 Telegram（@djkkdcx）
+    -南非🇿🇦","server":"185.238.228.212","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇬🇧 Telegram（@djkkdcx）
+    -英国🇬🇧","server":"217.163.76.75","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇩🇪 Telegram（@djkkdcx）
+    -德国🇩🇪","server":"5.75.192.70","port":56500,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"🇳🇱 Telegram（@djkkdcx）
+    -荷兰🇳🇱","server":"38.180.18.207","port":8443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"CMCC","server":"188.42.88.54","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"CMCC
+    2","server":"185.170.166.233","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"CMCC
+    3","server":"185.174.138.175","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"CMCC
+    4","server":"185.193.31.35","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"CMCC
+    5","server":"185.176.26.39","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"CMCC
+    6","server":"185.193.31.248","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"CMCC
+    7","server":"185.162.229.39","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"CMCC
+    8","server":"188.42.88.8","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"CT","server":"147.78.140.43","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"CT
+    2","server":"188.42.145.131","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"CT
+    3","server":"156.238.18.168","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"CT
+    4","server":"31.22.116.35","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"CT
+    5","server":"185.162.230.52","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"CT
+    6","server":"154.92.9.113","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"CT
+    7","server":"192.65.217.51","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
+  - {"name":"CT
+    8","server":"45.131.210.152","port":443,"client-fingerprint":"random","type":"vless","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"tfo":false,"servername":"cfed.tgzdyz2.top","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"Host":"cfed.tgzdyz2.top"}},"udp":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -135,118 +245,118 @@ proxy-groups:
   - name: ☑️ 手动切换
     type: select
     proxies:
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
+      - Telegram（@djkkdcx） 关注TG频道获取更多免费节点
+      - Telegram（@djkkdcx） 禁止爬取本订阅节点
+      - Telegram（@djkkdcx） -KR1
+      - Telegram（@djkkdcx） -KR2
+      - Telegram（@djkkdcx） -KR3
+      - Telegram（@djkkdcx） -KR4
+      - Telegram（@djkkdcx） -KR5
+      - Telegram（@djkkdcx） -KR6
+      - Telegram（@djkkdcx） -KR7
+      - Telegram（@djkkdcx） -KR8
+      - Telegram（@djkkdcx） -KR9
+      - Telegram（@djkkdcx） -KR10
+      - Telegram（@djkkdcx） -KR11
+      - Telegram（@djkkdcx） -KR12
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong1
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong2
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong3
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong4
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong5
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong6
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong7
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong8
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong9
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong10
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong11
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong12
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong13
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong15
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong16
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong17
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong18
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong19
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong20
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong21
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong22
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong23
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong24
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong25
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong26
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong27
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong28
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong29
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong30
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong31
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo1
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo2
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo3
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo4
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo5
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo6
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo7
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo8
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo9
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo10
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo11
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo12
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo13
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo14
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo15
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo16
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo17
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo18
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo19
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo20
+      - Telegram（@djkkdcx） -TW1
+      - Telegram（@djkkdcx） -TW2
+      - Telegram（@djkkdcx） -TW3
+      - Telegram（@djkkdcx） -TW4
+      - Telegram（@djkkdcx） -TW5
+      - Telegram（@djkkdcx） -TW6
+      - Telegram（@djkkdcx） -TW7
+      - Telegram（@djkkdcx） -TW8
+      - Telegram（@djkkdcx） -TW9
+      - Telegram（@djkkdcx） -TW10
+      - Telegram（@djkkdcx） -TW11
+      - 🇺🇸 Telegram（@djkkdcx） -US
+      - Telegram（@djkkdcx） -US1
+      - Telegram（@djkkdcx） -US2
+      - Telegram（@djkkdcx） -US3
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore1
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore2
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore3
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore4
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore5
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore6
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore7
+      - 🇹🇷 Telegram（@djkkdcx） -土耳其🇹🇷
+      - 🇦🇹 Telegram（@djkkdcx） -奥地利🇦🇹
+      - 🇦🇺 Telegram（@djkkdcx） -澳大利亚🇦🇺
+      - 🇫🇷 Telegram（@djkkdcx） -法国🇫🇷
+      - 🇨🇿 Telegram（@djkkdcx） -捷克🇨🇿
+      - 🇫🇮 Telegram（@djkkdcx） -芬兰🇫🇮
+      - 🇿🇦 Telegram（@djkkdcx） -南非🇿🇦
+      - 🇬🇧 Telegram（@djkkdcx） -英国🇬🇧
+      - 🇩🇪 Telegram（@djkkdcx） -德国🇩🇪
+      - 🇳🇱 Telegram（@djkkdcx） -荷兰🇳🇱
+      - CMCC
+      - CMCC 2
+      - CMCC 3
+      - CMCC 4
+      - CMCC 5
+      - CMCC 6
+      - CMCC 7
+      - CMCC 8
+      - CT
+      - CT 2
+      - CT 3
+      - CT 4
+      - CT 5
+      - CT 6
+      - CT 7
+      - CT 8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -274,118 +384,118 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
+      - Telegram（@djkkdcx） 关注TG频道获取更多免费节点
+      - Telegram（@djkkdcx） 禁止爬取本订阅节点
+      - Telegram（@djkkdcx） -KR1
+      - Telegram（@djkkdcx） -KR2
+      - Telegram（@djkkdcx） -KR3
+      - Telegram（@djkkdcx） -KR4
+      - Telegram（@djkkdcx） -KR5
+      - Telegram（@djkkdcx） -KR6
+      - Telegram（@djkkdcx） -KR7
+      - Telegram（@djkkdcx） -KR8
+      - Telegram（@djkkdcx） -KR9
+      - Telegram（@djkkdcx） -KR10
+      - Telegram（@djkkdcx） -KR11
+      - Telegram（@djkkdcx） -KR12
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong1
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong2
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong3
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong4
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong5
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong6
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong7
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong8
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong9
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong10
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong11
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong12
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong13
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong15
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong16
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong17
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong18
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong19
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong20
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong21
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong22
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong23
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong24
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong25
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong26
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong27
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong28
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong29
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong30
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong31
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo1
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo2
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo3
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo4
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo5
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo6
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo7
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo8
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo9
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo10
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo11
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo12
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo13
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo14
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo15
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo16
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo17
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo18
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo19
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo20
+      - Telegram（@djkkdcx） -TW1
+      - Telegram（@djkkdcx） -TW2
+      - Telegram（@djkkdcx） -TW3
+      - Telegram（@djkkdcx） -TW4
+      - Telegram（@djkkdcx） -TW5
+      - Telegram（@djkkdcx） -TW6
+      - Telegram（@djkkdcx） -TW7
+      - Telegram（@djkkdcx） -TW8
+      - Telegram（@djkkdcx） -TW9
+      - Telegram（@djkkdcx） -TW10
+      - Telegram（@djkkdcx） -TW11
+      - 🇺🇸 Telegram（@djkkdcx） -US
+      - Telegram（@djkkdcx） -US1
+      - Telegram（@djkkdcx） -US2
+      - Telegram（@djkkdcx） -US3
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore1
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore2
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore3
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore4
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore5
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore6
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore7
+      - 🇹🇷 Telegram（@djkkdcx） -土耳其🇹🇷
+      - 🇦🇹 Telegram（@djkkdcx） -奥地利🇦🇹
+      - 🇦🇺 Telegram（@djkkdcx） -澳大利亚🇦🇺
+      - 🇫🇷 Telegram（@djkkdcx） -法国🇫🇷
+      - 🇨🇿 Telegram（@djkkdcx） -捷克🇨🇿
+      - 🇫🇮 Telegram（@djkkdcx） -芬兰🇫🇮
+      - 🇿🇦 Telegram（@djkkdcx） -南非🇿🇦
+      - 🇬🇧 Telegram（@djkkdcx） -英国🇬🇧
+      - 🇩🇪 Telegram（@djkkdcx） -德国🇩🇪
+      - 🇳🇱 Telegram（@djkkdcx） -荷兰🇳🇱
+      - CMCC
+      - CMCC 2
+      - CMCC 3
+      - CMCC 4
+      - CMCC 5
+      - CMCC 6
+      - CMCC 7
+      - CMCC 8
+      - CT
+      - CT 2
+      - CT 3
+      - CT 4
+      - CT 5
+      - CT 6
+      - CT 7
+      - CT 8
   - name: 📲 电报消息
     type: select
     proxies:
@@ -599,118 +709,118 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
+      - Telegram（@djkkdcx） 关注TG频道获取更多免费节点
+      - Telegram（@djkkdcx） 禁止爬取本订阅节点
+      - Telegram（@djkkdcx） -KR1
+      - Telegram（@djkkdcx） -KR2
+      - Telegram（@djkkdcx） -KR3
+      - Telegram（@djkkdcx） -KR4
+      - Telegram（@djkkdcx） -KR5
+      - Telegram（@djkkdcx） -KR6
+      - Telegram（@djkkdcx） -KR7
+      - Telegram（@djkkdcx） -KR8
+      - Telegram（@djkkdcx） -KR9
+      - Telegram（@djkkdcx） -KR10
+      - Telegram（@djkkdcx） -KR11
+      - Telegram（@djkkdcx） -KR12
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong1
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong2
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong3
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong4
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong5
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong6
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong7
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong8
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong9
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong10
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong11
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong12
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong13
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong15
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong16
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong17
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong18
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong19
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong20
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong21
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong22
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong23
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong24
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong25
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong26
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong27
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong28
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong29
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong30
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong31
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo1
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo2
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo3
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo4
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo5
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo6
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo7
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo8
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo9
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo10
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo11
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo12
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo13
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo14
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo15
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo16
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo17
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo18
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo19
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo20
+      - Telegram（@djkkdcx） -TW1
+      - Telegram（@djkkdcx） -TW2
+      - Telegram（@djkkdcx） -TW3
+      - Telegram（@djkkdcx） -TW4
+      - Telegram（@djkkdcx） -TW5
+      - Telegram（@djkkdcx） -TW6
+      - Telegram（@djkkdcx） -TW7
+      - Telegram（@djkkdcx） -TW8
+      - Telegram（@djkkdcx） -TW9
+      - Telegram（@djkkdcx） -TW10
+      - Telegram（@djkkdcx） -TW11
+      - 🇺🇸 Telegram（@djkkdcx） -US
+      - Telegram（@djkkdcx） -US1
+      - Telegram（@djkkdcx） -US2
+      - Telegram（@djkkdcx） -US3
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore1
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore2
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore3
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore4
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore5
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore6
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore7
+      - 🇹🇷 Telegram（@djkkdcx） -土耳其🇹🇷
+      - 🇦🇹 Telegram（@djkkdcx） -奥地利🇦🇹
+      - 🇦🇺 Telegram（@djkkdcx） -澳大利亚🇦🇺
+      - 🇫🇷 Telegram（@djkkdcx） -法国🇫🇷
+      - 🇨🇿 Telegram（@djkkdcx） -捷克🇨🇿
+      - 🇫🇮 Telegram（@djkkdcx） -芬兰🇫🇮
+      - 🇿🇦 Telegram（@djkkdcx） -南非🇿🇦
+      - 🇬🇧 Telegram（@djkkdcx） -英国🇬🇧
+      - 🇩🇪 Telegram（@djkkdcx） -德国🇩🇪
+      - 🇳🇱 Telegram（@djkkdcx） -荷兰🇳🇱
+      - CMCC
+      - CMCC 2
+      - CMCC 3
+      - CMCC 4
+      - CMCC 5
+      - CMCC 6
+      - CMCC 7
+      - CMCC 8
+      - CT
+      - CT 2
+      - CT 3
+      - CT 4
+      - CT 5
+      - CT 6
+      - CT 7
+      - CT 8
   - name: 🇯🇵 日本节点
     type: load-balance
     strategy: consistent-hashing
@@ -718,118 +828,118 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
+      - Telegram（@djkkdcx） 关注TG频道获取更多免费节点
+      - Telegram（@djkkdcx） 禁止爬取本订阅节点
+      - Telegram（@djkkdcx） -KR1
+      - Telegram（@djkkdcx） -KR2
+      - Telegram（@djkkdcx） -KR3
+      - Telegram（@djkkdcx） -KR4
+      - Telegram（@djkkdcx） -KR5
+      - Telegram（@djkkdcx） -KR6
+      - Telegram（@djkkdcx） -KR7
+      - Telegram（@djkkdcx） -KR8
+      - Telegram（@djkkdcx） -KR9
+      - Telegram（@djkkdcx） -KR10
+      - Telegram（@djkkdcx） -KR11
+      - Telegram（@djkkdcx） -KR12
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong1
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong2
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong3
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong4
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong5
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong6
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong7
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong8
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong9
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong10
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong11
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong12
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong13
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong15
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong16
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong17
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong18
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong19
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong20
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong21
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong22
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong23
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong24
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong25
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong26
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong27
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong28
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong29
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong30
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong31
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo1
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo2
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo3
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo4
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo5
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo6
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo7
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo8
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo9
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo10
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo11
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo12
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo13
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo14
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo15
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo16
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo17
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo18
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo19
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo20
+      - Telegram（@djkkdcx） -TW1
+      - Telegram（@djkkdcx） -TW2
+      - Telegram（@djkkdcx） -TW3
+      - Telegram（@djkkdcx） -TW4
+      - Telegram（@djkkdcx） -TW5
+      - Telegram（@djkkdcx） -TW6
+      - Telegram（@djkkdcx） -TW7
+      - Telegram（@djkkdcx） -TW8
+      - Telegram（@djkkdcx） -TW9
+      - Telegram（@djkkdcx） -TW10
+      - Telegram（@djkkdcx） -TW11
+      - 🇺🇸 Telegram（@djkkdcx） -US
+      - Telegram（@djkkdcx） -US1
+      - Telegram（@djkkdcx） -US2
+      - Telegram（@djkkdcx） -US3
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore1
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore2
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore3
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore4
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore5
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore6
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore7
+      - 🇹🇷 Telegram（@djkkdcx） -土耳其🇹🇷
+      - 🇦🇹 Telegram（@djkkdcx） -奥地利🇦🇹
+      - 🇦🇺 Telegram（@djkkdcx） -澳大利亚🇦🇺
+      - 🇫🇷 Telegram（@djkkdcx） -法国🇫🇷
+      - 🇨🇿 Telegram（@djkkdcx） -捷克🇨🇿
+      - 🇫🇮 Telegram（@djkkdcx） -芬兰🇫🇮
+      - 🇿🇦 Telegram（@djkkdcx） -南非🇿🇦
+      - 🇬🇧 Telegram（@djkkdcx） -英国🇬🇧
+      - 🇩🇪 Telegram（@djkkdcx） -德国🇩🇪
+      - 🇳🇱 Telegram（@djkkdcx） -荷兰🇳🇱
+      - CMCC
+      - CMCC 2
+      - CMCC 3
+      - CMCC 4
+      - CMCC 5
+      - CMCC 6
+      - CMCC 7
+      - CMCC 8
+      - CT
+      - CT 2
+      - CT 3
+      - CT 4
+      - CT 5
+      - CT 6
+      - CT 7
+      - CT 8
   - name: 🇺🇲 美国节点
     type: load-balance
     strategy: consistent-hashing
@@ -837,118 +947,118 @@ proxy-groups:
     interval: 300
     tolerance: 150
     proxies:
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
+      - Telegram（@djkkdcx） 关注TG频道获取更多免费节点
+      - Telegram（@djkkdcx） 禁止爬取本订阅节点
+      - Telegram（@djkkdcx） -KR1
+      - Telegram（@djkkdcx） -KR2
+      - Telegram（@djkkdcx） -KR3
+      - Telegram（@djkkdcx） -KR4
+      - Telegram（@djkkdcx） -KR5
+      - Telegram（@djkkdcx） -KR6
+      - Telegram（@djkkdcx） -KR7
+      - Telegram（@djkkdcx） -KR8
+      - Telegram（@djkkdcx） -KR9
+      - Telegram（@djkkdcx） -KR10
+      - Telegram（@djkkdcx） -KR11
+      - Telegram（@djkkdcx） -KR12
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong1
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong2
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong3
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong4
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong5
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong6
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong7
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong8
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong9
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong10
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong11
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong12
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong13
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong15
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong16
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong17
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong18
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong19
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong20
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong21
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong22
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong23
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong24
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong25
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong26
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong27
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong28
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong29
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong30
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong31
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo1
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo2
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo3
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo4
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo5
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo6
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo7
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo8
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo9
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo10
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo11
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo12
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo13
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo14
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo15
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo16
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo17
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo18
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo19
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo20
+      - Telegram（@djkkdcx） -TW1
+      - Telegram（@djkkdcx） -TW2
+      - Telegram（@djkkdcx） -TW3
+      - Telegram（@djkkdcx） -TW4
+      - Telegram（@djkkdcx） -TW5
+      - Telegram（@djkkdcx） -TW6
+      - Telegram（@djkkdcx） -TW7
+      - Telegram（@djkkdcx） -TW8
+      - Telegram（@djkkdcx） -TW9
+      - Telegram（@djkkdcx） -TW10
+      - Telegram（@djkkdcx） -TW11
+      - 🇺🇸 Telegram（@djkkdcx） -US
+      - Telegram（@djkkdcx） -US1
+      - Telegram（@djkkdcx） -US2
+      - Telegram（@djkkdcx） -US3
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore1
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore2
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore3
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore4
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore5
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore6
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore7
+      - 🇹🇷 Telegram（@djkkdcx） -土耳其🇹🇷
+      - 🇦🇹 Telegram（@djkkdcx） -奥地利🇦🇹
+      - 🇦🇺 Telegram（@djkkdcx） -澳大利亚🇦🇺
+      - 🇫🇷 Telegram（@djkkdcx） -法国🇫🇷
+      - 🇨🇿 Telegram（@djkkdcx） -捷克🇨🇿
+      - 🇫🇮 Telegram（@djkkdcx） -芬兰🇫🇮
+      - 🇿🇦 Telegram（@djkkdcx） -南非🇿🇦
+      - 🇬🇧 Telegram（@djkkdcx） -英国🇬🇧
+      - 🇩🇪 Telegram（@djkkdcx） -德国🇩🇪
+      - 🇳🇱 Telegram（@djkkdcx） -荷兰🇳🇱
+      - CMCC
+      - CMCC 2
+      - CMCC 3
+      - CMCC 4
+      - CMCC 5
+      - CMCC 6
+      - CMCC 7
+      - CMCC 8
+      - CT
+      - CT 2
+      - CT 3
+      - CT 4
+      - CT 5
+      - CT 6
+      - CT 7
+      - CT 8
   - name: 🇹🇼 台湾节点
     type: load-balance
     strategy: consistent-hashing
@@ -956,118 +1066,118 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
+      - Telegram（@djkkdcx） 关注TG频道获取更多免费节点
+      - Telegram（@djkkdcx） 禁止爬取本订阅节点
+      - Telegram（@djkkdcx） -KR1
+      - Telegram（@djkkdcx） -KR2
+      - Telegram（@djkkdcx） -KR3
+      - Telegram（@djkkdcx） -KR4
+      - Telegram（@djkkdcx） -KR5
+      - Telegram（@djkkdcx） -KR6
+      - Telegram（@djkkdcx） -KR7
+      - Telegram（@djkkdcx） -KR8
+      - Telegram（@djkkdcx） -KR9
+      - Telegram（@djkkdcx） -KR10
+      - Telegram（@djkkdcx） -KR11
+      - Telegram（@djkkdcx） -KR12
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong1
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong2
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong3
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong4
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong5
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong6
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong7
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong8
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong9
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong10
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong11
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong12
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong13
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong15
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong16
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong17
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong18
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong19
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong20
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong21
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong22
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong23
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong24
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong25
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong26
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong27
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong28
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong29
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong30
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong31
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo1
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo2
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo3
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo4
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo5
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo6
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo7
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo8
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo9
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo10
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo11
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo12
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo13
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo14
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo15
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo16
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo17
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo18
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo19
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo20
+      - Telegram（@djkkdcx） -TW1
+      - Telegram（@djkkdcx） -TW2
+      - Telegram（@djkkdcx） -TW3
+      - Telegram（@djkkdcx） -TW4
+      - Telegram（@djkkdcx） -TW5
+      - Telegram（@djkkdcx） -TW6
+      - Telegram（@djkkdcx） -TW7
+      - Telegram（@djkkdcx） -TW8
+      - Telegram（@djkkdcx） -TW9
+      - Telegram（@djkkdcx） -TW10
+      - Telegram（@djkkdcx） -TW11
+      - 🇺🇸 Telegram（@djkkdcx） -US
+      - Telegram（@djkkdcx） -US1
+      - Telegram（@djkkdcx） -US2
+      - Telegram（@djkkdcx） -US3
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore1
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore2
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore3
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore4
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore5
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore6
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore7
+      - 🇹🇷 Telegram（@djkkdcx） -土耳其🇹🇷
+      - 🇦🇹 Telegram（@djkkdcx） -奥地利🇦🇹
+      - 🇦🇺 Telegram（@djkkdcx） -澳大利亚🇦🇺
+      - 🇫🇷 Telegram（@djkkdcx） -法国🇫🇷
+      - 🇨🇿 Telegram（@djkkdcx） -捷克🇨🇿
+      - 🇫🇮 Telegram（@djkkdcx） -芬兰🇫🇮
+      - 🇿🇦 Telegram（@djkkdcx） -南非🇿🇦
+      - 🇬🇧 Telegram（@djkkdcx） -英国🇬🇧
+      - 🇩🇪 Telegram（@djkkdcx） -德国🇩🇪
+      - 🇳🇱 Telegram（@djkkdcx） -荷兰🇳🇱
+      - CMCC
+      - CMCC 2
+      - CMCC 3
+      - CMCC 4
+      - CMCC 5
+      - CMCC 6
+      - CMCC 7
+      - CMCC 8
+      - CT
+      - CT 2
+      - CT 3
+      - CT 4
+      - CT 5
+      - CT 6
+      - CT 7
+      - CT 8
   - name: 🇸🇬 狮城节点
     type: load-balance
     strategy: consistent-hashing
@@ -1075,118 +1185,118 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
+      - Telegram（@djkkdcx） 关注TG频道获取更多免费节点
+      - Telegram（@djkkdcx） 禁止爬取本订阅节点
+      - Telegram（@djkkdcx） -KR1
+      - Telegram（@djkkdcx） -KR2
+      - Telegram（@djkkdcx） -KR3
+      - Telegram（@djkkdcx） -KR4
+      - Telegram（@djkkdcx） -KR5
+      - Telegram（@djkkdcx） -KR6
+      - Telegram（@djkkdcx） -KR7
+      - Telegram（@djkkdcx） -KR8
+      - Telegram（@djkkdcx） -KR9
+      - Telegram（@djkkdcx） -KR10
+      - Telegram（@djkkdcx） -KR11
+      - Telegram（@djkkdcx） -KR12
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong1
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong2
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong3
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong4
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong5
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong6
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong7
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong8
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong9
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong10
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong11
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong12
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong13
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong15
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong16
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong17
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong18
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong19
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong20
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong21
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong22
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong23
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong24
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong25
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong26
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong27
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong28
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong29
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong30
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong31
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo1
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo2
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo3
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo4
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo5
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo6
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo7
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo8
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo9
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo10
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo11
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo12
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo13
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo14
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo15
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo16
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo17
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo18
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo19
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo20
+      - Telegram（@djkkdcx） -TW1
+      - Telegram（@djkkdcx） -TW2
+      - Telegram（@djkkdcx） -TW3
+      - Telegram（@djkkdcx） -TW4
+      - Telegram（@djkkdcx） -TW5
+      - Telegram（@djkkdcx） -TW6
+      - Telegram（@djkkdcx） -TW7
+      - Telegram（@djkkdcx） -TW8
+      - Telegram（@djkkdcx） -TW9
+      - Telegram（@djkkdcx） -TW10
+      - Telegram（@djkkdcx） -TW11
+      - 🇺🇸 Telegram（@djkkdcx） -US
+      - Telegram（@djkkdcx） -US1
+      - Telegram（@djkkdcx） -US2
+      - Telegram（@djkkdcx） -US3
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore1
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore2
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore3
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore4
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore5
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore6
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore7
+      - 🇹🇷 Telegram（@djkkdcx） -土耳其🇹🇷
+      - 🇦🇹 Telegram（@djkkdcx） -奥地利🇦🇹
+      - 🇦🇺 Telegram（@djkkdcx） -澳大利亚🇦🇺
+      - 🇫🇷 Telegram（@djkkdcx） -法国🇫🇷
+      - 🇨🇿 Telegram（@djkkdcx） -捷克🇨🇿
+      - 🇫🇮 Telegram（@djkkdcx） -芬兰🇫🇮
+      - 🇿🇦 Telegram（@djkkdcx） -南非🇿🇦
+      - 🇬🇧 Telegram（@djkkdcx） -英国🇬🇧
+      - 🇩🇪 Telegram（@djkkdcx） -德国🇩🇪
+      - 🇳🇱 Telegram（@djkkdcx） -荷兰🇳🇱
+      - CMCC
+      - CMCC 2
+      - CMCC 3
+      - CMCC 4
+      - CMCC 5
+      - CMCC 6
+      - CMCC 7
+      - CMCC 8
+      - CT
+      - CT 2
+      - CT 3
+      - CT 4
+      - CT 5
+      - CT 6
+      - CT 7
+      - CT 8
   - name: 🇰🇷 韩国节点
     type: load-balance
     strategy: consistent-hashing
@@ -1194,118 +1304,118 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
-      - TG-@djkkdcx-4.19号
+      - Telegram（@djkkdcx） 关注TG频道获取更多免费节点
+      - Telegram（@djkkdcx） 禁止爬取本订阅节点
+      - Telegram（@djkkdcx） -KR1
+      - Telegram（@djkkdcx） -KR2
+      - Telegram（@djkkdcx） -KR3
+      - Telegram（@djkkdcx） -KR4
+      - Telegram（@djkkdcx） -KR5
+      - Telegram（@djkkdcx） -KR6
+      - Telegram（@djkkdcx） -KR7
+      - Telegram（@djkkdcx） -KR8
+      - Telegram（@djkkdcx） -KR9
+      - Telegram（@djkkdcx） -KR10
+      - Telegram（@djkkdcx） -KR11
+      - Telegram（@djkkdcx） -KR12
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong1
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong2
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong3
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong4
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong5
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong6
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong7
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong8
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong9
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong10
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong11
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong12
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong13
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong15
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong16
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong17
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong18
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong19
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong20
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong21
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong22
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong23
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong24
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong25
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong26
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong27
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong28
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong29
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong30
+      - 🇭🇰 Telegram（@djkkdcx） -HK-Hong Kong31
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo1
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo2
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo3
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo4
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo5
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo6
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo7
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo8
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo9
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo10
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo11
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo12
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo13
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo14
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo15
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo16
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo17
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo18
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo19
+      - 🇯🇵 Telegram（@djkkdcx） -JP-Tokyo20
+      - Telegram（@djkkdcx） -TW1
+      - Telegram（@djkkdcx） -TW2
+      - Telegram（@djkkdcx） -TW3
+      - Telegram（@djkkdcx） -TW4
+      - Telegram（@djkkdcx） -TW5
+      - Telegram（@djkkdcx） -TW6
+      - Telegram（@djkkdcx） -TW7
+      - Telegram（@djkkdcx） -TW8
+      - Telegram（@djkkdcx） -TW9
+      - Telegram（@djkkdcx） -TW10
+      - Telegram（@djkkdcx） -TW11
+      - 🇺🇸 Telegram（@djkkdcx） -US
+      - Telegram（@djkkdcx） -US1
+      - Telegram（@djkkdcx） -US2
+      - Telegram（@djkkdcx） -US3
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore1
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore2
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore3
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore4
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore5
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore6
+      - 🇸🇬 Telegram（@djkkdcx） -SG-Singapore7
+      - 🇹🇷 Telegram（@djkkdcx） -土耳其🇹🇷
+      - 🇦🇹 Telegram（@djkkdcx） -奥地利🇦🇹
+      - 🇦🇺 Telegram（@djkkdcx） -澳大利亚🇦🇺
+      - 🇫🇷 Telegram（@djkkdcx） -法国🇫🇷
+      - 🇨🇿 Telegram（@djkkdcx） -捷克🇨🇿
+      - 🇫🇮 Telegram（@djkkdcx） -芬兰🇫🇮
+      - 🇿🇦 Telegram（@djkkdcx） -南非🇿🇦
+      - 🇬🇧 Telegram（@djkkdcx） -英国🇬🇧
+      - 🇩🇪 Telegram（@djkkdcx） -德国🇩🇪
+      - 🇳🇱 Telegram（@djkkdcx） -荷兰🇳🇱
+      - CMCC
+      - CMCC 2
+      - CMCC 3
+      - CMCC 4
+      - CMCC 5
+      - CMCC 6
+      - CMCC 7
+      - CMCC 8
+      - CT
+      - CT 2
+      - CT 3
+      - CT 4
+      - CT 5
+      - CT 6
+      - CT 7
+      - CT 8
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
