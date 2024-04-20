@@ -1,9 +1,9 @@
 ####################################
 # 创建者：Telegram（@djkkdcx）
 # 客户端：Clash.Meta
-# 创建时间：2024-04-20 10:53:20
+# 创建时间：2024-04-20 11:19:23
 # 使用模版：V2RaySE 默认模版
-# 节点数量：147
+# 节点数量：107
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,1068 +86,788 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"英国_Telegram（@djkkdcx）\r_1_1","type":"vless","server":"94.247.142.245","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"英国_Telegram（@djkkdcx）\r_2_2","type":"vless","server":"31.22.116.134","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"英国_Telegram（@djkkdcx）\r_3_3","type":"vless","server":"94.247.142.245","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"英国_Telegram（@djkkdcx）\r_4_4","type":"vless","server":"94.247.142.245","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"英国_Telegram（@djkkdcx）\r_5_5","type":"ss","server":"52.151.74.225","port":62651,"password":"fNDeeFNHeI9cKZkvgERq8n","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"伊朗_Telegram（@djkkdcx）_1_6","type":"vmess","server":"193.151.143.18","port":11479,"cipher":"auto","uuid":"b2eaad78-456f-4c54-8059-653edcf86483","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"伊朗_Telegram（@djkkdcx）_2_7","type":"vmess","server":"193.151.143.18","port":11479,"cipher":"auto","uuid":"b2eaad78-456f-4c54-8059-653edcf86483","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡_Telegram（@djkkdcx）\r_1_8","type":"vless","server":"27.50.48.222","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"新加坡_Telegram（@djkkdcx）\r_2_9","type":"trojan","server":"sg01.freeflyingcloud.xyz","port":35702,"udp":true,"password":"78e56e35-b9b8-4ad6-85b4-0f12431db62b","sni":"sg01.freeflyingcloud.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡_Telegram（@djkkdcx）\r_3_10","type":"trojan","server":"sg01.freeflyingcloud.xyz","port":35702,"udp":true,"password":"d9254b13-7175-4183-a691-518f8f0409a9","sni":"sg01.freeflyingcloud.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡_Telegram（@djkkdcx）\r_4_11","type":"trojan","server":"sg01.freeflyingcloud.xyz","port":35702,"udp":true,"password":"68dc22fb-e7f3-4806-acd7-b4182d80981e","sni":"sg01.freeflyingcloud.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡_Telegram（@djkkdcx）\r_5_12","type":"trojan","server":"sg01.freeflyingcloud.xyz","port":35702,"udp":true,"password":"4378e5d1-cddd-42b0-bcc5-d4350fc59b4a","sni":"sg01.freeflyingcloud.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡_Telegram（@djkkdcx）\r_6_13","type":"trojan","server":"sg01.freeflyingcloud.xyz","port":35702,"udp":true,"password":"6d257b63-0632-4dd6-b021-3085f8dc28b2","sni":"sg01.freeflyingcloud.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡_Telegram（@djkkdcx）\r_7_14","type":"trojan","server":"sg01.freeflyingcloud.xyz","port":35702,"udp":true,"password":"4f10e74d-51cb-472a-8c2d-0ee36ccf0ff3","sni":"sg01.freeflyingcloud.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡_Telegram（@djkkdcx）\r_8_15","type":"trojan","server":"sg01.freeflyingcloud.xyz","port":35702,"udp":true,"password":"63db084a-e2ce-46db-9dd6-d4ed2c3d2663","sni":"sg01.freeflyingcloud.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡_Telegram（@djkkdcx）\r_9_16","type":"trojan","server":"sg01.freeflyingcloud.xyz","port":35702,"udp":true,"password":"89148410-25da-4dd9-8d32-247ca226e041","sni":"sg01.freeflyingcloud.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡_Telegram（@djkkdcx）\r_10_17","type":"trojan","server":"sg01.freeflyingcloud.xyz","port":35702,"udp":true,"password":"6010117d-c631-450d-b24f-cb7e71cce238","sni":"sg01.freeflyingcloud.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡_Telegram（@djkkdcx）\r_11_18","type":"trojan","server":"sg01.freeflyingcloud.xyz","port":35702,"udp":true,"password":"904dd222-2514-4a68-9185-32f89113afd9","sni":"sg01.freeflyingcloud.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡_Telegram（@djkkdcx）\r_12_19","type":"trojan","server":"sg01.freeflyingcloud.xyz","port":35702,"udp":true,"password":"0f823acc-0136-4203-8151-7fd99677f5aa","sni":"sg01.freeflyingcloud.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡_Telegram（@djkkdcx）\r_13_20","type":"vless","server":"27.50.49.232","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"新加坡_Telegram（@djkkdcx）\r_14_21","type":"ss","server":"157.230.43.93","port":45238,"password":"RZDcjwNCCdxtV3M4MPV7kT","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"香港_Telegram（@djkkdcx）_1_22","type":"vmess","server":"br-v2ray.ipracevpn.com","port":8443,"cipher":"auto","uuid":"574363e2-e447-460d-a5b2-e662d6813afe","alterId":0,"tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_Telegram（@djkkdcx）_2_23","type":"vmess","server":"zf.lalayun.cyou","port":47931,"cipher":"auto","uuid":"b1553abe-6f1f-3288-bfc2-908b2f9fc4fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"zf.lalayun.cyou"}}}
-  - {"name":"香港_Telegram（@djkkdcx）_3_24","type":"vmess","server":"zf.lalayun.cyou","port":10163,"cipher":"auto","uuid":"b1553abe-6f1f-3288-bfc2-908b2f9fc4fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"zf.lalayun.cyou"}}}
-  - {"name":"香港_Telegram（@djkkdcx）_4_25","type":"vmess","server":"zf.lalayun.cyou","port":47931,"cipher":"auto","uuid":"b1553abe-6f1f-3288-bfc2-908b2f9fc4fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"hk.lalayunssl.xyz"}}}
-  - {"name":"香港_Telegram（@djkkdcx）\r_1_26","type":"ss","server":"beromo.youxinye.com","port":22001,"password":"91ee9465-8be4-4735-80de-f80023b8eaae","cipher":"aes-128-gcm"}
-  - {"name":"香港_Telegram（@djkkdcx）_5_27","type":"vmess","server":"120.233.42.83","port":20207,"cipher":"auto","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/debian","headers":{"host":"120.233.42.83"}}}
-  - {"name":"香港_Telegram（@djkkdcx）_6_28","type":"vmess","server":"120.233.42.83","port":20206,"cipher":"auto","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/debian","headers":{"host":"data-hk-v1.usabooks.com.cn"}}}
-  - {"name":"香港_Telegram（@djkkdcx）_7_29","type":"vmess","server":"data-hk-v1.usabooks.com.cn","port":20206,"cipher":"auto","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/debian","headers":{"host":"data-hk-v1.usabooks.com.cn"}}}
-  - {"name":"香港_Telegram（@djkkdcx）_8_30","type":"vmess","server":"data-jp-v1.usabooks.com.cn","port":20301,"cipher":"auto","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/debian","headers":{"host":"data-jp-v1.usabooks.com.cn"}}}
-  - {"name":"香港_Telegram（@djkkdcx）\r_2_31","type":"vless","server":"103.184.44.62","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"香港_Telegram（@djkkdcx）_9_32","type":"vmess","server":"zf.lalayun.cyou","port":10163,"cipher":"auto","uuid":"b1553abe-6f1f-3288-bfc2-908b2f9fc4fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"hk.lalayunssl.xyz"}}}
-  - {"name":"香港_Telegram（@djkkdcx）_10_33","type":"vmess","server":"data-us-v1.shwjfkw.cn","port":20401,"cipher":"auto","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/debian","headers":{"host":"data-us-v1.shwjfkw.cn"}}}
-  - {"name":"西班牙_Telegram（@djkkdcx）\r_34","type":"vless","server":"185.18.250.185","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"乌克兰_Telegram（@djkkdcx）\r_35","type":"vless","server":"45.80.111.38","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"塞舌尔_Telegram（@djkkdcx）\r_1_36","type":"vless","server":"45.133.247.151","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"塞舌尔_Telegram（@djkkdcx）\r_2_37","type":"vless","server":"154.197.88.97","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"日本_Telegram（@djkkdcx）\r_38","type":"vless","server":"31.12.75.140","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"美国_Telegram（@djkkdcx）_1_39","type":"vmess","server":"104.19.40.99","port":8880,"cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d/65dd503.TG.WangCai2.WangCai_8:107690","headers":{"host":"uk.moss.network"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_2_40","type":"vmess","server":"104.249.173.159","port":40118,"cipher":"auto","uuid":"b89f5af7-e478-4b45-f1d5-1a5481acc15b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国_Telegram（@djkkdcx）\r_1_41","type":"vless","server":"185.148.106.44","port":2083,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"美国_Telegram（@djkkdcx）_3_42","type":"vmess","server":"104.249.173.159","port":40118,"cipher":"auto","uuid":"b89f5af7-e478-4b45-f1d5-1a5481acc15b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国_Telegram（@djkkdcx）_4_43","type":"vmess","server":"104.19.40.103","port":8880,"cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d/65dd503.TG.WangCai2.WangCai_8:107690","headers":{"host":"uk.moss.network"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_5_44","type":"vmess","server":"104.249.173.159","port":40118,"cipher":"auto","uuid":"b89f5af7-e478-4b45-f1d5-1a5481acc15b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国_Telegram（@djkkdcx）_6_45","type":"vmess","server":"172.67.188.156","port":8880,"cipher":"auto","uuid":"0d1bf26a-ce97-4707-a270-7f4d2ae37334","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"cdn.vds-server.ir"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_7_46","type":"vmess","server":"104.19.40.125","port":8880,"cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d/65dd503.TG.WangCai2.WangCai_8:107690","headers":{"host":"uk.moss.network"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_8_47","type":"vmess","server":"172.67.172.65","port":8080,"cipher":"auto","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"oiictw.yydsii.com"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_9_48","type":"vmess","server":"104.19.40.90","port":8880,"cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d/65dd503.TG.WangCai2.WangCai_8:107690","headers":{"host":"uk.moss.network"}}}
-  - {"name":"美国_Telegram（@djkkdcx）\r_2_49","type":"vless","server":"89.116.180.161","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"美国_Telegram（@djkkdcx）_10_50","type":"vmess","server":"speed.cloudflare.com","port":80,"cipher":"auto","uuid":"1052f24e-7b09-45eb-b0c5-d858eb124192","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/glweidf.cfd/linkws","headers":{"host":"freevpn878.hamidimorteza680.workers.dev"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_11_51","type":"vmess","server":"104.19.40.109","port":8880,"cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d/65dd503.TG.WangCai2.WangCai_8:107690","headers":{"host":"uk.moss.network"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_12_52","type":"vmess","server":"104.16.67.38","port":2095,"cipher":"auto","uuid":"18e5f40f-bda6-4c15-9334-e87cda6047af","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ming2.kiwireich.com/ray","headers":{"host":"uare-truth-7033.rijiwex893.workers.dev"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_13_53","type":"vmess","server":"104.21.25.98","port":80,"cipher":"auto","uuid":"e2e25aa2-aab9-486c-9ab4-495bcbcea4d8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"se2-vmess.sshmax.xyz"}}}
-  - {"name":"美国_Telegram（@djkkdcx）\r_3_54","type":"vless","server":"14.102.229.66","port":2087,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"美国_Telegram（@djkkdcx）_14_55","type":"vmess","server":"104.19.40.211","port":8880,"cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d/65dd503.TG.WangCai2.WangCai_8:107690","headers":{"host":"uk.moss.network"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_15_56","type":"vmess","server":"151.101.195.10","port":80,"cipher":"auto","uuid":"d39a347a-00c9-4f91-9255-7f536c07c5a8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aries?ed=2560","headers":{"host":"nmsl.kp"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_16_57","type":"vmess","server":"172.67.223.242","port":2086,"cipher":"auto","uuid":"e690ff9e-1676-4be3-d136-dcae586cb1e7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"mizban.arzonhost.ir"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_17_58","type":"vmess","server":"fcdn.flha.ru","port":2095,"cipher":"auto","uuid":"7a737f41-b792-4260-94ff-3d864da67b80","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"fcdn.flha.ru"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_18_59","type":"vmess","server":"104.21.4.14","port":2086,"cipher":"auto","uuid":"e690ff9e-1676-4be3-d136-dcae586cb1e7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"mizban.arzonhost.ir"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_19_60","type":"vmess","server":"de01.appleid.bf","port":2086,"cipher":"auto","uuid":"24b58175-fdcf-4ed8-82f8-bc23e7f8f348","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ws?ed=2048","headers":{"host":"de01.appleid.bf"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_20_61","type":"vmess","server":"fastly.alipay.ovh","port":80,"cipher":"auto","uuid":"d39a347a-00c9-4f91-9255-7f536c07c5a8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aries?ed=2560","headers":{"host":"nmsl.kp"}}}
-  - {"name":"美国_Telegram（@djkkdcx）\r_4_62","type":"vless","server":"89.116.180.130","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"美国_Telegram（@djkkdcx）_21_63","type":"vmess","server":"104.19.40.93","port":8880,"cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d/65dd503.TG.WangCai2.WangCai_8:107690","headers":{"host":"uk.moss.network"}}}
-  - {"name":"美国_Telegram（@djkkdcx）\r_5_64","type":"vless","server":"216.205.52.109","port":2083,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"美国_Telegram（@djkkdcx）_22_65","type":"vmess","server":"104.19.40.135","port":8880,"cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d/65dd503.TG.WangCai2.WangCai_8:107690","headers":{"host":"uk.moss.network"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_23_66","type":"vmess","server":"kr01.appleid.bf","port":2086,"cipher":"auto","uuid":"24b58175-fdcf-4ed8-82f8-bc23e7f8f348","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ws?ed=2048","headers":{"host":"kr01.appleid.bf"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_24_67","type":"vmess","server":"kr01.appleid.bf","port":2086,"cipher":"auto","uuid":"9ba2d813-155e-4174-bdd4-a374eb2ed7a0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ws?ed=2048","headers":{"host":"kr01.appleid.bf"}}}
-  - {"name":"美国_Telegram（@djkkdcx）\r_6_68","type":"vless","server":"45.159.218.162","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"美国_Telegram（@djkkdcx）_25_69","type":"vmess","server":"104.17.17.103","port":8080,"cipher":"auto","uuid":"028c8131-9e3e-4836-94ac-ea7f24d4d05a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm","headers":{"host":"booty-pensions-scheduling-blogging.trycloudflare.com"}}}
-  - {"name":"美国_Telegram（@djkkdcx）\r_7_70","type":"ss","server":"38.110.1.197","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"美国_Telegram（@djkkdcx）_26_71","type":"vmess","server":"104.19.40.174","port":8880,"cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d/65dd503.TG.WangCai2.WangCai_8:107690","headers":{"host":"uk.moss.network"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_27_72","type":"vmess","server":"172.67.172.219","port":8080,"cipher":"auto","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"oiictw.yydsii.com"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_28_73","type":"vmess","server":"yh4.dtku41.xyz","port":8080,"cipher":"auto","uuid":"028c8131-9e3e-4836-94ac-ea7f24d4d05a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm","headers":{"host":"booty-pensions-scheduling-blogging.trycloudflare.com"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_29_74","type":"vmess","server":"104.19.40.6","port":8880,"cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d/65dd503.TG.WangCai2.WangCai_8:107690","headers":{"host":"uk.moss.network"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_30_75","type":"vmess","server":"de01.appleid.bf","port":2086,"cipher":"auto","uuid":"9ba2d813-155e-4174-bdd4-a374eb2ed7a0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ws?ed=2048","headers":{"host":"de01.appleid.bf"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_31_76","type":"vmess","server":"172.67.185.79","port":8080,"cipher":"auto","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"oiictw.yydsii.com"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_32_77","type":"vmess","server":"tu.mahilu.site","port":2095,"cipher":"auto","uuid":"7a737f41-b792-4260-94ff-3d864da67b80","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tu.mahilu.site"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_33_78","type":"vmess","server":"104.19.40.45","port":8880,"cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d/65dd503.TG.WangCai2.WangCai_8:107690","headers":{"host":"uk.moss.network"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_34_79","type":"vmess","server":"104.19.40.242","port":8880,"cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d/65dd503.TG.WangCai2.WangCai_8:107690","headers":{"host":"uk.moss.network"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_35_80","type":"vmess","server":"jp01.appleid.bf","port":2086,"cipher":"auto","uuid":"24b58175-fdcf-4ed8-82f8-bc23e7f8f348","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ws?ed=2048","headers":{"host":"jp01.appleid.bf"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_36_81","type":"vmess","server":"172.67.199.211","port":8080,"cipher":"auto","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"oiictw.yydsii.com"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_37_82","type":"vmess","server":"151.101.3.10","port":80,"cipher":"auto","uuid":"d39a347a-00c9-4f91-9255-7f536c07c5a8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aries?ed=2560","headers":{"host":"nmsl.kp"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_38_83","type":"vmess","server":"us219.netfilx.live","port":80,"cipher":"auto","uuid":"1e65ec6d-9a42-4cd0-8c51-63030970134f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"us219.netfilx.live"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_39_84","type":"vmess","server":"172.67.169.90","port":8080,"cipher":"auto","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"oiictw.yydsii.com"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_40_85","type":"vmess","server":"104.21.82.39","port":2095,"cipher":"auto","uuid":"7a737f41-b792-4260-94ff-3d864da67b80","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tu.mahilu.site"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_41_86","type":"vmess","server":"172.67.185.64","port":8080,"cipher":"auto","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"oiictw.yydsii.com"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_42_87","type":"vmess","server":"104.19.40.131","port":8880,"cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d/65dd503.TG.WangCai2.WangCai_8:107690","headers":{"host":"uk.moss.network"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_43_88","type":"vmess","server":"104.249.173.159","port":40118,"cipher":"auto","uuid":"b89f5af7-e478-4b45-f1d5-1a5481acc15b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国_Telegram（@djkkdcx）_44_89","type":"vmess","server":"104.19.40.48","port":8880,"cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d/65dd503.TG.WangCai2.WangCai_8:107690","headers":{"host":"uk.moss.network"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_45_90","type":"vmess","server":"172.67.172.67","port":8080,"cipher":"auto","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"oiictw.yydsii.com"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_46_91","type":"vmess","server":"104.249.173.159","port":40118,"cipher":"auto","uuid":"b89f5af7-e478-4b45-f1d5-1a5481acc15b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国_Telegram（@djkkdcx）_47_92","type":"vmess","server":"104.19.40.178","port":8880,"cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d/65dd503.TG.WangCai2.WangCai_8:107690","headers":{"host":"uk.moss.network"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_48_93","type":"vmess","server":"104.21.4.14","port":2086,"cipher":"auto","uuid":"7d93e992-48cf-42d4-84f8-75768e815a4c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"admin.arzonhost.ir"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_49_94","type":"vmess","server":"104.20.26.40","port":8080,"cipher":"auto","uuid":"82cb93a3-65a9-4dac-a2a7-d997b6c26d6a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm","headers":{"host":"fantastic-doe-bids-ended.trycloudflare.com"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_50_95","type":"vmess","server":"172.67.199.185","port":8080,"cipher":"auto","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"oiictw.yydsii.com"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_51_96","type":"vmess","server":"104.19.40.84","port":8880,"cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d/65dd503.TG.WangCai2.WangCai_8:107690","headers":{"host":"uk.moss.network"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_52_97","type":"vmess","server":"beijing.mfa.ee","port":80,"cipher":"auto","uuid":"d39a347a-00c9-4f91-9255-7f536c07c5a8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"open.alipay.ovh"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_53_98","type":"vmess","server":"speed.cloudflare.com","port":80,"cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/obdii.cfd/linkws","headers":{"host":"d396-flower-d396.megare7260.workers.dev"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_54_99","type":"vmess","server":"104.19.40.26","port":8880,"cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d/65dd503.TG.WangCai2.WangCai_8:107690","headers":{"host":"uk.moss.network"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_55_100","type":"vmess","server":"104.249.173.159","port":40118,"cipher":"auto","uuid":"b89f5af7-e478-4b45-f1d5-1a5481acc15b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国_Telegram（@djkkdcx）_56_101","type":"vmess","server":"104.19.40.237","port":8880,"cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d/65dd503.TG.WangCai2.WangCai_8:107690","headers":{"host":"uk.moss.network"}}}
-  - {"name":"美国_Telegram（@djkkdcx）\r_8_102","type":"ss","server":"38.110.1.51","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
-  - {"name":"美国_Telegram（@djkkdcx）\r_9_103","type":"vless","server":"167.68.5.90","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"美国_Telegram（@djkkdcx）\r_10_104","type":"vless","server":"204.93.210.160","port":2083,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"美国_Telegram（@djkkdcx）_57_105","type":"vmess","server":"104.249.173.159","port":40118,"cipher":"auto","uuid":"b89f5af7-e478-4b45-f1d5-1a5481acc15b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国_Telegram（@djkkdcx）_58_106","type":"vmess","server":"yh5.dtku41.xyz","port":8080,"cipher":"auto","uuid":"82cb93a3-65a9-4dac-a2a7-d997b6c26d6a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm","headers":{"host":"fantastic-doe-bids-ended.trycloudflare.com"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_59_107","type":"vmess","server":"104.19.40.200","port":8880,"cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d/65dd503.TG.WangCai2.WangCai_8:107690","headers":{"host":"uk.moss.network"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_60_108","type":"vmess","server":"172.67.169.90","port":8080,"cipher":"auto","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"oiictw.yydsii.com"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_61_109","type":"vmess","server":"104.19.40.39","port":8880,"cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d/65dd503.TG.WangCai2.WangCai_8:107690","headers":{"host":"uk.moss.network"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_62_110","type":"vmess","server":"104.21.4.14","port":2086,"cipher":"auto","uuid":"7d93e992-48cf-42d4-84f8-75768e815a4c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"admin.arzonhost.ir"}}}
-  - {"name":"美国_Telegram（@djkkdcx）\r_11_111","type":"vless","server":"89.116.161.250","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"美国_Telegram（@djkkdcx）_63_112","type":"vmess","server":"172.67.223.242","port":2086,"cipher":"auto","uuid":"7d93e992-48cf-42d4-84f8-75768e815a4c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"admin.arzonhost.ir"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_64_113","type":"vmess","server":"172.67.199.144","port":8080,"cipher":"auto","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"oiictw.yydsii.com"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_65_114","type":"vmess","server":"104.19.40.185","port":8880,"cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d/65dd503.TG.WangCai2.WangCai_8:107690","headers":{"host":"uk.moss.network"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_66_115","type":"vmess","server":"104.19.40.107","port":8880,"cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d/65dd503.TG.WangCai2.WangCai_8:107690","headers":{"host":"uk.moss.network"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_67_116","type":"vmess","server":"speed.cloudflare.com","port":80,"cipher":"auto","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/hms02.fxiaomi.sbs/link","headers":{"host":"range-shape-b3fuegu.bananok182.workers.dev"}}}
-  - {"name":"美国_Telegram（@djkkdcx）\r_12_117","type":"vless","server":"89.116.180.161","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"美国_Telegram（@djkkdcx）\r_13_118","type":"vless","server":"159.112.235.14","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"美国_Telegram（@djkkdcx）_68_119","type":"vmess","server":"104.21.23.231","port":2095,"cipher":"auto","uuid":"7a737f41-b792-4260-94ff-3d864da67b80","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"fcdn.flha.ru"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_69_120","type":"vmess","server":"104.19.40.64","port":8880,"cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d/65dd503.TG.WangCai2.WangCai_8:107690","headers":{"host":"uk.moss.network"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_70_121","type":"vmess","server":"104.19.40.158","port":8880,"cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d/65dd503.TG.WangCai2.WangCai_8:107690","headers":{"host":"uk.moss.network"}}}
-  - {"name":"美国_Telegram（@djkkdcx）\r_14_122","type":"vless","server":"216.116.134.43","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"美国_Telegram（@djkkdcx）_71_123","type":"vmess","server":"172.67.214.33","port":2095,"cipher":"auto","uuid":"7a737f41-b792-4260-94ff-3d864da67b80","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"fcdn.flha.ru"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_72_124","type":"vmess","server":"cdn.vds-server.ir","port":8880,"cipher":"auto","uuid":"0d1bf26a-ce97-4707-a270-7f4d2ae37334","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"cdn.vds-server.ir"}}}
-  - {"name":"美国_Telegram（@djkkdcx）\r_15_125","type":"vless","server":"14.102.228.210","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"美国_Telegram（@djkkdcx）_73_126","type":"vmess","server":"104.249.173.159","port":40118,"cipher":"auto","uuid":"b89f5af7-e478-4b45-f1d5-1a5481acc15b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国_Telegram（@djkkdcx）\r_16_127","type":"ss","server":"38.110.1.51","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
-  - {"name":"美国_Telegram（@djkkdcx）_74_128","type":"vmess","server":"104.19.40.228","port":8880,"cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d/65dd503.TG.WangCai2.WangCai_8:107690","headers":{"host":"uk.moss.network"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_75_129","type":"vmess","server":"172.67.172.176","port":8080,"cipher":"auto","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"oiictw.yydsii.com"}}}
-  - {"name":"美国_Telegram（@djkkdcx）_76_130","type":"vmess","server":"104.21.30.254","port":443,"cipher":"auto","uuid":"6d9911b0-4e14-44fb-8883-52d14f550cca","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"be2-vmess.sshmax.xyz"}}}
-  - {"name":"美国_Telegram（@djkkdcx）\r_17_131","type":"ss","server":"38.110.1.111","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"马耳他_Telegram（@djkkdcx）\r_132","type":"vless","server":"193.227.99.183","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"卢森堡_Telegram（@djkkdcx）\r_1_133","type":"vless","server":"94.242.230.177","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"卢森堡_Telegram（@djkkdcx）\r_2_134","type":"vless","server":"94.242.229.9","port":2083,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"立陶宛_Telegram（@djkkdcx）\r_1_135","type":"vless","server":"88.216.66.38","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"立陶宛_Telegram（@djkkdcx）\r_2_136","type":"vless","server":"88.216.66.193","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"立陶宛_Telegram（@djkkdcx）\r_3_137","type":"vless","server":"89.116.250.6","port":2083,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"荷兰_Telegram（@djkkdcx）_138","type":"vmess","server":"188.114.98.0","port":2086,"cipher":"auto","uuid":"7d93e992-48cf-42d4-84f8-75768e815a4c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"admin.arzonhost.ir"}}}
-  - {"name":"俄罗斯联邦_Telegram（@djkkdcx）_1_139","type":"vmess","server":"45.147.200.203","port":18234,"cipher":"auto","uuid":"a5bd5d62-5d32-4939-a0c5-2e2c22f90461","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"俄罗斯联邦_Telegram（@djkkdcx）_2_140","type":"vmess","server":"45.147.200.203","port":18234,"cipher":"auto","uuid":"a5bd5d62-5d32-4939-a0c5-2e2c22f90461","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"俄罗斯联邦_Telegram（@djkkdcx）\r_1_141","type":"ss","server":"77.105.166.253","port":30754,"password":"p0p22zpViucWLYzZfTkYTQ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"俄罗斯联邦_Telegram（@djkkdcx）\r_2_142","type":"vless","server":"185.176.24.140","port":2087,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"俄罗斯联邦_Telegram（@djkkdcx）_3_143","type":"vmess","server":"45.147.200.203","port":18234,"cipher":"auto","uuid":"a5bd5d62-5d32-4939-a0c5-2e2c22f90461","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"保加利亚_Telegram（@djkkdcx）\r_144","type":"vless","server":"147.78.140.5","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"阿联酋_Telegram（@djkkdcx）_1_145","type":"vmess","server":"94.140.0.110","port":8880,"cipher":"auto","uuid":"0d1bf26a-ce97-4707-a270-7f4d2ae37334","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"food.zhaal.ir"}}}
-  - {"name":"阿联酋_Telegram（@djkkdcx）_2_146","type":"vmess","server":"94.140.0.110","port":8880,"cipher":"auto","uuid":"0d1bf26a-ce97-4707-a270-7f4d2ae37334","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"food.zhaal.ir"}}}
-  - {"name":"阿联酋_Telegram（@djkkdcx）\r_147","type":"vless","server":"181.214.1.242","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"🇹🇬_多哥_-@djkkdcx-4.20号_1","type":"vless","server":"3.251.31.39","port":22222,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"servername":"telegram-channel-vlessconfig.sohala.uk","network":"ws","ws-opts":{"path":"/telegram-channel-vlessconfig-ws"}}
+  - {"name":"🇹🇬_多哥_-@djkkdcx-4.20号_2","type":"vless","server":"185.148.105.52","port":443,"uuid":"4c1983a8-1802-46f1-8837-aaf33958ed46","tls":true,"servername":"fln1.novinping.com","network":"ws","ws-opts":{"path":"/MgFwdcE2Hs2cgQYI0W"}}
+  - {"name":"🇹🇬_多哥_-@djkkdcx-4.20号_3","type":"vless","server":"172.67.204.84","port":2083,"uuid":"f21bd1f1-e293-40a0-974b-8825eaf89e66","tls":true,"servername":"dlqz.meysaam.com","network":"grpc"}
+  - {"name":"🇹🇬_多哥_-@djkkdcx-4.20号_4","type":"vless","server":"104.21.69.44","port":2083,"uuid":"f21bd1f1-e293-40a0-974b-8825eaf89e66","tls":true,"servername":"dlqz.meysaam.com","network":"grpc"}
+  - {"name":"🇹🇬_多哥_-@djkkdcx-4.20号_5","type":"vless","server":"104.17.42.10","port":2083,"uuid":"f21bd1f1-e293-40a0-974b-8825eaf89e66","tls":true,"servername":"dlqz.meysaam.com","network":"grpc"}
+  - {"name":"🇹🇬_多哥_-@djkkdcx-4.20号_6","type":"vless","server":"172.67.204.84","port":2083,"uuid":"f21bd1f1-e293-40a0-974b-8825eaf89e66","tls":true,"servername":"dlqz.meysaam.com","network":"grpc"}
+  - {"name":"🇹🇬_多哥_-@djkkdcx-4.20号_7","type":"vless","server":"13.42.116.142","port":22222,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"servername":"telegram-channel-vlessconfig.sohala.uk","network":"ws","ws-opts":{"path":"/telegram-channel-vlessconfig-ws"}}
+  - {"name":"🇹🇬_多哥_-@djkkdcx-4.20号_8","type":"vless","server":"185.148.105.52","port":443,"uuid":"4c1983a8-1802-46f1-8837-aaf33958ed46","tls":true,"servername":"fln1.novinping.com","network":"ws","ws-opts":{"path":"/MgFwdcE2Hs2cgQYI0W"}}
+  - {"name":"🇹🇬_多哥_-@djkkdcx-4.20号_9","type":"vless","server":"172.67.204.84","port":2083,"uuid":"f21bd1f1-e293-40a0-974b-8825eaf89e66","tls":true,"servername":"dlqz.meysaam.com","network":"grpc"}
+  - {"name":"🇹🇬_多哥_-@djkkdcx-4.20号_10","type":"vless","server":"104.21.69.44","port":2083,"uuid":"f21bd1f1-e293-40a0-974b-8825eaf89e66","tls":true,"servername":"dlqz.meysaam.com","network":"grpc"}
+  - {"name":"🇹🇬_多哥_-@djkkdcx-4.20号_11","type":"vless","server":"104.17.42.10","port":2083,"uuid":"f21bd1f1-e293-40a0-974b-8825eaf89e66","tls":true,"servername":"dlqz.meysaam.com","network":"grpc"}
+  - {"name":"🇹🇬_多哥_-@djkkdcx-4.20号_12","type":"vless","server":"172.67.204.84","port":2083,"uuid":"f21bd1f1-e293-40a0-974b-8825eaf89e66","tls":true,"servername":"dlqz.meysaam.com","network":"grpc"}
+  - {"name":"🇹🇬_多哥_-@djkkdcx-4.20号_13","type":"vless","server":"34.249.172.241","port":22222,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"servername":"telegram-channel-vlessconfig.sohala.uk","network":"ws","ws-opts":{"path":"/telegram-channel-vlessconfig-ws"}}
+  - {"name":"🇹🇬_多哥_-@djkkdcx-4.20号_14","type":"vless","server":"185.148.105.52","port":443,"uuid":"4c1983a8-1802-46f1-8837-aaf33958ed46","tls":true,"servername":"fln1.novinping.com","network":"ws","ws-opts":{"path":"/MgFwdcE2Hs2cgQYI0W"}}
+  - {"name":"🇹🇬_多哥_-@djkkdcx-4.20号_15","type":"vless","server":"172.67.204.84","port":2083,"uuid":"f21bd1f1-e293-40a0-974b-8825eaf89e66","tls":true,"servername":"dlqz.meysaam.com","network":"grpc"}
+  - {"name":"🇹🇬_多哥_-@djkkdcx-4.20号_16","type":"vless","server":"104.21.69.44","port":2083,"uuid":"f21bd1f1-e293-40a0-974b-8825eaf89e66","tls":true,"servername":"dlqz.meysaam.com","network":"grpc"}
+  - {"name":"🇹🇬_多哥_-@djkkdcx-4.20号_17","type":"vless","server":"104.17.42.10","port":2083,"uuid":"f21bd1f1-e293-40a0-974b-8825eaf89e66","tls":true,"servername":"dlqz.meysaam.com","network":"grpc"}
+  - {"name":"🇹🇬_多哥_-@djkkdcx-4.20号_18","type":"vless","server":"172.67.204.84","port":2083,"uuid":"f21bd1f1-e293-40a0-974b-8825eaf89e66","tls":true,"servername":"dlqz.meysaam.com","network":"grpc"}
+  - {"name":"英国_Telegram（@djkkdcx）\r_1_19","type":"vless","server":"94.247.142.245","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"英国_Telegram（@djkkdcx）\r_2_20","type":"vless","server":"31.22.116.134","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"英国_Telegram（@djkkdcx）\r_3_21","type":"vless","server":"94.247.142.245","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"英国_Telegram（@djkkdcx）\r_4_22","type":"vless","server":"94.247.142.245","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"英国_Telegram（@djkkdcx）\r_5_23","type":"ss","server":"52.151.74.225","port":62651,"password":"fNDeeFNHeI9cKZkvgERq8n","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"新加坡_Telegram（@djkkdcx）\r_1_24","type":"vless","server":"27.50.48.222","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"新加坡_Telegram（@djkkdcx）\r_2_25","type":"trojan","server":"sg01.freeflyingcloud.xyz","port":35702,"udp":true,"password":"78e56e35-b9b8-4ad6-85b4-0f12431db62b","sni":"sg01.freeflyingcloud.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡_Telegram（@djkkdcx）\r_3_26","type":"trojan","server":"sg01.freeflyingcloud.xyz","port":35702,"udp":true,"password":"d9254b13-7175-4183-a691-518f8f0409a9","sni":"sg01.freeflyingcloud.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡_Telegram（@djkkdcx）\r_4_27","type":"trojan","server":"sg01.freeflyingcloud.xyz","port":35702,"udp":true,"password":"68dc22fb-e7f3-4806-acd7-b4182d80981e","sni":"sg01.freeflyingcloud.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡_Telegram（@djkkdcx）\r_5_28","type":"trojan","server":"sg01.freeflyingcloud.xyz","port":35702,"udp":true,"password":"4378e5d1-cddd-42b0-bcc5-d4350fc59b4a","sni":"sg01.freeflyingcloud.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡_Telegram（@djkkdcx）\r_6_29","type":"trojan","server":"sg01.freeflyingcloud.xyz","port":35702,"udp":true,"password":"6d257b63-0632-4dd6-b021-3085f8dc28b2","sni":"sg01.freeflyingcloud.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡_Telegram（@djkkdcx）\r_7_30","type":"trojan","server":"sg01.freeflyingcloud.xyz","port":35702,"udp":true,"password":"4f10e74d-51cb-472a-8c2d-0ee36ccf0ff3","sni":"sg01.freeflyingcloud.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡_Telegram（@djkkdcx）\r_8_31","type":"trojan","server":"sg01.freeflyingcloud.xyz","port":35702,"udp":true,"password":"63db084a-e2ce-46db-9dd6-d4ed2c3d2663","sni":"sg01.freeflyingcloud.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡_Telegram（@djkkdcx）\r_9_32","type":"trojan","server":"sg01.freeflyingcloud.xyz","port":35702,"udp":true,"password":"89148410-25da-4dd9-8d32-247ca226e041","sni":"sg01.freeflyingcloud.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡_Telegram（@djkkdcx）\r_10_33","type":"trojan","server":"sg01.freeflyingcloud.xyz","port":35702,"udp":true,"password":"6010117d-c631-450d-b24f-cb7e71cce238","sni":"sg01.freeflyingcloud.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡_Telegram（@djkkdcx）\r_11_34","type":"trojan","server":"sg01.freeflyingcloud.xyz","port":35702,"udp":true,"password":"904dd222-2514-4a68-9185-32f89113afd9","sni":"sg01.freeflyingcloud.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡_Telegram（@djkkdcx）\r_12_35","type":"trojan","server":"sg01.freeflyingcloud.xyz","port":35702,"udp":true,"password":"0f823acc-0136-4203-8151-7fd99677f5aa","sni":"sg01.freeflyingcloud.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡_Telegram（@djkkdcx）\r_13_36","type":"vless","server":"27.50.49.232","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"新加坡_Telegram（@djkkdcx）\r_14_37","type":"ss","server":"157.230.43.93","port":45238,"password":"RZDcjwNCCdxtV3M4MPV7kT","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港_Telegram（@djkkdcx）_1_38","type":"vmess","server":"br-v2ray.ipracevpn.com","port":8443,"cipher":"auto","uuid":"574363e2-e447-460d-a5b2-e662d6813afe","alterId":0,"tls":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港_Telegram（@djkkdcx）_2_39","type":"vmess","server":"zf.lalayun.cyou","port":47931,"cipher":"auto","uuid":"b1553abe-6f1f-3288-bfc2-908b2f9fc4fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"zf.lalayun.cyou"}}}
+  - {"name":"香港_Telegram（@djkkdcx）_3_40","type":"vmess","server":"zf.lalayun.cyou","port":10163,"cipher":"auto","uuid":"b1553abe-6f1f-3288-bfc2-908b2f9fc4fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"zf.lalayun.cyou"}}}
+  - {"name":"香港_Telegram（@djkkdcx）_4_41","type":"vmess","server":"zf.lalayun.cyou","port":47931,"cipher":"auto","uuid":"b1553abe-6f1f-3288-bfc2-908b2f9fc4fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"hk.lalayunssl.xyz"}}}
+  - {"name":"香港_Telegram（@djkkdcx）\r_1_42","type":"ss","server":"beromo.youxinye.com","port":22001,"password":"91ee9465-8be4-4735-80de-f80023b8eaae","cipher":"aes-128-gcm"}
+  - {"name":"香港_Telegram（@djkkdcx）_5_43","type":"vmess","server":"120.233.42.83","port":20207,"cipher":"auto","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/debian","headers":{"host":"120.233.42.83"}}}
+  - {"name":"香港_Telegram（@djkkdcx）_6_44","type":"vmess","server":"120.233.42.83","port":20206,"cipher":"auto","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/debian","headers":{"host":"data-hk-v1.usabooks.com.cn"}}}
+  - {"name":"香港_Telegram（@djkkdcx）_7_45","type":"vmess","server":"data-hk-v1.usabooks.com.cn","port":20206,"cipher":"auto","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/debian","headers":{"host":"data-hk-v1.usabooks.com.cn"}}}
+  - {"name":"香港_Telegram（@djkkdcx）_8_46","type":"vmess","server":"data-jp-v1.usabooks.com.cn","port":20301,"cipher":"auto","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/debian","headers":{"host":"data-jp-v1.usabooks.com.cn"}}}
+  - {"name":"香港_Telegram（@djkkdcx）\r_2_47","type":"vless","server":"103.184.44.62","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"香港_Telegram（@djkkdcx）_9_48","type":"vmess","server":"zf.lalayun.cyou","port":10163,"cipher":"auto","uuid":"b1553abe-6f1f-3288-bfc2-908b2f9fc4fc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"hk.lalayunssl.xyz"}}}
+  - {"name":"香港_Telegram（@djkkdcx）_10_49","type":"vmess","server":"data-us-v1.shwjfkw.cn","port":20401,"cipher":"auto","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/debian","headers":{"host":"data-us-v1.shwjfkw.cn"}}}
+  - {"name":"西班牙_Telegram（@djkkdcx）\r_50","type":"vless","server":"185.18.250.185","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"乌克兰_Telegram（@djkkdcx）\r_51","type":"vless","server":"45.80.111.38","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"塞舌尔_Telegram（@djkkdcx）\r_1_52","type":"vless","server":"45.133.247.151","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"塞舌尔_Telegram（@djkkdcx）\r_2_53","type":"vless","server":"154.197.88.97","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"日本_Telegram（@djkkdcx）\r_54","type":"vless","server":"31.12.75.140","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"美国_Telegram（@djkkdcx）\r_1_55","type":"vless","server":"185.148.106.44","port":2083,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"美国_Telegram（@djkkdcx）\r_2_56","type":"vless","server":"89.116.180.161","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"美国_Telegram（@djkkdcx）_1_57","type":"vmess","server":"speed.cloudflare.com","port":80,"cipher":"auto","uuid":"1052f24e-7b09-45eb-b0c5-d858eb124192","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/glweidf.cfd/linkws","headers":{"host":"freevpn878.hamidimorteza680.workers.dev"}}}
+  - {"name":"美国_Telegram（@djkkdcx）_2_58","type":"vmess","server":"104.16.67.38","port":2095,"cipher":"auto","uuid":"18e5f40f-bda6-4c15-9334-e87cda6047af","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ming2.kiwireich.com/ray","headers":{"host":"uare-truth-7033.rijiwex893.workers.dev"}}}
+  - {"name":"美国_Telegram（@djkkdcx）_3_59","type":"vmess","server":"104.21.25.98","port":80,"cipher":"auto","uuid":"e2e25aa2-aab9-486c-9ab4-495bcbcea4d8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"se2-vmess.sshmax.xyz"}}}
+  - {"name":"美国_Telegram（@djkkdcx）\r_3_60","type":"vless","server":"14.102.229.66","port":2087,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"美国_Telegram（@djkkdcx）_4_61","type":"vmess","server":"151.101.195.10","port":80,"cipher":"auto","uuid":"d39a347a-00c9-4f91-9255-7f536c07c5a8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aries?ed=2560","headers":{"host":"nmsl.kp"}}}
+  - {"name":"美国_Telegram（@djkkdcx）_5_62","type":"vmess","server":"172.67.223.242","port":2086,"cipher":"auto","uuid":"e690ff9e-1676-4be3-d136-dcae586cb1e7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"mizban.arzonhost.ir"}}}
+  - {"name":"美国_Telegram（@djkkdcx）_6_63","type":"vmess","server":"fcdn.flha.ru","port":2095,"cipher":"auto","uuid":"7a737f41-b792-4260-94ff-3d864da67b80","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"fcdn.flha.ru"}}}
+  - {"name":"美国_Telegram（@djkkdcx）_7_64","type":"vmess","server":"104.21.4.14","port":2086,"cipher":"auto","uuid":"e690ff9e-1676-4be3-d136-dcae586cb1e7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"mizban.arzonhost.ir"}}}
+  - {"name":"美国_Telegram（@djkkdcx）_8_65","type":"vmess","server":"de01.appleid.bf","port":2086,"cipher":"auto","uuid":"24b58175-fdcf-4ed8-82f8-bc23e7f8f348","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ws?ed=2048","headers":{"host":"de01.appleid.bf"}}}
+  - {"name":"美国_Telegram（@djkkdcx）_9_66","type":"vmess","server":"fastly.alipay.ovh","port":80,"cipher":"auto","uuid":"d39a347a-00c9-4f91-9255-7f536c07c5a8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aries?ed=2560","headers":{"host":"nmsl.kp"}}}
+  - {"name":"美国_Telegram（@djkkdcx）\r_4_67","type":"vless","server":"89.116.180.130","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"美国_Telegram（@djkkdcx）\r_5_68","type":"vless","server":"216.205.52.109","port":2083,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"美国_Telegram（@djkkdcx）_10_69","type":"vmess","server":"kr01.appleid.bf","port":2086,"cipher":"auto","uuid":"24b58175-fdcf-4ed8-82f8-bc23e7f8f348","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ws?ed=2048","headers":{"host":"kr01.appleid.bf"}}}
+  - {"name":"美国_Telegram（@djkkdcx）\r_6_70","type":"vless","server":"45.159.218.162","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"美国_Telegram（@djkkdcx）_11_71","type":"vmess","server":"104.17.17.103","port":8080,"cipher":"auto","uuid":"028c8131-9e3e-4836-94ac-ea7f24d4d05a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm","headers":{"host":"booty-pensions-scheduling-blogging.trycloudflare.com"}}}
+  - {"name":"美国_Telegram（@djkkdcx）\r_7_72","type":"ss","server":"38.110.1.197","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"美国_Telegram（@djkkdcx）_12_73","type":"vmess","server":"de01.appleid.bf","port":2086,"cipher":"auto","uuid":"9ba2d813-155e-4174-bdd4-a374eb2ed7a0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ws?ed=2048","headers":{"host":"de01.appleid.bf"}}}
+  - {"name":"美国_Telegram（@djkkdcx）_13_74","type":"vmess","server":"tu.mahilu.site","port":2095,"cipher":"auto","uuid":"7a737f41-b792-4260-94ff-3d864da67b80","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tu.mahilu.site"}}}
+  - {"name":"美国_Telegram（@djkkdcx）_14_75","type":"vmess","server":"jp01.appleid.bf","port":2086,"cipher":"auto","uuid":"24b58175-fdcf-4ed8-82f8-bc23e7f8f348","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ws?ed=2048","headers":{"host":"jp01.appleid.bf"}}}
+  - {"name":"美国_Telegram（@djkkdcx）_15_76","type":"vmess","server":"104.21.82.39","port":2095,"cipher":"auto","uuid":"7a737f41-b792-4260-94ff-3d864da67b80","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tu.mahilu.site"}}}
+  - {"name":"美国_Telegram（@djkkdcx）_16_77","type":"vmess","server":"104.21.4.14","port":2086,"cipher":"auto","uuid":"7d93e992-48cf-42d4-84f8-75768e815a4c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"admin.arzonhost.ir"}}}
+  - {"name":"美国_Telegram（@djkkdcx）_17_78","type":"vmess","server":"104.20.26.40","port":8080,"cipher":"auto","uuid":"82cb93a3-65a9-4dac-a2a7-d997b6c26d6a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm","headers":{"host":"fantastic-doe-bids-ended.trycloudflare.com"}}}
+  - {"name":"美国_Telegram（@djkkdcx）_18_79","type":"vmess","server":"beijing.mfa.ee","port":80,"cipher":"auto","uuid":"d39a347a-00c9-4f91-9255-7f536c07c5a8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"open.alipay.ovh"}}}
+  - {"name":"美国_Telegram（@djkkdcx）_19_80","type":"vmess","server":"speed.cloudflare.com","port":80,"cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/obdii.cfd/linkws","headers":{"host":"d396-flower-d396.megare7260.workers.dev"}}}
+  - {"name":"美国_Telegram（@djkkdcx）\r_8_81","type":"ss","server":"38.110.1.51","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"美国_Telegram（@djkkdcx）\r_9_82","type":"vless","server":"167.68.5.90","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"美国_Telegram（@djkkdcx）\r_10_83","type":"vless","server":"204.93.210.160","port":2083,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"美国_Telegram（@djkkdcx）_20_84","type":"vmess","server":"yh5.dtku41.xyz","port":8080,"cipher":"auto","uuid":"82cb93a3-65a9-4dac-a2a7-d997b6c26d6a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm","headers":{"host":"fantastic-doe-bids-ended.trycloudflare.com"}}}
+  - {"name":"美国_Telegram（@djkkdcx）_21_85","type":"vmess","server":"104.21.4.14","port":2086,"cipher":"auto","uuid":"7d93e992-48cf-42d4-84f8-75768e815a4c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"admin.arzonhost.ir"}}}
+  - {"name":"美国_Telegram（@djkkdcx）\r_11_86","type":"vless","server":"89.116.161.250","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"美国_Telegram（@djkkdcx）_22_87","type":"vmess","server":"172.67.223.242","port":2086,"cipher":"auto","uuid":"7d93e992-48cf-42d4-84f8-75768e815a4c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"admin.arzonhost.ir"}}}
+  - {"name":"美国_Telegram（@djkkdcx）\r_12_88","type":"vless","server":"89.116.180.161","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"美国_Telegram（@djkkdcx）\r_13_89","type":"vless","server":"159.112.235.14","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"美国_Telegram（@djkkdcx）\r_14_90","type":"vless","server":"216.116.134.43","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"美国_Telegram（@djkkdcx）_23_91","type":"vmess","server":"cdn.vds-server.ir","port":8880,"cipher":"auto","uuid":"0d1bf26a-ce97-4707-a270-7f4d2ae37334","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"cdn.vds-server.ir"}}}
+  - {"name":"美国_Telegram（@djkkdcx）\r_15_92","type":"vless","server":"14.102.228.210","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"美国_Telegram（@djkkdcx）\r_16_93","type":"ss","server":"38.110.1.51","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"美国_Telegram（@djkkdcx）_24_94","type":"vmess","server":"172.67.172.176","port":8080,"cipher":"auto","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"oiictw.yydsii.com"}}}
+  - {"name":"美国_Telegram（@djkkdcx）_25_95","type":"vmess","server":"104.21.30.254","port":443,"cipher":"auto","uuid":"6d9911b0-4e14-44fb-8883-52d14f550cca","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"be2-vmess.sshmax.xyz"}}}
+  - {"name":"美国_Telegram（@djkkdcx）\r_17_96","type":"ss","server":"38.110.1.111","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"马耳他_Telegram（@djkkdcx）\r_97","type":"vless","server":"193.227.99.183","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"卢森堡_Telegram（@djkkdcx）\r_1_98","type":"vless","server":"94.242.230.177","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"卢森堡_Telegram（@djkkdcx）\r_2_99","type":"vless","server":"94.242.229.9","port":2083,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"立陶宛_Telegram（@djkkdcx）\r_1_100","type":"vless","server":"88.216.66.38","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"立陶宛_Telegram（@djkkdcx）\r_2_101","type":"vless","server":"88.216.66.193","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"立陶宛_Telegram（@djkkdcx）\r_3_102","type":"vless","server":"89.116.250.6","port":2083,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"荷兰_Telegram（@djkkdcx）_103","type":"vmess","server":"188.114.98.0","port":2086,"cipher":"auto","uuid":"7d93e992-48cf-42d4-84f8-75768e815a4c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"admin.arzonhost.ir"}}}
+  - {"name":"俄罗斯联邦_Telegram（@djkkdcx）\r_104","type":"vless","server":"185.176.24.140","port":2087,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"保加利亚_Telegram（@djkkdcx）\r_105","type":"vless","server":"147.78.140.5","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"阿联酋_Telegram（@djkkdcx）_106","type":"vmess","server":"94.140.0.110","port":8880,"cipher":"auto","uuid":"0d1bf26a-ce97-4707-a270-7f4d2ae37334","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"food.zhaal.ir"}}}
+  - {"name":"阿联酋_Telegram（@djkkdcx）\r_107","type":"vless","server":"181.214.1.242","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "英国_Telegram（@djkkdcx）\r_1_1"
-      - "英国_Telegram（@djkkdcx）\r_2_2"
-      - "英国_Telegram（@djkkdcx）\r_3_3"
-      - "英国_Telegram（@djkkdcx）\r_4_4"
-      - "英国_Telegram（@djkkdcx）\r_5_5"
-      - 伊朗_Telegram（@djkkdcx）_1_6
-      - 伊朗_Telegram（@djkkdcx）_2_7
-      - "新加坡_Telegram（@djkkdcx）\r_1_8"
-      - "新加坡_Telegram（@djkkdcx）\r_2_9"
-      - "新加坡_Telegram（@djkkdcx）\r_3_10"
-      - "新加坡_Telegram（@djkkdcx）\r_4_11"
-      - "新加坡_Telegram（@djkkdcx）\r_5_12"
-      - "新加坡_Telegram（@djkkdcx）\r_6_13"
-      - "新加坡_Telegram（@djkkdcx）\r_7_14"
-      - "新加坡_Telegram（@djkkdcx）\r_8_15"
-      - "新加坡_Telegram（@djkkdcx）\r_9_16"
-      - "新加坡_Telegram（@djkkdcx）\r_10_17"
-      - "新加坡_Telegram（@djkkdcx）\r_11_18"
-      - "新加坡_Telegram（@djkkdcx）\r_12_19"
-      - "新加坡_Telegram（@djkkdcx）\r_13_20"
-      - "新加坡_Telegram（@djkkdcx）\r_14_21"
-      - 香港_Telegram（@djkkdcx）_1_22
-      - 香港_Telegram（@djkkdcx）_2_23
-      - 香港_Telegram（@djkkdcx）_3_24
-      - 香港_Telegram（@djkkdcx）_4_25
-      - "香港_Telegram（@djkkdcx）\r_1_26"
-      - 香港_Telegram（@djkkdcx）_5_27
-      - 香港_Telegram（@djkkdcx）_6_28
-      - 香港_Telegram（@djkkdcx）_7_29
-      - 香港_Telegram（@djkkdcx）_8_30
-      - "香港_Telegram（@djkkdcx）\r_2_31"
-      - 香港_Telegram（@djkkdcx）_9_32
-      - 香港_Telegram（@djkkdcx）_10_33
-      - "西班牙_Telegram（@djkkdcx）\r_34"
-      - "乌克兰_Telegram（@djkkdcx）\r_35"
-      - "塞舌尔_Telegram（@djkkdcx）\r_1_36"
-      - "塞舌尔_Telegram（@djkkdcx）\r_2_37"
-      - "日本_Telegram（@djkkdcx）\r_38"
-      - 美国_Telegram（@djkkdcx）_1_39
-      - 美国_Telegram（@djkkdcx）_2_40
-      - "美国_Telegram（@djkkdcx）\r_1_41"
-      - 美国_Telegram（@djkkdcx）_3_42
-      - 美国_Telegram（@djkkdcx）_4_43
-      - 美国_Telegram（@djkkdcx）_5_44
-      - 美国_Telegram（@djkkdcx）_6_45
-      - 美国_Telegram（@djkkdcx）_7_46
-      - 美国_Telegram（@djkkdcx）_8_47
-      - 美国_Telegram（@djkkdcx）_9_48
-      - "美国_Telegram（@djkkdcx）\r_2_49"
-      - 美国_Telegram（@djkkdcx）_10_50
-      - 美国_Telegram（@djkkdcx）_11_51
-      - 美国_Telegram（@djkkdcx）_12_52
-      - 美国_Telegram（@djkkdcx）_13_53
-      - "美国_Telegram（@djkkdcx）\r_3_54"
-      - 美国_Telegram（@djkkdcx）_14_55
-      - 美国_Telegram（@djkkdcx）_15_56
-      - 美国_Telegram（@djkkdcx）_16_57
-      - 美国_Telegram（@djkkdcx）_17_58
-      - 美国_Telegram（@djkkdcx）_18_59
-      - 美国_Telegram（@djkkdcx）_19_60
-      - 美国_Telegram（@djkkdcx）_20_61
-      - "美国_Telegram（@djkkdcx）\r_4_62"
-      - 美国_Telegram（@djkkdcx）_21_63
-      - "美国_Telegram（@djkkdcx）\r_5_64"
-      - 美国_Telegram（@djkkdcx）_22_65
-      - 美国_Telegram（@djkkdcx）_23_66
-      - 美国_Telegram（@djkkdcx）_24_67
-      - "美国_Telegram（@djkkdcx）\r_6_68"
-      - 美国_Telegram（@djkkdcx）_25_69
-      - "美国_Telegram（@djkkdcx）\r_7_70"
-      - 美国_Telegram（@djkkdcx）_26_71
-      - 美国_Telegram（@djkkdcx）_27_72
-      - 美国_Telegram（@djkkdcx）_28_73
-      - 美国_Telegram（@djkkdcx）_29_74
-      - 美国_Telegram（@djkkdcx）_30_75
-      - 美国_Telegram（@djkkdcx）_31_76
-      - 美国_Telegram（@djkkdcx）_32_77
-      - 美国_Telegram（@djkkdcx）_33_78
-      - 美国_Telegram（@djkkdcx）_34_79
-      - 美国_Telegram（@djkkdcx）_35_80
-      - 美国_Telegram（@djkkdcx）_36_81
-      - 美国_Telegram（@djkkdcx）_37_82
-      - 美国_Telegram（@djkkdcx）_38_83
-      - 美国_Telegram（@djkkdcx）_39_84
-      - 美国_Telegram（@djkkdcx）_40_85
-      - 美国_Telegram（@djkkdcx）_41_86
-      - 美国_Telegram（@djkkdcx）_42_87
-      - 美国_Telegram（@djkkdcx）_43_88
-      - 美国_Telegram（@djkkdcx）_44_89
-      - 美国_Telegram（@djkkdcx）_45_90
-      - 美国_Telegram（@djkkdcx）_46_91
-      - 美国_Telegram（@djkkdcx）_47_92
-      - 美国_Telegram（@djkkdcx）_48_93
-      - 美国_Telegram（@djkkdcx）_49_94
-      - 美国_Telegram（@djkkdcx）_50_95
-      - 美国_Telegram（@djkkdcx）_51_96
-      - 美国_Telegram（@djkkdcx）_52_97
-      - 美国_Telegram（@djkkdcx）_53_98
-      - 美国_Telegram（@djkkdcx）_54_99
-      - 美国_Telegram（@djkkdcx）_55_100
-      - 美国_Telegram（@djkkdcx）_56_101
-      - "美国_Telegram（@djkkdcx）\r_8_102"
-      - "美国_Telegram（@djkkdcx）\r_9_103"
-      - "美国_Telegram（@djkkdcx）\r_10_104"
-      - 美国_Telegram（@djkkdcx）_57_105
-      - 美国_Telegram（@djkkdcx）_58_106
-      - 美国_Telegram（@djkkdcx）_59_107
-      - 美国_Telegram（@djkkdcx）_60_108
-      - 美国_Telegram（@djkkdcx）_61_109
-      - 美国_Telegram（@djkkdcx）_62_110
-      - "美国_Telegram（@djkkdcx）\r_11_111"
-      - 美国_Telegram（@djkkdcx）_63_112
-      - 美国_Telegram（@djkkdcx）_64_113
-      - 美国_Telegram（@djkkdcx）_65_114
-      - 美国_Telegram（@djkkdcx）_66_115
-      - 美国_Telegram（@djkkdcx）_67_116
-      - "美国_Telegram（@djkkdcx）\r_12_117"
-      - "美国_Telegram（@djkkdcx）\r_13_118"
-      - 美国_Telegram（@djkkdcx）_68_119
-      - 美国_Telegram（@djkkdcx）_69_120
-      - 美国_Telegram（@djkkdcx）_70_121
-      - "美国_Telegram（@djkkdcx）\r_14_122"
-      - 美国_Telegram（@djkkdcx）_71_123
-      - 美国_Telegram（@djkkdcx）_72_124
-      - "美国_Telegram（@djkkdcx）\r_15_125"
-      - 美国_Telegram（@djkkdcx）_73_126
-      - "美国_Telegram（@djkkdcx）\r_16_127"
-      - 美国_Telegram（@djkkdcx）_74_128
-      - 美国_Telegram（@djkkdcx）_75_129
-      - 美国_Telegram（@djkkdcx）_76_130
-      - "美国_Telegram（@djkkdcx）\r_17_131"
-      - "马耳他_Telegram（@djkkdcx）\r_132"
-      - "卢森堡_Telegram（@djkkdcx）\r_1_133"
-      - "卢森堡_Telegram（@djkkdcx）\r_2_134"
-      - "立陶宛_Telegram（@djkkdcx）\r_1_135"
-      - "立陶宛_Telegram（@djkkdcx）\r_2_136"
-      - "立陶宛_Telegram（@djkkdcx）\r_3_137"
-      - 荷兰_Telegram（@djkkdcx）_138
-      - 俄罗斯联邦_Telegram（@djkkdcx）_1_139
-      - 俄罗斯联邦_Telegram（@djkkdcx）_2_140
-      - "俄罗斯联邦_Telegram（@djkkdcx）\r_1_141"
-      - "俄罗斯联邦_Telegram（@djkkdcx）\r_2_142"
-      - 俄罗斯联邦_Telegram（@djkkdcx）_3_143
-      - "保加利亚_Telegram（@djkkdcx）\r_144"
-      - 阿联酋_Telegram（@djkkdcx）_1_145
-      - 阿联酋_Telegram（@djkkdcx）_2_146
-      - "阿联酋_Telegram（@djkkdcx）\r_147"
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_1
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_2
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_3
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_4
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_5
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_6
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_7
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_8
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_9
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_10
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_11
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_12
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_13
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_14
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_15
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_16
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_17
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_18
+      - "英国_Telegram（@djkkdcx）\r_1_19"
+      - "英国_Telegram（@djkkdcx）\r_2_20"
+      - "英国_Telegram（@djkkdcx）\r_3_21"
+      - "英国_Telegram（@djkkdcx）\r_4_22"
+      - "英国_Telegram（@djkkdcx）\r_5_23"
+      - "新加坡_Telegram（@djkkdcx）\r_1_24"
+      - "新加坡_Telegram（@djkkdcx）\r_2_25"
+      - "新加坡_Telegram（@djkkdcx）\r_3_26"
+      - "新加坡_Telegram（@djkkdcx）\r_4_27"
+      - "新加坡_Telegram（@djkkdcx）\r_5_28"
+      - "新加坡_Telegram（@djkkdcx）\r_6_29"
+      - "新加坡_Telegram（@djkkdcx）\r_7_30"
+      - "新加坡_Telegram（@djkkdcx）\r_8_31"
+      - "新加坡_Telegram（@djkkdcx）\r_9_32"
+      - "新加坡_Telegram（@djkkdcx）\r_10_33"
+      - "新加坡_Telegram（@djkkdcx）\r_11_34"
+      - "新加坡_Telegram（@djkkdcx）\r_12_35"
+      - "新加坡_Telegram（@djkkdcx）\r_13_36"
+      - "新加坡_Telegram（@djkkdcx）\r_14_37"
+      - 香港_Telegram（@djkkdcx）_1_38
+      - 香港_Telegram（@djkkdcx）_2_39
+      - 香港_Telegram（@djkkdcx）_3_40
+      - 香港_Telegram（@djkkdcx）_4_41
+      - "香港_Telegram（@djkkdcx）\r_1_42"
+      - 香港_Telegram（@djkkdcx）_5_43
+      - 香港_Telegram（@djkkdcx）_6_44
+      - 香港_Telegram（@djkkdcx）_7_45
+      - 香港_Telegram（@djkkdcx）_8_46
+      - "香港_Telegram（@djkkdcx）\r_2_47"
+      - 香港_Telegram（@djkkdcx）_9_48
+      - 香港_Telegram（@djkkdcx）_10_49
+      - "西班牙_Telegram（@djkkdcx）\r_50"
+      - "乌克兰_Telegram（@djkkdcx）\r_51"
+      - "塞舌尔_Telegram（@djkkdcx）\r_1_52"
+      - "塞舌尔_Telegram（@djkkdcx）\r_2_53"
+      - "日本_Telegram（@djkkdcx）\r_54"
+      - "美国_Telegram（@djkkdcx）\r_1_55"
+      - "美国_Telegram（@djkkdcx）\r_2_56"
+      - 美国_Telegram（@djkkdcx）_1_57
+      - 美国_Telegram（@djkkdcx）_2_58
+      - 美国_Telegram（@djkkdcx）_3_59
+      - "美国_Telegram（@djkkdcx）\r_3_60"
+      - 美国_Telegram（@djkkdcx）_4_61
+      - 美国_Telegram（@djkkdcx）_5_62
+      - 美国_Telegram（@djkkdcx）_6_63
+      - 美国_Telegram（@djkkdcx）_7_64
+      - 美国_Telegram（@djkkdcx）_8_65
+      - 美国_Telegram（@djkkdcx）_9_66
+      - "美国_Telegram（@djkkdcx）\r_4_67"
+      - "美国_Telegram（@djkkdcx）\r_5_68"
+      - 美国_Telegram（@djkkdcx）_10_69
+      - "美国_Telegram（@djkkdcx）\r_6_70"
+      - 美国_Telegram（@djkkdcx）_11_71
+      - "美国_Telegram（@djkkdcx）\r_7_72"
+      - 美国_Telegram（@djkkdcx）_12_73
+      - 美国_Telegram（@djkkdcx）_13_74
+      - 美国_Telegram（@djkkdcx）_14_75
+      - 美国_Telegram（@djkkdcx）_15_76
+      - 美国_Telegram（@djkkdcx）_16_77
+      - 美国_Telegram（@djkkdcx）_17_78
+      - 美国_Telegram（@djkkdcx）_18_79
+      - 美国_Telegram（@djkkdcx）_19_80
+      - "美国_Telegram（@djkkdcx）\r_8_81"
+      - "美国_Telegram（@djkkdcx）\r_9_82"
+      - "美国_Telegram（@djkkdcx）\r_10_83"
+      - 美国_Telegram（@djkkdcx）_20_84
+      - 美国_Telegram（@djkkdcx）_21_85
+      - "美国_Telegram（@djkkdcx）\r_11_86"
+      - 美国_Telegram（@djkkdcx）_22_87
+      - "美国_Telegram（@djkkdcx）\r_12_88"
+      - "美国_Telegram（@djkkdcx）\r_13_89"
+      - "美国_Telegram（@djkkdcx）\r_14_90"
+      - 美国_Telegram（@djkkdcx）_23_91
+      - "美国_Telegram（@djkkdcx）\r_15_92"
+      - "美国_Telegram（@djkkdcx）\r_16_93"
+      - 美国_Telegram（@djkkdcx）_24_94
+      - 美国_Telegram（@djkkdcx）_25_95
+      - "美国_Telegram（@djkkdcx）\r_17_96"
+      - "马耳他_Telegram（@djkkdcx）\r_97"
+      - "卢森堡_Telegram（@djkkdcx）\r_1_98"
+      - "卢森堡_Telegram（@djkkdcx）\r_2_99"
+      - "立陶宛_Telegram（@djkkdcx）\r_1_100"
+      - "立陶宛_Telegram（@djkkdcx）\r_2_101"
+      - "立陶宛_Telegram（@djkkdcx）\r_3_102"
+      - 荷兰_Telegram（@djkkdcx）_103
+      - "俄罗斯联邦_Telegram（@djkkdcx）\r_104"
+      - "保加利亚_Telegram（@djkkdcx）\r_105"
+      - 阿联酋_Telegram（@djkkdcx）_106
+      - "阿联酋_Telegram（@djkkdcx）\r_107"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "英国_Telegram（@djkkdcx）\r_1_1"
-      - "英国_Telegram（@djkkdcx）\r_2_2"
-      - "英国_Telegram（@djkkdcx）\r_3_3"
-      - "英国_Telegram（@djkkdcx）\r_4_4"
-      - "英国_Telegram（@djkkdcx）\r_5_5"
-      - 伊朗_Telegram（@djkkdcx）_1_6
-      - 伊朗_Telegram（@djkkdcx）_2_7
-      - "新加坡_Telegram（@djkkdcx）\r_1_8"
-      - "新加坡_Telegram（@djkkdcx）\r_2_9"
-      - "新加坡_Telegram（@djkkdcx）\r_3_10"
-      - "新加坡_Telegram（@djkkdcx）\r_4_11"
-      - "新加坡_Telegram（@djkkdcx）\r_5_12"
-      - "新加坡_Telegram（@djkkdcx）\r_6_13"
-      - "新加坡_Telegram（@djkkdcx）\r_7_14"
-      - "新加坡_Telegram（@djkkdcx）\r_8_15"
-      - "新加坡_Telegram（@djkkdcx）\r_9_16"
-      - "新加坡_Telegram（@djkkdcx）\r_10_17"
-      - "新加坡_Telegram（@djkkdcx）\r_11_18"
-      - "新加坡_Telegram（@djkkdcx）\r_12_19"
-      - "新加坡_Telegram（@djkkdcx）\r_13_20"
-      - "新加坡_Telegram（@djkkdcx）\r_14_21"
-      - 香港_Telegram（@djkkdcx）_1_22
-      - 香港_Telegram（@djkkdcx）_2_23
-      - 香港_Telegram（@djkkdcx）_3_24
-      - 香港_Telegram（@djkkdcx）_4_25
-      - "香港_Telegram（@djkkdcx）\r_1_26"
-      - 香港_Telegram（@djkkdcx）_5_27
-      - 香港_Telegram（@djkkdcx）_6_28
-      - 香港_Telegram（@djkkdcx）_7_29
-      - 香港_Telegram（@djkkdcx）_8_30
-      - "香港_Telegram（@djkkdcx）\r_2_31"
-      - 香港_Telegram（@djkkdcx）_9_32
-      - 香港_Telegram（@djkkdcx）_10_33
-      - "西班牙_Telegram（@djkkdcx）\r_34"
-      - "乌克兰_Telegram（@djkkdcx）\r_35"
-      - "塞舌尔_Telegram（@djkkdcx）\r_1_36"
-      - "塞舌尔_Telegram（@djkkdcx）\r_2_37"
-      - "日本_Telegram（@djkkdcx）\r_38"
-      - 美国_Telegram（@djkkdcx）_1_39
-      - 美国_Telegram（@djkkdcx）_2_40
-      - "美国_Telegram（@djkkdcx）\r_1_41"
-      - 美国_Telegram（@djkkdcx）_3_42
-      - 美国_Telegram（@djkkdcx）_4_43
-      - 美国_Telegram（@djkkdcx）_5_44
-      - 美国_Telegram（@djkkdcx）_6_45
-      - 美国_Telegram（@djkkdcx）_7_46
-      - 美国_Telegram（@djkkdcx）_8_47
-      - 美国_Telegram（@djkkdcx）_9_48
-      - "美国_Telegram（@djkkdcx）\r_2_49"
-      - 美国_Telegram（@djkkdcx）_10_50
-      - 美国_Telegram（@djkkdcx）_11_51
-      - 美国_Telegram（@djkkdcx）_12_52
-      - 美国_Telegram（@djkkdcx）_13_53
-      - "美国_Telegram（@djkkdcx）\r_3_54"
-      - 美国_Telegram（@djkkdcx）_14_55
-      - 美国_Telegram（@djkkdcx）_15_56
-      - 美国_Telegram（@djkkdcx）_16_57
-      - 美国_Telegram（@djkkdcx）_17_58
-      - 美国_Telegram（@djkkdcx）_18_59
-      - 美国_Telegram（@djkkdcx）_19_60
-      - 美国_Telegram（@djkkdcx）_20_61
-      - "美国_Telegram（@djkkdcx）\r_4_62"
-      - 美国_Telegram（@djkkdcx）_21_63
-      - "美国_Telegram（@djkkdcx）\r_5_64"
-      - 美国_Telegram（@djkkdcx）_22_65
-      - 美国_Telegram（@djkkdcx）_23_66
-      - 美国_Telegram（@djkkdcx）_24_67
-      - "美国_Telegram（@djkkdcx）\r_6_68"
-      - 美国_Telegram（@djkkdcx）_25_69
-      - "美国_Telegram（@djkkdcx）\r_7_70"
-      - 美国_Telegram（@djkkdcx）_26_71
-      - 美国_Telegram（@djkkdcx）_27_72
-      - 美国_Telegram（@djkkdcx）_28_73
-      - 美国_Telegram（@djkkdcx）_29_74
-      - 美国_Telegram（@djkkdcx）_30_75
-      - 美国_Telegram（@djkkdcx）_31_76
-      - 美国_Telegram（@djkkdcx）_32_77
-      - 美国_Telegram（@djkkdcx）_33_78
-      - 美国_Telegram（@djkkdcx）_34_79
-      - 美国_Telegram（@djkkdcx）_35_80
-      - 美国_Telegram（@djkkdcx）_36_81
-      - 美国_Telegram（@djkkdcx）_37_82
-      - 美国_Telegram（@djkkdcx）_38_83
-      - 美国_Telegram（@djkkdcx）_39_84
-      - 美国_Telegram（@djkkdcx）_40_85
-      - 美国_Telegram（@djkkdcx）_41_86
-      - 美国_Telegram（@djkkdcx）_42_87
-      - 美国_Telegram（@djkkdcx）_43_88
-      - 美国_Telegram（@djkkdcx）_44_89
-      - 美国_Telegram（@djkkdcx）_45_90
-      - 美国_Telegram（@djkkdcx）_46_91
-      - 美国_Telegram（@djkkdcx）_47_92
-      - 美国_Telegram（@djkkdcx）_48_93
-      - 美国_Telegram（@djkkdcx）_49_94
-      - 美国_Telegram（@djkkdcx）_50_95
-      - 美国_Telegram（@djkkdcx）_51_96
-      - 美国_Telegram（@djkkdcx）_52_97
-      - 美国_Telegram（@djkkdcx）_53_98
-      - 美国_Telegram（@djkkdcx）_54_99
-      - 美国_Telegram（@djkkdcx）_55_100
-      - 美国_Telegram（@djkkdcx）_56_101
-      - "美国_Telegram（@djkkdcx）\r_8_102"
-      - "美国_Telegram（@djkkdcx）\r_9_103"
-      - "美国_Telegram（@djkkdcx）\r_10_104"
-      - 美国_Telegram（@djkkdcx）_57_105
-      - 美国_Telegram（@djkkdcx）_58_106
-      - 美国_Telegram（@djkkdcx）_59_107
-      - 美国_Telegram（@djkkdcx）_60_108
-      - 美国_Telegram（@djkkdcx）_61_109
-      - 美国_Telegram（@djkkdcx）_62_110
-      - "美国_Telegram（@djkkdcx）\r_11_111"
-      - 美国_Telegram（@djkkdcx）_63_112
-      - 美国_Telegram（@djkkdcx）_64_113
-      - 美国_Telegram（@djkkdcx）_65_114
-      - 美国_Telegram（@djkkdcx）_66_115
-      - 美国_Telegram（@djkkdcx）_67_116
-      - "美国_Telegram（@djkkdcx）\r_12_117"
-      - "美国_Telegram（@djkkdcx）\r_13_118"
-      - 美国_Telegram（@djkkdcx）_68_119
-      - 美国_Telegram（@djkkdcx）_69_120
-      - 美国_Telegram（@djkkdcx）_70_121
-      - "美国_Telegram（@djkkdcx）\r_14_122"
-      - 美国_Telegram（@djkkdcx）_71_123
-      - 美国_Telegram（@djkkdcx）_72_124
-      - "美国_Telegram（@djkkdcx）\r_15_125"
-      - 美国_Telegram（@djkkdcx）_73_126
-      - "美国_Telegram（@djkkdcx）\r_16_127"
-      - 美国_Telegram（@djkkdcx）_74_128
-      - 美国_Telegram（@djkkdcx）_75_129
-      - 美国_Telegram（@djkkdcx）_76_130
-      - "美国_Telegram（@djkkdcx）\r_17_131"
-      - "马耳他_Telegram（@djkkdcx）\r_132"
-      - "卢森堡_Telegram（@djkkdcx）\r_1_133"
-      - "卢森堡_Telegram（@djkkdcx）\r_2_134"
-      - "立陶宛_Telegram（@djkkdcx）\r_1_135"
-      - "立陶宛_Telegram（@djkkdcx）\r_2_136"
-      - "立陶宛_Telegram（@djkkdcx）\r_3_137"
-      - 荷兰_Telegram（@djkkdcx）_138
-      - 俄罗斯联邦_Telegram（@djkkdcx）_1_139
-      - 俄罗斯联邦_Telegram（@djkkdcx）_2_140
-      - "俄罗斯联邦_Telegram（@djkkdcx）\r_1_141"
-      - "俄罗斯联邦_Telegram（@djkkdcx）\r_2_142"
-      - 俄罗斯联邦_Telegram（@djkkdcx）_3_143
-      - "保加利亚_Telegram（@djkkdcx）\r_144"
-      - 阿联酋_Telegram（@djkkdcx）_1_145
-      - 阿联酋_Telegram（@djkkdcx）_2_146
-      - "阿联酋_Telegram（@djkkdcx）\r_147"
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_1
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_2
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_3
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_4
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_5
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_6
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_7
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_8
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_9
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_10
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_11
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_12
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_13
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_14
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_15
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_16
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_17
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_18
+      - "英国_Telegram（@djkkdcx）\r_1_19"
+      - "英国_Telegram（@djkkdcx）\r_2_20"
+      - "英国_Telegram（@djkkdcx）\r_3_21"
+      - "英国_Telegram（@djkkdcx）\r_4_22"
+      - "英国_Telegram（@djkkdcx）\r_5_23"
+      - "新加坡_Telegram（@djkkdcx）\r_1_24"
+      - "新加坡_Telegram（@djkkdcx）\r_2_25"
+      - "新加坡_Telegram（@djkkdcx）\r_3_26"
+      - "新加坡_Telegram（@djkkdcx）\r_4_27"
+      - "新加坡_Telegram（@djkkdcx）\r_5_28"
+      - "新加坡_Telegram（@djkkdcx）\r_6_29"
+      - "新加坡_Telegram（@djkkdcx）\r_7_30"
+      - "新加坡_Telegram（@djkkdcx）\r_8_31"
+      - "新加坡_Telegram（@djkkdcx）\r_9_32"
+      - "新加坡_Telegram（@djkkdcx）\r_10_33"
+      - "新加坡_Telegram（@djkkdcx）\r_11_34"
+      - "新加坡_Telegram（@djkkdcx）\r_12_35"
+      - "新加坡_Telegram（@djkkdcx）\r_13_36"
+      - "新加坡_Telegram（@djkkdcx）\r_14_37"
+      - 香港_Telegram（@djkkdcx）_1_38
+      - 香港_Telegram（@djkkdcx）_2_39
+      - 香港_Telegram（@djkkdcx）_3_40
+      - 香港_Telegram（@djkkdcx）_4_41
+      - "香港_Telegram（@djkkdcx）\r_1_42"
+      - 香港_Telegram（@djkkdcx）_5_43
+      - 香港_Telegram（@djkkdcx）_6_44
+      - 香港_Telegram（@djkkdcx）_7_45
+      - 香港_Telegram（@djkkdcx）_8_46
+      - "香港_Telegram（@djkkdcx）\r_2_47"
+      - 香港_Telegram（@djkkdcx）_9_48
+      - 香港_Telegram（@djkkdcx）_10_49
+      - "西班牙_Telegram（@djkkdcx）\r_50"
+      - "乌克兰_Telegram（@djkkdcx）\r_51"
+      - "塞舌尔_Telegram（@djkkdcx）\r_1_52"
+      - "塞舌尔_Telegram（@djkkdcx）\r_2_53"
+      - "日本_Telegram（@djkkdcx）\r_54"
+      - "美国_Telegram（@djkkdcx）\r_1_55"
+      - "美国_Telegram（@djkkdcx）\r_2_56"
+      - 美国_Telegram（@djkkdcx）_1_57
+      - 美国_Telegram（@djkkdcx）_2_58
+      - 美国_Telegram（@djkkdcx）_3_59
+      - "美国_Telegram（@djkkdcx）\r_3_60"
+      - 美国_Telegram（@djkkdcx）_4_61
+      - 美国_Telegram（@djkkdcx）_5_62
+      - 美国_Telegram（@djkkdcx）_6_63
+      - 美国_Telegram（@djkkdcx）_7_64
+      - 美国_Telegram（@djkkdcx）_8_65
+      - 美国_Telegram（@djkkdcx）_9_66
+      - "美国_Telegram（@djkkdcx）\r_4_67"
+      - "美国_Telegram（@djkkdcx）\r_5_68"
+      - 美国_Telegram（@djkkdcx）_10_69
+      - "美国_Telegram（@djkkdcx）\r_6_70"
+      - 美国_Telegram（@djkkdcx）_11_71
+      - "美国_Telegram（@djkkdcx）\r_7_72"
+      - 美国_Telegram（@djkkdcx）_12_73
+      - 美国_Telegram（@djkkdcx）_13_74
+      - 美国_Telegram（@djkkdcx）_14_75
+      - 美国_Telegram（@djkkdcx）_15_76
+      - 美国_Telegram（@djkkdcx）_16_77
+      - 美国_Telegram（@djkkdcx）_17_78
+      - 美国_Telegram（@djkkdcx）_18_79
+      - 美国_Telegram（@djkkdcx）_19_80
+      - "美国_Telegram（@djkkdcx）\r_8_81"
+      - "美国_Telegram（@djkkdcx）\r_9_82"
+      - "美国_Telegram（@djkkdcx）\r_10_83"
+      - 美国_Telegram（@djkkdcx）_20_84
+      - 美国_Telegram（@djkkdcx）_21_85
+      - "美国_Telegram（@djkkdcx）\r_11_86"
+      - 美国_Telegram（@djkkdcx）_22_87
+      - "美国_Telegram（@djkkdcx）\r_12_88"
+      - "美国_Telegram（@djkkdcx）\r_13_89"
+      - "美国_Telegram（@djkkdcx）\r_14_90"
+      - 美国_Telegram（@djkkdcx）_23_91
+      - "美国_Telegram（@djkkdcx）\r_15_92"
+      - "美国_Telegram（@djkkdcx）\r_16_93"
+      - 美国_Telegram（@djkkdcx）_24_94
+      - 美国_Telegram（@djkkdcx）_25_95
+      - "美国_Telegram（@djkkdcx）\r_17_96"
+      - "马耳他_Telegram（@djkkdcx）\r_97"
+      - "卢森堡_Telegram（@djkkdcx）\r_1_98"
+      - "卢森堡_Telegram（@djkkdcx）\r_2_99"
+      - "立陶宛_Telegram（@djkkdcx）\r_1_100"
+      - "立陶宛_Telegram（@djkkdcx）\r_2_101"
+      - "立陶宛_Telegram（@djkkdcx）\r_3_102"
+      - 荷兰_Telegram（@djkkdcx）_103
+      - "俄罗斯联邦_Telegram（@djkkdcx）\r_104"
+      - "保加利亚_Telegram（@djkkdcx）\r_105"
+      - 阿联酋_Telegram（@djkkdcx）_106
+      - "阿联酋_Telegram（@djkkdcx）\r_107"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "英国_Telegram（@djkkdcx）\r_1_1"
-      - "英国_Telegram（@djkkdcx）\r_2_2"
-      - "英国_Telegram（@djkkdcx）\r_3_3"
-      - "英国_Telegram（@djkkdcx）\r_4_4"
-      - "英国_Telegram（@djkkdcx）\r_5_5"
-      - 伊朗_Telegram（@djkkdcx）_1_6
-      - 伊朗_Telegram（@djkkdcx）_2_7
-      - "新加坡_Telegram（@djkkdcx）\r_1_8"
-      - "新加坡_Telegram（@djkkdcx）\r_2_9"
-      - "新加坡_Telegram（@djkkdcx）\r_3_10"
-      - "新加坡_Telegram（@djkkdcx）\r_4_11"
-      - "新加坡_Telegram（@djkkdcx）\r_5_12"
-      - "新加坡_Telegram（@djkkdcx）\r_6_13"
-      - "新加坡_Telegram（@djkkdcx）\r_7_14"
-      - "新加坡_Telegram（@djkkdcx）\r_8_15"
-      - "新加坡_Telegram（@djkkdcx）\r_9_16"
-      - "新加坡_Telegram（@djkkdcx）\r_10_17"
-      - "新加坡_Telegram（@djkkdcx）\r_11_18"
-      - "新加坡_Telegram（@djkkdcx）\r_12_19"
-      - "新加坡_Telegram（@djkkdcx）\r_13_20"
-      - "新加坡_Telegram（@djkkdcx）\r_14_21"
-      - 香港_Telegram（@djkkdcx）_1_22
-      - 香港_Telegram（@djkkdcx）_2_23
-      - 香港_Telegram（@djkkdcx）_3_24
-      - 香港_Telegram（@djkkdcx）_4_25
-      - "香港_Telegram（@djkkdcx）\r_1_26"
-      - 香港_Telegram（@djkkdcx）_5_27
-      - 香港_Telegram（@djkkdcx）_6_28
-      - 香港_Telegram（@djkkdcx）_7_29
-      - 香港_Telegram（@djkkdcx）_8_30
-      - "香港_Telegram（@djkkdcx）\r_2_31"
-      - 香港_Telegram（@djkkdcx）_9_32
-      - 香港_Telegram（@djkkdcx）_10_33
-      - "西班牙_Telegram（@djkkdcx）\r_34"
-      - "乌克兰_Telegram（@djkkdcx）\r_35"
-      - "塞舌尔_Telegram（@djkkdcx）\r_1_36"
-      - "塞舌尔_Telegram（@djkkdcx）\r_2_37"
-      - "日本_Telegram（@djkkdcx）\r_38"
-      - 美国_Telegram（@djkkdcx）_1_39
-      - 美国_Telegram（@djkkdcx）_2_40
-      - "美国_Telegram（@djkkdcx）\r_1_41"
-      - 美国_Telegram（@djkkdcx）_3_42
-      - 美国_Telegram（@djkkdcx）_4_43
-      - 美国_Telegram（@djkkdcx）_5_44
-      - 美国_Telegram（@djkkdcx）_6_45
-      - 美国_Telegram（@djkkdcx）_7_46
-      - 美国_Telegram（@djkkdcx）_8_47
-      - 美国_Telegram（@djkkdcx）_9_48
-      - "美国_Telegram（@djkkdcx）\r_2_49"
-      - 美国_Telegram（@djkkdcx）_10_50
-      - 美国_Telegram（@djkkdcx）_11_51
-      - 美国_Telegram（@djkkdcx）_12_52
-      - 美国_Telegram（@djkkdcx）_13_53
-      - "美国_Telegram（@djkkdcx）\r_3_54"
-      - 美国_Telegram（@djkkdcx）_14_55
-      - 美国_Telegram（@djkkdcx）_15_56
-      - 美国_Telegram（@djkkdcx）_16_57
-      - 美国_Telegram（@djkkdcx）_17_58
-      - 美国_Telegram（@djkkdcx）_18_59
-      - 美国_Telegram（@djkkdcx）_19_60
-      - 美国_Telegram（@djkkdcx）_20_61
-      - "美国_Telegram（@djkkdcx）\r_4_62"
-      - 美国_Telegram（@djkkdcx）_21_63
-      - "美国_Telegram（@djkkdcx）\r_5_64"
-      - 美国_Telegram（@djkkdcx）_22_65
-      - 美国_Telegram（@djkkdcx）_23_66
-      - 美国_Telegram（@djkkdcx）_24_67
-      - "美国_Telegram（@djkkdcx）\r_6_68"
-      - 美国_Telegram（@djkkdcx）_25_69
-      - "美国_Telegram（@djkkdcx）\r_7_70"
-      - 美国_Telegram（@djkkdcx）_26_71
-      - 美国_Telegram（@djkkdcx）_27_72
-      - 美国_Telegram（@djkkdcx）_28_73
-      - 美国_Telegram（@djkkdcx）_29_74
-      - 美国_Telegram（@djkkdcx）_30_75
-      - 美国_Telegram（@djkkdcx）_31_76
-      - 美国_Telegram（@djkkdcx）_32_77
-      - 美国_Telegram（@djkkdcx）_33_78
-      - 美国_Telegram（@djkkdcx）_34_79
-      - 美国_Telegram（@djkkdcx）_35_80
-      - 美国_Telegram（@djkkdcx）_36_81
-      - 美国_Telegram（@djkkdcx）_37_82
-      - 美国_Telegram（@djkkdcx）_38_83
-      - 美国_Telegram（@djkkdcx）_39_84
-      - 美国_Telegram（@djkkdcx）_40_85
-      - 美国_Telegram（@djkkdcx）_41_86
-      - 美国_Telegram（@djkkdcx）_42_87
-      - 美国_Telegram（@djkkdcx）_43_88
-      - 美国_Telegram（@djkkdcx）_44_89
-      - 美国_Telegram（@djkkdcx）_45_90
-      - 美国_Telegram（@djkkdcx）_46_91
-      - 美国_Telegram（@djkkdcx）_47_92
-      - 美国_Telegram（@djkkdcx）_48_93
-      - 美国_Telegram（@djkkdcx）_49_94
-      - 美国_Telegram（@djkkdcx）_50_95
-      - 美国_Telegram（@djkkdcx）_51_96
-      - 美国_Telegram（@djkkdcx）_52_97
-      - 美国_Telegram（@djkkdcx）_53_98
-      - 美国_Telegram（@djkkdcx）_54_99
-      - 美国_Telegram（@djkkdcx）_55_100
-      - 美国_Telegram（@djkkdcx）_56_101
-      - "美国_Telegram（@djkkdcx）\r_8_102"
-      - "美国_Telegram（@djkkdcx）\r_9_103"
-      - "美国_Telegram（@djkkdcx）\r_10_104"
-      - 美国_Telegram（@djkkdcx）_57_105
-      - 美国_Telegram（@djkkdcx）_58_106
-      - 美国_Telegram（@djkkdcx）_59_107
-      - 美国_Telegram（@djkkdcx）_60_108
-      - 美国_Telegram（@djkkdcx）_61_109
-      - 美国_Telegram（@djkkdcx）_62_110
-      - "美国_Telegram（@djkkdcx）\r_11_111"
-      - 美国_Telegram（@djkkdcx）_63_112
-      - 美国_Telegram（@djkkdcx）_64_113
-      - 美国_Telegram（@djkkdcx）_65_114
-      - 美国_Telegram（@djkkdcx）_66_115
-      - 美国_Telegram（@djkkdcx）_67_116
-      - "美国_Telegram（@djkkdcx）\r_12_117"
-      - "美国_Telegram（@djkkdcx）\r_13_118"
-      - 美国_Telegram（@djkkdcx）_68_119
-      - 美国_Telegram（@djkkdcx）_69_120
-      - 美国_Telegram（@djkkdcx）_70_121
-      - "美国_Telegram（@djkkdcx）\r_14_122"
-      - 美国_Telegram（@djkkdcx）_71_123
-      - 美国_Telegram（@djkkdcx）_72_124
-      - "美国_Telegram（@djkkdcx）\r_15_125"
-      - 美国_Telegram（@djkkdcx）_73_126
-      - "美国_Telegram（@djkkdcx）\r_16_127"
-      - 美国_Telegram（@djkkdcx）_74_128
-      - 美国_Telegram（@djkkdcx）_75_129
-      - 美国_Telegram（@djkkdcx）_76_130
-      - "美国_Telegram（@djkkdcx）\r_17_131"
-      - "马耳他_Telegram（@djkkdcx）\r_132"
-      - "卢森堡_Telegram（@djkkdcx）\r_1_133"
-      - "卢森堡_Telegram（@djkkdcx）\r_2_134"
-      - "立陶宛_Telegram（@djkkdcx）\r_1_135"
-      - "立陶宛_Telegram（@djkkdcx）\r_2_136"
-      - "立陶宛_Telegram（@djkkdcx）\r_3_137"
-      - 荷兰_Telegram（@djkkdcx）_138
-      - 俄罗斯联邦_Telegram（@djkkdcx）_1_139
-      - 俄罗斯联邦_Telegram（@djkkdcx）_2_140
-      - "俄罗斯联邦_Telegram（@djkkdcx）\r_1_141"
-      - "俄罗斯联邦_Telegram（@djkkdcx）\r_2_142"
-      - 俄罗斯联邦_Telegram（@djkkdcx）_3_143
-      - "保加利亚_Telegram（@djkkdcx）\r_144"
-      - 阿联酋_Telegram（@djkkdcx）_1_145
-      - 阿联酋_Telegram（@djkkdcx）_2_146
-      - "阿联酋_Telegram（@djkkdcx）\r_147"
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_1
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_2
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_3
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_4
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_5
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_6
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_7
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_8
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_9
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_10
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_11
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_12
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_13
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_14
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_15
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_16
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_17
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_18
+      - "英国_Telegram（@djkkdcx）\r_1_19"
+      - "英国_Telegram（@djkkdcx）\r_2_20"
+      - "英国_Telegram（@djkkdcx）\r_3_21"
+      - "英国_Telegram（@djkkdcx）\r_4_22"
+      - "英国_Telegram（@djkkdcx）\r_5_23"
+      - "新加坡_Telegram（@djkkdcx）\r_1_24"
+      - "新加坡_Telegram（@djkkdcx）\r_2_25"
+      - "新加坡_Telegram（@djkkdcx）\r_3_26"
+      - "新加坡_Telegram（@djkkdcx）\r_4_27"
+      - "新加坡_Telegram（@djkkdcx）\r_5_28"
+      - "新加坡_Telegram（@djkkdcx）\r_6_29"
+      - "新加坡_Telegram（@djkkdcx）\r_7_30"
+      - "新加坡_Telegram（@djkkdcx）\r_8_31"
+      - "新加坡_Telegram（@djkkdcx）\r_9_32"
+      - "新加坡_Telegram（@djkkdcx）\r_10_33"
+      - "新加坡_Telegram（@djkkdcx）\r_11_34"
+      - "新加坡_Telegram（@djkkdcx）\r_12_35"
+      - "新加坡_Telegram（@djkkdcx）\r_13_36"
+      - "新加坡_Telegram（@djkkdcx）\r_14_37"
+      - 香港_Telegram（@djkkdcx）_1_38
+      - 香港_Telegram（@djkkdcx）_2_39
+      - 香港_Telegram（@djkkdcx）_3_40
+      - 香港_Telegram（@djkkdcx）_4_41
+      - "香港_Telegram（@djkkdcx）\r_1_42"
+      - 香港_Telegram（@djkkdcx）_5_43
+      - 香港_Telegram（@djkkdcx）_6_44
+      - 香港_Telegram（@djkkdcx）_7_45
+      - 香港_Telegram（@djkkdcx）_8_46
+      - "香港_Telegram（@djkkdcx）\r_2_47"
+      - 香港_Telegram（@djkkdcx）_9_48
+      - 香港_Telegram（@djkkdcx）_10_49
+      - "西班牙_Telegram（@djkkdcx）\r_50"
+      - "乌克兰_Telegram（@djkkdcx）\r_51"
+      - "塞舌尔_Telegram（@djkkdcx）\r_1_52"
+      - "塞舌尔_Telegram（@djkkdcx）\r_2_53"
+      - "日本_Telegram（@djkkdcx）\r_54"
+      - "美国_Telegram（@djkkdcx）\r_1_55"
+      - "美国_Telegram（@djkkdcx）\r_2_56"
+      - 美国_Telegram（@djkkdcx）_1_57
+      - 美国_Telegram（@djkkdcx）_2_58
+      - 美国_Telegram（@djkkdcx）_3_59
+      - "美国_Telegram（@djkkdcx）\r_3_60"
+      - 美国_Telegram（@djkkdcx）_4_61
+      - 美国_Telegram（@djkkdcx）_5_62
+      - 美国_Telegram（@djkkdcx）_6_63
+      - 美国_Telegram（@djkkdcx）_7_64
+      - 美国_Telegram（@djkkdcx）_8_65
+      - 美国_Telegram（@djkkdcx）_9_66
+      - "美国_Telegram（@djkkdcx）\r_4_67"
+      - "美国_Telegram（@djkkdcx）\r_5_68"
+      - 美国_Telegram（@djkkdcx）_10_69
+      - "美国_Telegram（@djkkdcx）\r_6_70"
+      - 美国_Telegram（@djkkdcx）_11_71
+      - "美国_Telegram（@djkkdcx）\r_7_72"
+      - 美国_Telegram（@djkkdcx）_12_73
+      - 美国_Telegram（@djkkdcx）_13_74
+      - 美国_Telegram（@djkkdcx）_14_75
+      - 美国_Telegram（@djkkdcx）_15_76
+      - 美国_Telegram（@djkkdcx）_16_77
+      - 美国_Telegram（@djkkdcx）_17_78
+      - 美国_Telegram（@djkkdcx）_18_79
+      - 美国_Telegram（@djkkdcx）_19_80
+      - "美国_Telegram（@djkkdcx）\r_8_81"
+      - "美国_Telegram（@djkkdcx）\r_9_82"
+      - "美国_Telegram（@djkkdcx）\r_10_83"
+      - 美国_Telegram（@djkkdcx）_20_84
+      - 美国_Telegram（@djkkdcx）_21_85
+      - "美国_Telegram（@djkkdcx）\r_11_86"
+      - 美国_Telegram（@djkkdcx）_22_87
+      - "美国_Telegram（@djkkdcx）\r_12_88"
+      - "美国_Telegram（@djkkdcx）\r_13_89"
+      - "美国_Telegram（@djkkdcx）\r_14_90"
+      - 美国_Telegram（@djkkdcx）_23_91
+      - "美国_Telegram（@djkkdcx）\r_15_92"
+      - "美国_Telegram（@djkkdcx）\r_16_93"
+      - 美国_Telegram（@djkkdcx）_24_94
+      - 美国_Telegram（@djkkdcx）_25_95
+      - "美国_Telegram（@djkkdcx）\r_17_96"
+      - "马耳他_Telegram（@djkkdcx）\r_97"
+      - "卢森堡_Telegram（@djkkdcx）\r_1_98"
+      - "卢森堡_Telegram（@djkkdcx）\r_2_99"
+      - "立陶宛_Telegram（@djkkdcx）\r_1_100"
+      - "立陶宛_Telegram（@djkkdcx）\r_2_101"
+      - "立陶宛_Telegram（@djkkdcx）\r_3_102"
+      - 荷兰_Telegram（@djkkdcx）_103
+      - "俄罗斯联邦_Telegram（@djkkdcx）\r_104"
+      - "保加利亚_Telegram（@djkkdcx）\r_105"
+      - 阿联酋_Telegram（@djkkdcx）_106
+      - "阿联酋_Telegram（@djkkdcx）\r_107"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "英国_Telegram（@djkkdcx）\r_1_1"
-      - "英国_Telegram（@djkkdcx）\r_2_2"
-      - "英国_Telegram（@djkkdcx）\r_3_3"
-      - "英国_Telegram（@djkkdcx）\r_4_4"
-      - "英国_Telegram（@djkkdcx）\r_5_5"
-      - 伊朗_Telegram（@djkkdcx）_1_6
-      - 伊朗_Telegram（@djkkdcx）_2_7
-      - "新加坡_Telegram（@djkkdcx）\r_1_8"
-      - "新加坡_Telegram（@djkkdcx）\r_2_9"
-      - "新加坡_Telegram（@djkkdcx）\r_3_10"
-      - "新加坡_Telegram（@djkkdcx）\r_4_11"
-      - "新加坡_Telegram（@djkkdcx）\r_5_12"
-      - "新加坡_Telegram（@djkkdcx）\r_6_13"
-      - "新加坡_Telegram（@djkkdcx）\r_7_14"
-      - "新加坡_Telegram（@djkkdcx）\r_8_15"
-      - "新加坡_Telegram（@djkkdcx）\r_9_16"
-      - "新加坡_Telegram（@djkkdcx）\r_10_17"
-      - "新加坡_Telegram（@djkkdcx）\r_11_18"
-      - "新加坡_Telegram（@djkkdcx）\r_12_19"
-      - "新加坡_Telegram（@djkkdcx）\r_13_20"
-      - "新加坡_Telegram（@djkkdcx）\r_14_21"
-      - 香港_Telegram（@djkkdcx）_1_22
-      - 香港_Telegram（@djkkdcx）_2_23
-      - 香港_Telegram（@djkkdcx）_3_24
-      - 香港_Telegram（@djkkdcx）_4_25
-      - "香港_Telegram（@djkkdcx）\r_1_26"
-      - 香港_Telegram（@djkkdcx）_5_27
-      - 香港_Telegram（@djkkdcx）_6_28
-      - 香港_Telegram（@djkkdcx）_7_29
-      - 香港_Telegram（@djkkdcx）_8_30
-      - "香港_Telegram（@djkkdcx）\r_2_31"
-      - 香港_Telegram（@djkkdcx）_9_32
-      - 香港_Telegram（@djkkdcx）_10_33
-      - "西班牙_Telegram（@djkkdcx）\r_34"
-      - "乌克兰_Telegram（@djkkdcx）\r_35"
-      - "塞舌尔_Telegram（@djkkdcx）\r_1_36"
-      - "塞舌尔_Telegram（@djkkdcx）\r_2_37"
-      - "日本_Telegram（@djkkdcx）\r_38"
-      - 美国_Telegram（@djkkdcx）_1_39
-      - 美国_Telegram（@djkkdcx）_2_40
-      - "美国_Telegram（@djkkdcx）\r_1_41"
-      - 美国_Telegram（@djkkdcx）_3_42
-      - 美国_Telegram（@djkkdcx）_4_43
-      - 美国_Telegram（@djkkdcx）_5_44
-      - 美国_Telegram（@djkkdcx）_6_45
-      - 美国_Telegram（@djkkdcx）_7_46
-      - 美国_Telegram（@djkkdcx）_8_47
-      - 美国_Telegram（@djkkdcx）_9_48
-      - "美国_Telegram（@djkkdcx）\r_2_49"
-      - 美国_Telegram（@djkkdcx）_10_50
-      - 美国_Telegram（@djkkdcx）_11_51
-      - 美国_Telegram（@djkkdcx）_12_52
-      - 美国_Telegram（@djkkdcx）_13_53
-      - "美国_Telegram（@djkkdcx）\r_3_54"
-      - 美国_Telegram（@djkkdcx）_14_55
-      - 美国_Telegram（@djkkdcx）_15_56
-      - 美国_Telegram（@djkkdcx）_16_57
-      - 美国_Telegram（@djkkdcx）_17_58
-      - 美国_Telegram（@djkkdcx）_18_59
-      - 美国_Telegram（@djkkdcx）_19_60
-      - 美国_Telegram（@djkkdcx）_20_61
-      - "美国_Telegram（@djkkdcx）\r_4_62"
-      - 美国_Telegram（@djkkdcx）_21_63
-      - "美国_Telegram（@djkkdcx）\r_5_64"
-      - 美国_Telegram（@djkkdcx）_22_65
-      - 美国_Telegram（@djkkdcx）_23_66
-      - 美国_Telegram（@djkkdcx）_24_67
-      - "美国_Telegram（@djkkdcx）\r_6_68"
-      - 美国_Telegram（@djkkdcx）_25_69
-      - "美国_Telegram（@djkkdcx）\r_7_70"
-      - 美国_Telegram（@djkkdcx）_26_71
-      - 美国_Telegram（@djkkdcx）_27_72
-      - 美国_Telegram（@djkkdcx）_28_73
-      - 美国_Telegram（@djkkdcx）_29_74
-      - 美国_Telegram（@djkkdcx）_30_75
-      - 美国_Telegram（@djkkdcx）_31_76
-      - 美国_Telegram（@djkkdcx）_32_77
-      - 美国_Telegram（@djkkdcx）_33_78
-      - 美国_Telegram（@djkkdcx）_34_79
-      - 美国_Telegram（@djkkdcx）_35_80
-      - 美国_Telegram（@djkkdcx）_36_81
-      - 美国_Telegram（@djkkdcx）_37_82
-      - 美国_Telegram（@djkkdcx）_38_83
-      - 美国_Telegram（@djkkdcx）_39_84
-      - 美国_Telegram（@djkkdcx）_40_85
-      - 美国_Telegram（@djkkdcx）_41_86
-      - 美国_Telegram（@djkkdcx）_42_87
-      - 美国_Telegram（@djkkdcx）_43_88
-      - 美国_Telegram（@djkkdcx）_44_89
-      - 美国_Telegram（@djkkdcx）_45_90
-      - 美国_Telegram（@djkkdcx）_46_91
-      - 美国_Telegram（@djkkdcx）_47_92
-      - 美国_Telegram（@djkkdcx）_48_93
-      - 美国_Telegram（@djkkdcx）_49_94
-      - 美国_Telegram（@djkkdcx）_50_95
-      - 美国_Telegram（@djkkdcx）_51_96
-      - 美国_Telegram（@djkkdcx）_52_97
-      - 美国_Telegram（@djkkdcx）_53_98
-      - 美国_Telegram（@djkkdcx）_54_99
-      - 美国_Telegram（@djkkdcx）_55_100
-      - 美国_Telegram（@djkkdcx）_56_101
-      - "美国_Telegram（@djkkdcx）\r_8_102"
-      - "美国_Telegram（@djkkdcx）\r_9_103"
-      - "美国_Telegram（@djkkdcx）\r_10_104"
-      - 美国_Telegram（@djkkdcx）_57_105
-      - 美国_Telegram（@djkkdcx）_58_106
-      - 美国_Telegram（@djkkdcx）_59_107
-      - 美国_Telegram（@djkkdcx）_60_108
-      - 美国_Telegram（@djkkdcx）_61_109
-      - 美国_Telegram（@djkkdcx）_62_110
-      - "美国_Telegram（@djkkdcx）\r_11_111"
-      - 美国_Telegram（@djkkdcx）_63_112
-      - 美国_Telegram（@djkkdcx）_64_113
-      - 美国_Telegram（@djkkdcx）_65_114
-      - 美国_Telegram（@djkkdcx）_66_115
-      - 美国_Telegram（@djkkdcx）_67_116
-      - "美国_Telegram（@djkkdcx）\r_12_117"
-      - "美国_Telegram（@djkkdcx）\r_13_118"
-      - 美国_Telegram（@djkkdcx）_68_119
-      - 美国_Telegram（@djkkdcx）_69_120
-      - 美国_Telegram（@djkkdcx）_70_121
-      - "美国_Telegram（@djkkdcx）\r_14_122"
-      - 美国_Telegram（@djkkdcx）_71_123
-      - 美国_Telegram（@djkkdcx）_72_124
-      - "美国_Telegram（@djkkdcx）\r_15_125"
-      - 美国_Telegram（@djkkdcx）_73_126
-      - "美国_Telegram（@djkkdcx）\r_16_127"
-      - 美国_Telegram（@djkkdcx）_74_128
-      - 美国_Telegram（@djkkdcx）_75_129
-      - 美国_Telegram（@djkkdcx）_76_130
-      - "美国_Telegram（@djkkdcx）\r_17_131"
-      - "马耳他_Telegram（@djkkdcx）\r_132"
-      - "卢森堡_Telegram（@djkkdcx）\r_1_133"
-      - "卢森堡_Telegram（@djkkdcx）\r_2_134"
-      - "立陶宛_Telegram（@djkkdcx）\r_1_135"
-      - "立陶宛_Telegram（@djkkdcx）\r_2_136"
-      - "立陶宛_Telegram（@djkkdcx）\r_3_137"
-      - 荷兰_Telegram（@djkkdcx）_138
-      - 俄罗斯联邦_Telegram（@djkkdcx）_1_139
-      - 俄罗斯联邦_Telegram（@djkkdcx）_2_140
-      - "俄罗斯联邦_Telegram（@djkkdcx）\r_1_141"
-      - "俄罗斯联邦_Telegram（@djkkdcx）\r_2_142"
-      - 俄罗斯联邦_Telegram（@djkkdcx）_3_143
-      - "保加利亚_Telegram（@djkkdcx）\r_144"
-      - 阿联酋_Telegram（@djkkdcx）_1_145
-      - 阿联酋_Telegram（@djkkdcx）_2_146
-      - "阿联酋_Telegram（@djkkdcx）\r_147"
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_1
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_2
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_3
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_4
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_5
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_6
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_7
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_8
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_9
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_10
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_11
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_12
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_13
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_14
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_15
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_16
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_17
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_18
+      - "英国_Telegram（@djkkdcx）\r_1_19"
+      - "英国_Telegram（@djkkdcx）\r_2_20"
+      - "英国_Telegram（@djkkdcx）\r_3_21"
+      - "英国_Telegram（@djkkdcx）\r_4_22"
+      - "英国_Telegram（@djkkdcx）\r_5_23"
+      - "新加坡_Telegram（@djkkdcx）\r_1_24"
+      - "新加坡_Telegram（@djkkdcx）\r_2_25"
+      - "新加坡_Telegram（@djkkdcx）\r_3_26"
+      - "新加坡_Telegram（@djkkdcx）\r_4_27"
+      - "新加坡_Telegram（@djkkdcx）\r_5_28"
+      - "新加坡_Telegram（@djkkdcx）\r_6_29"
+      - "新加坡_Telegram（@djkkdcx）\r_7_30"
+      - "新加坡_Telegram（@djkkdcx）\r_8_31"
+      - "新加坡_Telegram（@djkkdcx）\r_9_32"
+      - "新加坡_Telegram（@djkkdcx）\r_10_33"
+      - "新加坡_Telegram（@djkkdcx）\r_11_34"
+      - "新加坡_Telegram（@djkkdcx）\r_12_35"
+      - "新加坡_Telegram（@djkkdcx）\r_13_36"
+      - "新加坡_Telegram（@djkkdcx）\r_14_37"
+      - 香港_Telegram（@djkkdcx）_1_38
+      - 香港_Telegram（@djkkdcx）_2_39
+      - 香港_Telegram（@djkkdcx）_3_40
+      - 香港_Telegram（@djkkdcx）_4_41
+      - "香港_Telegram（@djkkdcx）\r_1_42"
+      - 香港_Telegram（@djkkdcx）_5_43
+      - 香港_Telegram（@djkkdcx）_6_44
+      - 香港_Telegram（@djkkdcx）_7_45
+      - 香港_Telegram（@djkkdcx）_8_46
+      - "香港_Telegram（@djkkdcx）\r_2_47"
+      - 香港_Telegram（@djkkdcx）_9_48
+      - 香港_Telegram（@djkkdcx）_10_49
+      - "西班牙_Telegram（@djkkdcx）\r_50"
+      - "乌克兰_Telegram（@djkkdcx）\r_51"
+      - "塞舌尔_Telegram（@djkkdcx）\r_1_52"
+      - "塞舌尔_Telegram（@djkkdcx）\r_2_53"
+      - "日本_Telegram（@djkkdcx）\r_54"
+      - "美国_Telegram（@djkkdcx）\r_1_55"
+      - "美国_Telegram（@djkkdcx）\r_2_56"
+      - 美国_Telegram（@djkkdcx）_1_57
+      - 美国_Telegram（@djkkdcx）_2_58
+      - 美国_Telegram（@djkkdcx）_3_59
+      - "美国_Telegram（@djkkdcx）\r_3_60"
+      - 美国_Telegram（@djkkdcx）_4_61
+      - 美国_Telegram（@djkkdcx）_5_62
+      - 美国_Telegram（@djkkdcx）_6_63
+      - 美国_Telegram（@djkkdcx）_7_64
+      - 美国_Telegram（@djkkdcx）_8_65
+      - 美国_Telegram（@djkkdcx）_9_66
+      - "美国_Telegram（@djkkdcx）\r_4_67"
+      - "美国_Telegram（@djkkdcx）\r_5_68"
+      - 美国_Telegram（@djkkdcx）_10_69
+      - "美国_Telegram（@djkkdcx）\r_6_70"
+      - 美国_Telegram（@djkkdcx）_11_71
+      - "美国_Telegram（@djkkdcx）\r_7_72"
+      - 美国_Telegram（@djkkdcx）_12_73
+      - 美国_Telegram（@djkkdcx）_13_74
+      - 美国_Telegram（@djkkdcx）_14_75
+      - 美国_Telegram（@djkkdcx）_15_76
+      - 美国_Telegram（@djkkdcx）_16_77
+      - 美国_Telegram（@djkkdcx）_17_78
+      - 美国_Telegram（@djkkdcx）_18_79
+      - 美国_Telegram（@djkkdcx）_19_80
+      - "美国_Telegram（@djkkdcx）\r_8_81"
+      - "美国_Telegram（@djkkdcx）\r_9_82"
+      - "美国_Telegram（@djkkdcx）\r_10_83"
+      - 美国_Telegram（@djkkdcx）_20_84
+      - 美国_Telegram（@djkkdcx）_21_85
+      - "美国_Telegram（@djkkdcx）\r_11_86"
+      - 美国_Telegram（@djkkdcx）_22_87
+      - "美国_Telegram（@djkkdcx）\r_12_88"
+      - "美国_Telegram（@djkkdcx）\r_13_89"
+      - "美国_Telegram（@djkkdcx）\r_14_90"
+      - 美国_Telegram（@djkkdcx）_23_91
+      - "美国_Telegram（@djkkdcx）\r_15_92"
+      - "美国_Telegram（@djkkdcx）\r_16_93"
+      - 美国_Telegram（@djkkdcx）_24_94
+      - 美国_Telegram（@djkkdcx）_25_95
+      - "美国_Telegram（@djkkdcx）\r_17_96"
+      - "马耳他_Telegram（@djkkdcx）\r_97"
+      - "卢森堡_Telegram（@djkkdcx）\r_1_98"
+      - "卢森堡_Telegram（@djkkdcx）\r_2_99"
+      - "立陶宛_Telegram（@djkkdcx）\r_1_100"
+      - "立陶宛_Telegram（@djkkdcx）\r_2_101"
+      - "立陶宛_Telegram（@djkkdcx）\r_3_102"
+      - 荷兰_Telegram（@djkkdcx）_103
+      - "俄罗斯联邦_Telegram（@djkkdcx）\r_104"
+      - "保加利亚_Telegram（@djkkdcx）\r_105"
+      - 阿联酋_Telegram（@djkkdcx）_106
+      - "阿联酋_Telegram（@djkkdcx）\r_107"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "英国_Telegram（@djkkdcx）\r_1_1"
-      - "英国_Telegram（@djkkdcx）\r_2_2"
-      - "英国_Telegram（@djkkdcx）\r_3_3"
-      - "英国_Telegram（@djkkdcx）\r_4_4"
-      - "英国_Telegram（@djkkdcx）\r_5_5"
-      - 伊朗_Telegram（@djkkdcx）_1_6
-      - 伊朗_Telegram（@djkkdcx）_2_7
-      - "新加坡_Telegram（@djkkdcx）\r_1_8"
-      - "新加坡_Telegram（@djkkdcx）\r_2_9"
-      - "新加坡_Telegram（@djkkdcx）\r_3_10"
-      - "新加坡_Telegram（@djkkdcx）\r_4_11"
-      - "新加坡_Telegram（@djkkdcx）\r_5_12"
-      - "新加坡_Telegram（@djkkdcx）\r_6_13"
-      - "新加坡_Telegram（@djkkdcx）\r_7_14"
-      - "新加坡_Telegram（@djkkdcx）\r_8_15"
-      - "新加坡_Telegram（@djkkdcx）\r_9_16"
-      - "新加坡_Telegram（@djkkdcx）\r_10_17"
-      - "新加坡_Telegram（@djkkdcx）\r_11_18"
-      - "新加坡_Telegram（@djkkdcx）\r_12_19"
-      - "新加坡_Telegram（@djkkdcx）\r_13_20"
-      - "新加坡_Telegram（@djkkdcx）\r_14_21"
-      - 香港_Telegram（@djkkdcx）_1_22
-      - 香港_Telegram（@djkkdcx）_2_23
-      - 香港_Telegram（@djkkdcx）_3_24
-      - 香港_Telegram（@djkkdcx）_4_25
-      - "香港_Telegram（@djkkdcx）\r_1_26"
-      - 香港_Telegram（@djkkdcx）_5_27
-      - 香港_Telegram（@djkkdcx）_6_28
-      - 香港_Telegram（@djkkdcx）_7_29
-      - 香港_Telegram（@djkkdcx）_8_30
-      - "香港_Telegram（@djkkdcx）\r_2_31"
-      - 香港_Telegram（@djkkdcx）_9_32
-      - 香港_Telegram（@djkkdcx）_10_33
-      - "西班牙_Telegram（@djkkdcx）\r_34"
-      - "乌克兰_Telegram（@djkkdcx）\r_35"
-      - "塞舌尔_Telegram（@djkkdcx）\r_1_36"
-      - "塞舌尔_Telegram（@djkkdcx）\r_2_37"
-      - "日本_Telegram（@djkkdcx）\r_38"
-      - 美国_Telegram（@djkkdcx）_1_39
-      - 美国_Telegram（@djkkdcx）_2_40
-      - "美国_Telegram（@djkkdcx）\r_1_41"
-      - 美国_Telegram（@djkkdcx）_3_42
-      - 美国_Telegram（@djkkdcx）_4_43
-      - 美国_Telegram（@djkkdcx）_5_44
-      - 美国_Telegram（@djkkdcx）_6_45
-      - 美国_Telegram（@djkkdcx）_7_46
-      - 美国_Telegram（@djkkdcx）_8_47
-      - 美国_Telegram（@djkkdcx）_9_48
-      - "美国_Telegram（@djkkdcx）\r_2_49"
-      - 美国_Telegram（@djkkdcx）_10_50
-      - 美国_Telegram（@djkkdcx）_11_51
-      - 美国_Telegram（@djkkdcx）_12_52
-      - 美国_Telegram（@djkkdcx）_13_53
-      - "美国_Telegram（@djkkdcx）\r_3_54"
-      - 美国_Telegram（@djkkdcx）_14_55
-      - 美国_Telegram（@djkkdcx）_15_56
-      - 美国_Telegram（@djkkdcx）_16_57
-      - 美国_Telegram（@djkkdcx）_17_58
-      - 美国_Telegram（@djkkdcx）_18_59
-      - 美国_Telegram（@djkkdcx）_19_60
-      - 美国_Telegram（@djkkdcx）_20_61
-      - "美国_Telegram（@djkkdcx）\r_4_62"
-      - 美国_Telegram（@djkkdcx）_21_63
-      - "美国_Telegram（@djkkdcx）\r_5_64"
-      - 美国_Telegram（@djkkdcx）_22_65
-      - 美国_Telegram（@djkkdcx）_23_66
-      - 美国_Telegram（@djkkdcx）_24_67
-      - "美国_Telegram（@djkkdcx）\r_6_68"
-      - 美国_Telegram（@djkkdcx）_25_69
-      - "美国_Telegram（@djkkdcx）\r_7_70"
-      - 美国_Telegram（@djkkdcx）_26_71
-      - 美国_Telegram（@djkkdcx）_27_72
-      - 美国_Telegram（@djkkdcx）_28_73
-      - 美国_Telegram（@djkkdcx）_29_74
-      - 美国_Telegram（@djkkdcx）_30_75
-      - 美国_Telegram（@djkkdcx）_31_76
-      - 美国_Telegram（@djkkdcx）_32_77
-      - 美国_Telegram（@djkkdcx）_33_78
-      - 美国_Telegram（@djkkdcx）_34_79
-      - 美国_Telegram（@djkkdcx）_35_80
-      - 美国_Telegram（@djkkdcx）_36_81
-      - 美国_Telegram（@djkkdcx）_37_82
-      - 美国_Telegram（@djkkdcx）_38_83
-      - 美国_Telegram（@djkkdcx）_39_84
-      - 美国_Telegram（@djkkdcx）_40_85
-      - 美国_Telegram（@djkkdcx）_41_86
-      - 美国_Telegram（@djkkdcx）_42_87
-      - 美国_Telegram（@djkkdcx）_43_88
-      - 美国_Telegram（@djkkdcx）_44_89
-      - 美国_Telegram（@djkkdcx）_45_90
-      - 美国_Telegram（@djkkdcx）_46_91
-      - 美国_Telegram（@djkkdcx）_47_92
-      - 美国_Telegram（@djkkdcx）_48_93
-      - 美国_Telegram（@djkkdcx）_49_94
-      - 美国_Telegram（@djkkdcx）_50_95
-      - 美国_Telegram（@djkkdcx）_51_96
-      - 美国_Telegram（@djkkdcx）_52_97
-      - 美国_Telegram（@djkkdcx）_53_98
-      - 美国_Telegram（@djkkdcx）_54_99
-      - 美国_Telegram（@djkkdcx）_55_100
-      - 美国_Telegram（@djkkdcx）_56_101
-      - "美国_Telegram（@djkkdcx）\r_8_102"
-      - "美国_Telegram（@djkkdcx）\r_9_103"
-      - "美国_Telegram（@djkkdcx）\r_10_104"
-      - 美国_Telegram（@djkkdcx）_57_105
-      - 美国_Telegram（@djkkdcx）_58_106
-      - 美国_Telegram（@djkkdcx）_59_107
-      - 美国_Telegram（@djkkdcx）_60_108
-      - 美国_Telegram（@djkkdcx）_61_109
-      - 美国_Telegram（@djkkdcx）_62_110
-      - "美国_Telegram（@djkkdcx）\r_11_111"
-      - 美国_Telegram（@djkkdcx）_63_112
-      - 美国_Telegram（@djkkdcx）_64_113
-      - 美国_Telegram（@djkkdcx）_65_114
-      - 美国_Telegram（@djkkdcx）_66_115
-      - 美国_Telegram（@djkkdcx）_67_116
-      - "美国_Telegram（@djkkdcx）\r_12_117"
-      - "美国_Telegram（@djkkdcx）\r_13_118"
-      - 美国_Telegram（@djkkdcx）_68_119
-      - 美国_Telegram（@djkkdcx）_69_120
-      - 美国_Telegram（@djkkdcx）_70_121
-      - "美国_Telegram（@djkkdcx）\r_14_122"
-      - 美国_Telegram（@djkkdcx）_71_123
-      - 美国_Telegram（@djkkdcx）_72_124
-      - "美国_Telegram（@djkkdcx）\r_15_125"
-      - 美国_Telegram（@djkkdcx）_73_126
-      - "美国_Telegram（@djkkdcx）\r_16_127"
-      - 美国_Telegram（@djkkdcx）_74_128
-      - 美国_Telegram（@djkkdcx）_75_129
-      - 美国_Telegram（@djkkdcx）_76_130
-      - "美国_Telegram（@djkkdcx）\r_17_131"
-      - "马耳他_Telegram（@djkkdcx）\r_132"
-      - "卢森堡_Telegram（@djkkdcx）\r_1_133"
-      - "卢森堡_Telegram（@djkkdcx）\r_2_134"
-      - "立陶宛_Telegram（@djkkdcx）\r_1_135"
-      - "立陶宛_Telegram（@djkkdcx）\r_2_136"
-      - "立陶宛_Telegram（@djkkdcx）\r_3_137"
-      - 荷兰_Telegram（@djkkdcx）_138
-      - 俄罗斯联邦_Telegram（@djkkdcx）_1_139
-      - 俄罗斯联邦_Telegram（@djkkdcx）_2_140
-      - "俄罗斯联邦_Telegram（@djkkdcx）\r_1_141"
-      - "俄罗斯联邦_Telegram（@djkkdcx）\r_2_142"
-      - 俄罗斯联邦_Telegram（@djkkdcx）_3_143
-      - "保加利亚_Telegram（@djkkdcx）\r_144"
-      - 阿联酋_Telegram（@djkkdcx）_1_145
-      - 阿联酋_Telegram（@djkkdcx）_2_146
-      - "阿联酋_Telegram（@djkkdcx）\r_147"
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_1
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_2
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_3
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_4
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_5
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_6
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_7
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_8
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_9
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_10
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_11
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_12
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_13
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_14
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_15
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_16
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_17
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_18
+      - "英国_Telegram（@djkkdcx）\r_1_19"
+      - "英国_Telegram（@djkkdcx）\r_2_20"
+      - "英国_Telegram（@djkkdcx）\r_3_21"
+      - "英国_Telegram（@djkkdcx）\r_4_22"
+      - "英国_Telegram（@djkkdcx）\r_5_23"
+      - "新加坡_Telegram（@djkkdcx）\r_1_24"
+      - "新加坡_Telegram（@djkkdcx）\r_2_25"
+      - "新加坡_Telegram（@djkkdcx）\r_3_26"
+      - "新加坡_Telegram（@djkkdcx）\r_4_27"
+      - "新加坡_Telegram（@djkkdcx）\r_5_28"
+      - "新加坡_Telegram（@djkkdcx）\r_6_29"
+      - "新加坡_Telegram（@djkkdcx）\r_7_30"
+      - "新加坡_Telegram（@djkkdcx）\r_8_31"
+      - "新加坡_Telegram（@djkkdcx）\r_9_32"
+      - "新加坡_Telegram（@djkkdcx）\r_10_33"
+      - "新加坡_Telegram（@djkkdcx）\r_11_34"
+      - "新加坡_Telegram（@djkkdcx）\r_12_35"
+      - "新加坡_Telegram（@djkkdcx）\r_13_36"
+      - "新加坡_Telegram（@djkkdcx）\r_14_37"
+      - 香港_Telegram（@djkkdcx）_1_38
+      - 香港_Telegram（@djkkdcx）_2_39
+      - 香港_Telegram（@djkkdcx）_3_40
+      - 香港_Telegram（@djkkdcx）_4_41
+      - "香港_Telegram（@djkkdcx）\r_1_42"
+      - 香港_Telegram（@djkkdcx）_5_43
+      - 香港_Telegram（@djkkdcx）_6_44
+      - 香港_Telegram（@djkkdcx）_7_45
+      - 香港_Telegram（@djkkdcx）_8_46
+      - "香港_Telegram（@djkkdcx）\r_2_47"
+      - 香港_Telegram（@djkkdcx）_9_48
+      - 香港_Telegram（@djkkdcx）_10_49
+      - "西班牙_Telegram（@djkkdcx）\r_50"
+      - "乌克兰_Telegram（@djkkdcx）\r_51"
+      - "塞舌尔_Telegram（@djkkdcx）\r_1_52"
+      - "塞舌尔_Telegram（@djkkdcx）\r_2_53"
+      - "日本_Telegram（@djkkdcx）\r_54"
+      - "美国_Telegram（@djkkdcx）\r_1_55"
+      - "美国_Telegram（@djkkdcx）\r_2_56"
+      - 美国_Telegram（@djkkdcx）_1_57
+      - 美国_Telegram（@djkkdcx）_2_58
+      - 美国_Telegram（@djkkdcx）_3_59
+      - "美国_Telegram（@djkkdcx）\r_3_60"
+      - 美国_Telegram（@djkkdcx）_4_61
+      - 美国_Telegram（@djkkdcx）_5_62
+      - 美国_Telegram（@djkkdcx）_6_63
+      - 美国_Telegram（@djkkdcx）_7_64
+      - 美国_Telegram（@djkkdcx）_8_65
+      - 美国_Telegram（@djkkdcx）_9_66
+      - "美国_Telegram（@djkkdcx）\r_4_67"
+      - "美国_Telegram（@djkkdcx）\r_5_68"
+      - 美国_Telegram（@djkkdcx）_10_69
+      - "美国_Telegram（@djkkdcx）\r_6_70"
+      - 美国_Telegram（@djkkdcx）_11_71
+      - "美国_Telegram（@djkkdcx）\r_7_72"
+      - 美国_Telegram（@djkkdcx）_12_73
+      - 美国_Telegram（@djkkdcx）_13_74
+      - 美国_Telegram（@djkkdcx）_14_75
+      - 美国_Telegram（@djkkdcx）_15_76
+      - 美国_Telegram（@djkkdcx）_16_77
+      - 美国_Telegram（@djkkdcx）_17_78
+      - 美国_Telegram（@djkkdcx）_18_79
+      - 美国_Telegram（@djkkdcx）_19_80
+      - "美国_Telegram（@djkkdcx）\r_8_81"
+      - "美国_Telegram（@djkkdcx）\r_9_82"
+      - "美国_Telegram（@djkkdcx）\r_10_83"
+      - 美国_Telegram（@djkkdcx）_20_84
+      - 美国_Telegram（@djkkdcx）_21_85
+      - "美国_Telegram（@djkkdcx）\r_11_86"
+      - 美国_Telegram（@djkkdcx）_22_87
+      - "美国_Telegram（@djkkdcx）\r_12_88"
+      - "美国_Telegram（@djkkdcx）\r_13_89"
+      - "美国_Telegram（@djkkdcx）\r_14_90"
+      - 美国_Telegram（@djkkdcx）_23_91
+      - "美国_Telegram（@djkkdcx）\r_15_92"
+      - "美国_Telegram（@djkkdcx）\r_16_93"
+      - 美国_Telegram（@djkkdcx）_24_94
+      - 美国_Telegram（@djkkdcx）_25_95
+      - "美国_Telegram（@djkkdcx）\r_17_96"
+      - "马耳他_Telegram（@djkkdcx）\r_97"
+      - "卢森堡_Telegram（@djkkdcx）\r_1_98"
+      - "卢森堡_Telegram（@djkkdcx）\r_2_99"
+      - "立陶宛_Telegram（@djkkdcx）\r_1_100"
+      - "立陶宛_Telegram（@djkkdcx）\r_2_101"
+      - "立陶宛_Telegram（@djkkdcx）\r_3_102"
+      - 荷兰_Telegram（@djkkdcx）_103
+      - "俄罗斯联邦_Telegram（@djkkdcx）\r_104"
+      - "保加利亚_Telegram（@djkkdcx）\r_105"
+      - 阿联酋_Telegram（@djkkdcx）_106
+      - "阿联酋_Telegram（@djkkdcx）\r_107"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "英国_Telegram（@djkkdcx）\r_1_1"
-      - "英国_Telegram（@djkkdcx）\r_2_2"
-      - "英国_Telegram（@djkkdcx）\r_3_3"
-      - "英国_Telegram（@djkkdcx）\r_4_4"
-      - "英国_Telegram（@djkkdcx）\r_5_5"
-      - 伊朗_Telegram（@djkkdcx）_1_6
-      - 伊朗_Telegram（@djkkdcx）_2_7
-      - "新加坡_Telegram（@djkkdcx）\r_1_8"
-      - "新加坡_Telegram（@djkkdcx）\r_2_9"
-      - "新加坡_Telegram（@djkkdcx）\r_3_10"
-      - "新加坡_Telegram（@djkkdcx）\r_4_11"
-      - "新加坡_Telegram（@djkkdcx）\r_5_12"
-      - "新加坡_Telegram（@djkkdcx）\r_6_13"
-      - "新加坡_Telegram（@djkkdcx）\r_7_14"
-      - "新加坡_Telegram（@djkkdcx）\r_8_15"
-      - "新加坡_Telegram（@djkkdcx）\r_9_16"
-      - "新加坡_Telegram（@djkkdcx）\r_10_17"
-      - "新加坡_Telegram（@djkkdcx）\r_11_18"
-      - "新加坡_Telegram（@djkkdcx）\r_12_19"
-      - "新加坡_Telegram（@djkkdcx）\r_13_20"
-      - "新加坡_Telegram（@djkkdcx）\r_14_21"
-      - 香港_Telegram（@djkkdcx）_1_22
-      - 香港_Telegram（@djkkdcx）_2_23
-      - 香港_Telegram（@djkkdcx）_3_24
-      - 香港_Telegram（@djkkdcx）_4_25
-      - "香港_Telegram（@djkkdcx）\r_1_26"
-      - 香港_Telegram（@djkkdcx）_5_27
-      - 香港_Telegram（@djkkdcx）_6_28
-      - 香港_Telegram（@djkkdcx）_7_29
-      - 香港_Telegram（@djkkdcx）_8_30
-      - "香港_Telegram（@djkkdcx）\r_2_31"
-      - 香港_Telegram（@djkkdcx）_9_32
-      - 香港_Telegram（@djkkdcx）_10_33
-      - "西班牙_Telegram（@djkkdcx）\r_34"
-      - "乌克兰_Telegram（@djkkdcx）\r_35"
-      - "塞舌尔_Telegram（@djkkdcx）\r_1_36"
-      - "塞舌尔_Telegram（@djkkdcx）\r_2_37"
-      - "日本_Telegram（@djkkdcx）\r_38"
-      - 美国_Telegram（@djkkdcx）_1_39
-      - 美国_Telegram（@djkkdcx）_2_40
-      - "美国_Telegram（@djkkdcx）\r_1_41"
-      - 美国_Telegram（@djkkdcx）_3_42
-      - 美国_Telegram（@djkkdcx）_4_43
-      - 美国_Telegram（@djkkdcx）_5_44
-      - 美国_Telegram（@djkkdcx）_6_45
-      - 美国_Telegram（@djkkdcx）_7_46
-      - 美国_Telegram（@djkkdcx）_8_47
-      - 美国_Telegram（@djkkdcx）_9_48
-      - "美国_Telegram（@djkkdcx）\r_2_49"
-      - 美国_Telegram（@djkkdcx）_10_50
-      - 美国_Telegram（@djkkdcx）_11_51
-      - 美国_Telegram（@djkkdcx）_12_52
-      - 美国_Telegram（@djkkdcx）_13_53
-      - "美国_Telegram（@djkkdcx）\r_3_54"
-      - 美国_Telegram（@djkkdcx）_14_55
-      - 美国_Telegram（@djkkdcx）_15_56
-      - 美国_Telegram（@djkkdcx）_16_57
-      - 美国_Telegram（@djkkdcx）_17_58
-      - 美国_Telegram（@djkkdcx）_18_59
-      - 美国_Telegram（@djkkdcx）_19_60
-      - 美国_Telegram（@djkkdcx）_20_61
-      - "美国_Telegram（@djkkdcx）\r_4_62"
-      - 美国_Telegram（@djkkdcx）_21_63
-      - "美国_Telegram（@djkkdcx）\r_5_64"
-      - 美国_Telegram（@djkkdcx）_22_65
-      - 美国_Telegram（@djkkdcx）_23_66
-      - 美国_Telegram（@djkkdcx）_24_67
-      - "美国_Telegram（@djkkdcx）\r_6_68"
-      - 美国_Telegram（@djkkdcx）_25_69
-      - "美国_Telegram（@djkkdcx）\r_7_70"
-      - 美国_Telegram（@djkkdcx）_26_71
-      - 美国_Telegram（@djkkdcx）_27_72
-      - 美国_Telegram（@djkkdcx）_28_73
-      - 美国_Telegram（@djkkdcx）_29_74
-      - 美国_Telegram（@djkkdcx）_30_75
-      - 美国_Telegram（@djkkdcx）_31_76
-      - 美国_Telegram（@djkkdcx）_32_77
-      - 美国_Telegram（@djkkdcx）_33_78
-      - 美国_Telegram（@djkkdcx）_34_79
-      - 美国_Telegram（@djkkdcx）_35_80
-      - 美国_Telegram（@djkkdcx）_36_81
-      - 美国_Telegram（@djkkdcx）_37_82
-      - 美国_Telegram（@djkkdcx）_38_83
-      - 美国_Telegram（@djkkdcx）_39_84
-      - 美国_Telegram（@djkkdcx）_40_85
-      - 美国_Telegram（@djkkdcx）_41_86
-      - 美国_Telegram（@djkkdcx）_42_87
-      - 美国_Telegram（@djkkdcx）_43_88
-      - 美国_Telegram（@djkkdcx）_44_89
-      - 美国_Telegram（@djkkdcx）_45_90
-      - 美国_Telegram（@djkkdcx）_46_91
-      - 美国_Telegram（@djkkdcx）_47_92
-      - 美国_Telegram（@djkkdcx）_48_93
-      - 美国_Telegram（@djkkdcx）_49_94
-      - 美国_Telegram（@djkkdcx）_50_95
-      - 美国_Telegram（@djkkdcx）_51_96
-      - 美国_Telegram（@djkkdcx）_52_97
-      - 美国_Telegram（@djkkdcx）_53_98
-      - 美国_Telegram（@djkkdcx）_54_99
-      - 美国_Telegram（@djkkdcx）_55_100
-      - 美国_Telegram（@djkkdcx）_56_101
-      - "美国_Telegram（@djkkdcx）\r_8_102"
-      - "美国_Telegram（@djkkdcx）\r_9_103"
-      - "美国_Telegram（@djkkdcx）\r_10_104"
-      - 美国_Telegram（@djkkdcx）_57_105
-      - 美国_Telegram（@djkkdcx）_58_106
-      - 美国_Telegram（@djkkdcx）_59_107
-      - 美国_Telegram（@djkkdcx）_60_108
-      - 美国_Telegram（@djkkdcx）_61_109
-      - 美国_Telegram（@djkkdcx）_62_110
-      - "美国_Telegram（@djkkdcx）\r_11_111"
-      - 美国_Telegram（@djkkdcx）_63_112
-      - 美国_Telegram（@djkkdcx）_64_113
-      - 美国_Telegram（@djkkdcx）_65_114
-      - 美国_Telegram（@djkkdcx）_66_115
-      - 美国_Telegram（@djkkdcx）_67_116
-      - "美国_Telegram（@djkkdcx）\r_12_117"
-      - "美国_Telegram（@djkkdcx）\r_13_118"
-      - 美国_Telegram（@djkkdcx）_68_119
-      - 美国_Telegram（@djkkdcx）_69_120
-      - 美国_Telegram（@djkkdcx）_70_121
-      - "美国_Telegram（@djkkdcx）\r_14_122"
-      - 美国_Telegram（@djkkdcx）_71_123
-      - 美国_Telegram（@djkkdcx）_72_124
-      - "美国_Telegram（@djkkdcx）\r_15_125"
-      - 美国_Telegram（@djkkdcx）_73_126
-      - "美国_Telegram（@djkkdcx）\r_16_127"
-      - 美国_Telegram（@djkkdcx）_74_128
-      - 美国_Telegram（@djkkdcx）_75_129
-      - 美国_Telegram（@djkkdcx）_76_130
-      - "美国_Telegram（@djkkdcx）\r_17_131"
-      - "马耳他_Telegram（@djkkdcx）\r_132"
-      - "卢森堡_Telegram（@djkkdcx）\r_1_133"
-      - "卢森堡_Telegram（@djkkdcx）\r_2_134"
-      - "立陶宛_Telegram（@djkkdcx）\r_1_135"
-      - "立陶宛_Telegram（@djkkdcx）\r_2_136"
-      - "立陶宛_Telegram（@djkkdcx）\r_3_137"
-      - 荷兰_Telegram（@djkkdcx）_138
-      - 俄罗斯联邦_Telegram（@djkkdcx）_1_139
-      - 俄罗斯联邦_Telegram（@djkkdcx）_2_140
-      - "俄罗斯联邦_Telegram（@djkkdcx）\r_1_141"
-      - "俄罗斯联邦_Telegram（@djkkdcx）\r_2_142"
-      - 俄罗斯联邦_Telegram（@djkkdcx）_3_143
-      - "保加利亚_Telegram（@djkkdcx）\r_144"
-      - 阿联酋_Telegram（@djkkdcx）_1_145
-      - 阿联酋_Telegram（@djkkdcx）_2_146
-      - "阿联酋_Telegram（@djkkdcx）\r_147"
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_1
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_2
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_3
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_4
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_5
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_6
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_7
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_8
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_9
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_10
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_11
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_12
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_13
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_14
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_15
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_16
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_17
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_18
+      - "英国_Telegram（@djkkdcx）\r_1_19"
+      - "英国_Telegram（@djkkdcx）\r_2_20"
+      - "英国_Telegram（@djkkdcx）\r_3_21"
+      - "英国_Telegram（@djkkdcx）\r_4_22"
+      - "英国_Telegram（@djkkdcx）\r_5_23"
+      - "新加坡_Telegram（@djkkdcx）\r_1_24"
+      - "新加坡_Telegram（@djkkdcx）\r_2_25"
+      - "新加坡_Telegram（@djkkdcx）\r_3_26"
+      - "新加坡_Telegram（@djkkdcx）\r_4_27"
+      - "新加坡_Telegram（@djkkdcx）\r_5_28"
+      - "新加坡_Telegram（@djkkdcx）\r_6_29"
+      - "新加坡_Telegram（@djkkdcx）\r_7_30"
+      - "新加坡_Telegram（@djkkdcx）\r_8_31"
+      - "新加坡_Telegram（@djkkdcx）\r_9_32"
+      - "新加坡_Telegram（@djkkdcx）\r_10_33"
+      - "新加坡_Telegram（@djkkdcx）\r_11_34"
+      - "新加坡_Telegram（@djkkdcx）\r_12_35"
+      - "新加坡_Telegram（@djkkdcx）\r_13_36"
+      - "新加坡_Telegram（@djkkdcx）\r_14_37"
+      - 香港_Telegram（@djkkdcx）_1_38
+      - 香港_Telegram（@djkkdcx）_2_39
+      - 香港_Telegram（@djkkdcx）_3_40
+      - 香港_Telegram（@djkkdcx）_4_41
+      - "香港_Telegram（@djkkdcx）\r_1_42"
+      - 香港_Telegram（@djkkdcx）_5_43
+      - 香港_Telegram（@djkkdcx）_6_44
+      - 香港_Telegram（@djkkdcx）_7_45
+      - 香港_Telegram（@djkkdcx）_8_46
+      - "香港_Telegram（@djkkdcx）\r_2_47"
+      - 香港_Telegram（@djkkdcx）_9_48
+      - 香港_Telegram（@djkkdcx）_10_49
+      - "西班牙_Telegram（@djkkdcx）\r_50"
+      - "乌克兰_Telegram（@djkkdcx）\r_51"
+      - "塞舌尔_Telegram（@djkkdcx）\r_1_52"
+      - "塞舌尔_Telegram（@djkkdcx）\r_2_53"
+      - "日本_Telegram（@djkkdcx）\r_54"
+      - "美国_Telegram（@djkkdcx）\r_1_55"
+      - "美国_Telegram（@djkkdcx）\r_2_56"
+      - 美国_Telegram（@djkkdcx）_1_57
+      - 美国_Telegram（@djkkdcx）_2_58
+      - 美国_Telegram（@djkkdcx）_3_59
+      - "美国_Telegram（@djkkdcx）\r_3_60"
+      - 美国_Telegram（@djkkdcx）_4_61
+      - 美国_Telegram（@djkkdcx）_5_62
+      - 美国_Telegram（@djkkdcx）_6_63
+      - 美国_Telegram（@djkkdcx）_7_64
+      - 美国_Telegram（@djkkdcx）_8_65
+      - 美国_Telegram（@djkkdcx）_9_66
+      - "美国_Telegram（@djkkdcx）\r_4_67"
+      - "美国_Telegram（@djkkdcx）\r_5_68"
+      - 美国_Telegram（@djkkdcx）_10_69
+      - "美国_Telegram（@djkkdcx）\r_6_70"
+      - 美国_Telegram（@djkkdcx）_11_71
+      - "美国_Telegram（@djkkdcx）\r_7_72"
+      - 美国_Telegram（@djkkdcx）_12_73
+      - 美国_Telegram（@djkkdcx）_13_74
+      - 美国_Telegram（@djkkdcx）_14_75
+      - 美国_Telegram（@djkkdcx）_15_76
+      - 美国_Telegram（@djkkdcx）_16_77
+      - 美国_Telegram（@djkkdcx）_17_78
+      - 美国_Telegram（@djkkdcx）_18_79
+      - 美国_Telegram（@djkkdcx）_19_80
+      - "美国_Telegram（@djkkdcx）\r_8_81"
+      - "美国_Telegram（@djkkdcx）\r_9_82"
+      - "美国_Telegram（@djkkdcx）\r_10_83"
+      - 美国_Telegram（@djkkdcx）_20_84
+      - 美国_Telegram（@djkkdcx）_21_85
+      - "美国_Telegram（@djkkdcx）\r_11_86"
+      - 美国_Telegram（@djkkdcx）_22_87
+      - "美国_Telegram（@djkkdcx）\r_12_88"
+      - "美国_Telegram（@djkkdcx）\r_13_89"
+      - "美国_Telegram（@djkkdcx）\r_14_90"
+      - 美国_Telegram（@djkkdcx）_23_91
+      - "美国_Telegram（@djkkdcx）\r_15_92"
+      - "美国_Telegram（@djkkdcx）\r_16_93"
+      - 美国_Telegram（@djkkdcx）_24_94
+      - 美国_Telegram（@djkkdcx）_25_95
+      - "美国_Telegram（@djkkdcx）\r_17_96"
+      - "马耳他_Telegram（@djkkdcx）\r_97"
+      - "卢森堡_Telegram（@djkkdcx）\r_1_98"
+      - "卢森堡_Telegram（@djkkdcx）\r_2_99"
+      - "立陶宛_Telegram（@djkkdcx）\r_1_100"
+      - "立陶宛_Telegram（@djkkdcx）\r_2_101"
+      - "立陶宛_Telegram（@djkkdcx）\r_3_102"
+      - 荷兰_Telegram（@djkkdcx）_103
+      - "俄罗斯联邦_Telegram（@djkkdcx）\r_104"
+      - "保加利亚_Telegram（@djkkdcx）\r_105"
+      - 阿联酋_Telegram（@djkkdcx）_106
+      - "阿联酋_Telegram（@djkkdcx）\r_107"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1170,153 +890,113 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "英国_Telegram（@djkkdcx）\r_1_1"
-      - "英国_Telegram（@djkkdcx）\r_2_2"
-      - "英国_Telegram（@djkkdcx）\r_3_3"
-      - "英国_Telegram（@djkkdcx）\r_4_4"
-      - "英国_Telegram（@djkkdcx）\r_5_5"
-      - 伊朗_Telegram（@djkkdcx）_1_6
-      - 伊朗_Telegram（@djkkdcx）_2_7
-      - "新加坡_Telegram（@djkkdcx）\r_1_8"
-      - "新加坡_Telegram（@djkkdcx）\r_2_9"
-      - "新加坡_Telegram（@djkkdcx）\r_3_10"
-      - "新加坡_Telegram（@djkkdcx）\r_4_11"
-      - "新加坡_Telegram（@djkkdcx）\r_5_12"
-      - "新加坡_Telegram（@djkkdcx）\r_6_13"
-      - "新加坡_Telegram（@djkkdcx）\r_7_14"
-      - "新加坡_Telegram（@djkkdcx）\r_8_15"
-      - "新加坡_Telegram（@djkkdcx）\r_9_16"
-      - "新加坡_Telegram（@djkkdcx）\r_10_17"
-      - "新加坡_Telegram（@djkkdcx）\r_11_18"
-      - "新加坡_Telegram（@djkkdcx）\r_12_19"
-      - "新加坡_Telegram（@djkkdcx）\r_13_20"
-      - "新加坡_Telegram（@djkkdcx）\r_14_21"
-      - 香港_Telegram（@djkkdcx）_1_22
-      - 香港_Telegram（@djkkdcx）_2_23
-      - 香港_Telegram（@djkkdcx）_3_24
-      - 香港_Telegram（@djkkdcx）_4_25
-      - "香港_Telegram（@djkkdcx）\r_1_26"
-      - 香港_Telegram（@djkkdcx）_5_27
-      - 香港_Telegram（@djkkdcx）_6_28
-      - 香港_Telegram（@djkkdcx）_7_29
-      - 香港_Telegram（@djkkdcx）_8_30
-      - "香港_Telegram（@djkkdcx）\r_2_31"
-      - 香港_Telegram（@djkkdcx）_9_32
-      - 香港_Telegram（@djkkdcx）_10_33
-      - "西班牙_Telegram（@djkkdcx）\r_34"
-      - "乌克兰_Telegram（@djkkdcx）\r_35"
-      - "塞舌尔_Telegram（@djkkdcx）\r_1_36"
-      - "塞舌尔_Telegram（@djkkdcx）\r_2_37"
-      - "日本_Telegram（@djkkdcx）\r_38"
-      - 美国_Telegram（@djkkdcx）_1_39
-      - 美国_Telegram（@djkkdcx）_2_40
-      - "美国_Telegram（@djkkdcx）\r_1_41"
-      - 美国_Telegram（@djkkdcx）_3_42
-      - 美国_Telegram（@djkkdcx）_4_43
-      - 美国_Telegram（@djkkdcx）_5_44
-      - 美国_Telegram（@djkkdcx）_6_45
-      - 美国_Telegram（@djkkdcx）_7_46
-      - 美国_Telegram（@djkkdcx）_8_47
-      - 美国_Telegram（@djkkdcx）_9_48
-      - "美国_Telegram（@djkkdcx）\r_2_49"
-      - 美国_Telegram（@djkkdcx）_10_50
-      - 美国_Telegram（@djkkdcx）_11_51
-      - 美国_Telegram（@djkkdcx）_12_52
-      - 美国_Telegram（@djkkdcx）_13_53
-      - "美国_Telegram（@djkkdcx）\r_3_54"
-      - 美国_Telegram（@djkkdcx）_14_55
-      - 美国_Telegram（@djkkdcx）_15_56
-      - 美国_Telegram（@djkkdcx）_16_57
-      - 美国_Telegram（@djkkdcx）_17_58
-      - 美国_Telegram（@djkkdcx）_18_59
-      - 美国_Telegram（@djkkdcx）_19_60
-      - 美国_Telegram（@djkkdcx）_20_61
-      - "美国_Telegram（@djkkdcx）\r_4_62"
-      - 美国_Telegram（@djkkdcx）_21_63
-      - "美国_Telegram（@djkkdcx）\r_5_64"
-      - 美国_Telegram（@djkkdcx）_22_65
-      - 美国_Telegram（@djkkdcx）_23_66
-      - 美国_Telegram（@djkkdcx）_24_67
-      - "美国_Telegram（@djkkdcx）\r_6_68"
-      - 美国_Telegram（@djkkdcx）_25_69
-      - "美国_Telegram（@djkkdcx）\r_7_70"
-      - 美国_Telegram（@djkkdcx）_26_71
-      - 美国_Telegram（@djkkdcx）_27_72
-      - 美国_Telegram（@djkkdcx）_28_73
-      - 美国_Telegram（@djkkdcx）_29_74
-      - 美国_Telegram（@djkkdcx）_30_75
-      - 美国_Telegram（@djkkdcx）_31_76
-      - 美国_Telegram（@djkkdcx）_32_77
-      - 美国_Telegram（@djkkdcx）_33_78
-      - 美国_Telegram（@djkkdcx）_34_79
-      - 美国_Telegram（@djkkdcx）_35_80
-      - 美国_Telegram（@djkkdcx）_36_81
-      - 美国_Telegram（@djkkdcx）_37_82
-      - 美国_Telegram（@djkkdcx）_38_83
-      - 美国_Telegram（@djkkdcx）_39_84
-      - 美国_Telegram（@djkkdcx）_40_85
-      - 美国_Telegram（@djkkdcx）_41_86
-      - 美国_Telegram（@djkkdcx）_42_87
-      - 美国_Telegram（@djkkdcx）_43_88
-      - 美国_Telegram（@djkkdcx）_44_89
-      - 美国_Telegram（@djkkdcx）_45_90
-      - 美国_Telegram（@djkkdcx）_46_91
-      - 美国_Telegram（@djkkdcx）_47_92
-      - 美国_Telegram（@djkkdcx）_48_93
-      - 美国_Telegram（@djkkdcx）_49_94
-      - 美国_Telegram（@djkkdcx）_50_95
-      - 美国_Telegram（@djkkdcx）_51_96
-      - 美国_Telegram（@djkkdcx）_52_97
-      - 美国_Telegram（@djkkdcx）_53_98
-      - 美国_Telegram（@djkkdcx）_54_99
-      - 美国_Telegram（@djkkdcx）_55_100
-      - 美国_Telegram（@djkkdcx）_56_101
-      - "美国_Telegram（@djkkdcx）\r_8_102"
-      - "美国_Telegram（@djkkdcx）\r_9_103"
-      - "美国_Telegram（@djkkdcx）\r_10_104"
-      - 美国_Telegram（@djkkdcx）_57_105
-      - 美国_Telegram（@djkkdcx）_58_106
-      - 美国_Telegram（@djkkdcx）_59_107
-      - 美国_Telegram（@djkkdcx）_60_108
-      - 美国_Telegram（@djkkdcx）_61_109
-      - 美国_Telegram（@djkkdcx）_62_110
-      - "美国_Telegram（@djkkdcx）\r_11_111"
-      - 美国_Telegram（@djkkdcx）_63_112
-      - 美国_Telegram（@djkkdcx）_64_113
-      - 美国_Telegram（@djkkdcx）_65_114
-      - 美国_Telegram（@djkkdcx）_66_115
-      - 美国_Telegram（@djkkdcx）_67_116
-      - "美国_Telegram（@djkkdcx）\r_12_117"
-      - "美国_Telegram（@djkkdcx）\r_13_118"
-      - 美国_Telegram（@djkkdcx）_68_119
-      - 美国_Telegram（@djkkdcx）_69_120
-      - 美国_Telegram（@djkkdcx）_70_121
-      - "美国_Telegram（@djkkdcx）\r_14_122"
-      - 美国_Telegram（@djkkdcx）_71_123
-      - 美国_Telegram（@djkkdcx）_72_124
-      - "美国_Telegram（@djkkdcx）\r_15_125"
-      - 美国_Telegram（@djkkdcx）_73_126
-      - "美国_Telegram（@djkkdcx）\r_16_127"
-      - 美国_Telegram（@djkkdcx）_74_128
-      - 美国_Telegram（@djkkdcx）_75_129
-      - 美国_Telegram（@djkkdcx）_76_130
-      - "美国_Telegram（@djkkdcx）\r_17_131"
-      - "马耳他_Telegram（@djkkdcx）\r_132"
-      - "卢森堡_Telegram（@djkkdcx）\r_1_133"
-      - "卢森堡_Telegram（@djkkdcx）\r_2_134"
-      - "立陶宛_Telegram（@djkkdcx）\r_1_135"
-      - "立陶宛_Telegram（@djkkdcx）\r_2_136"
-      - "立陶宛_Telegram（@djkkdcx）\r_3_137"
-      - 荷兰_Telegram（@djkkdcx）_138
-      - 俄罗斯联邦_Telegram（@djkkdcx）_1_139
-      - 俄罗斯联邦_Telegram（@djkkdcx）_2_140
-      - "俄罗斯联邦_Telegram（@djkkdcx）\r_1_141"
-      - "俄罗斯联邦_Telegram（@djkkdcx）\r_2_142"
-      - 俄罗斯联邦_Telegram（@djkkdcx）_3_143
-      - "保加利亚_Telegram（@djkkdcx）\r_144"
-      - 阿联酋_Telegram（@djkkdcx）_1_145
-      - 阿联酋_Telegram（@djkkdcx）_2_146
-      - "阿联酋_Telegram（@djkkdcx）\r_147"
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_1
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_2
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_3
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_4
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_5
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_6
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_7
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_8
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_9
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_10
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_11
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_12
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_13
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_14
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_15
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_16
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_17
+      - 🇹🇬_多哥_-@djkkdcx-4.20号_18
+      - "英国_Telegram（@djkkdcx）\r_1_19"
+      - "英国_Telegram（@djkkdcx）\r_2_20"
+      - "英国_Telegram（@djkkdcx）\r_3_21"
+      - "英国_Telegram（@djkkdcx）\r_4_22"
+      - "英国_Telegram（@djkkdcx）\r_5_23"
+      - "新加坡_Telegram（@djkkdcx）\r_1_24"
+      - "新加坡_Telegram（@djkkdcx）\r_2_25"
+      - "新加坡_Telegram（@djkkdcx）\r_3_26"
+      - "新加坡_Telegram（@djkkdcx）\r_4_27"
+      - "新加坡_Telegram（@djkkdcx）\r_5_28"
+      - "新加坡_Telegram（@djkkdcx）\r_6_29"
+      - "新加坡_Telegram（@djkkdcx）\r_7_30"
+      - "新加坡_Telegram（@djkkdcx）\r_8_31"
+      - "新加坡_Telegram（@djkkdcx）\r_9_32"
+      - "新加坡_Telegram（@djkkdcx）\r_10_33"
+      - "新加坡_Telegram（@djkkdcx）\r_11_34"
+      - "新加坡_Telegram（@djkkdcx）\r_12_35"
+      - "新加坡_Telegram（@djkkdcx）\r_13_36"
+      - "新加坡_Telegram（@djkkdcx）\r_14_37"
+      - 香港_Telegram（@djkkdcx）_1_38
+      - 香港_Telegram（@djkkdcx）_2_39
+      - 香港_Telegram（@djkkdcx）_3_40
+      - 香港_Telegram（@djkkdcx）_4_41
+      - "香港_Telegram（@djkkdcx）\r_1_42"
+      - 香港_Telegram（@djkkdcx）_5_43
+      - 香港_Telegram（@djkkdcx）_6_44
+      - 香港_Telegram（@djkkdcx）_7_45
+      - 香港_Telegram（@djkkdcx）_8_46
+      - "香港_Telegram（@djkkdcx）\r_2_47"
+      - 香港_Telegram（@djkkdcx）_9_48
+      - 香港_Telegram（@djkkdcx）_10_49
+      - "西班牙_Telegram（@djkkdcx）\r_50"
+      - "乌克兰_Telegram（@djkkdcx）\r_51"
+      - "塞舌尔_Telegram（@djkkdcx）\r_1_52"
+      - "塞舌尔_Telegram（@djkkdcx）\r_2_53"
+      - "日本_Telegram（@djkkdcx）\r_54"
+      - "美国_Telegram（@djkkdcx）\r_1_55"
+      - "美国_Telegram（@djkkdcx）\r_2_56"
+      - 美国_Telegram（@djkkdcx）_1_57
+      - 美国_Telegram（@djkkdcx）_2_58
+      - 美国_Telegram（@djkkdcx）_3_59
+      - "美国_Telegram（@djkkdcx）\r_3_60"
+      - 美国_Telegram（@djkkdcx）_4_61
+      - 美国_Telegram（@djkkdcx）_5_62
+      - 美国_Telegram（@djkkdcx）_6_63
+      - 美国_Telegram（@djkkdcx）_7_64
+      - 美国_Telegram（@djkkdcx）_8_65
+      - 美国_Telegram（@djkkdcx）_9_66
+      - "美国_Telegram（@djkkdcx）\r_4_67"
+      - "美国_Telegram（@djkkdcx）\r_5_68"
+      - 美国_Telegram（@djkkdcx）_10_69
+      - "美国_Telegram（@djkkdcx）\r_6_70"
+      - 美国_Telegram（@djkkdcx）_11_71
+      - "美国_Telegram（@djkkdcx）\r_7_72"
+      - 美国_Telegram（@djkkdcx）_12_73
+      - 美国_Telegram（@djkkdcx）_13_74
+      - 美国_Telegram（@djkkdcx）_14_75
+      - 美国_Telegram（@djkkdcx）_15_76
+      - 美国_Telegram（@djkkdcx）_16_77
+      - 美国_Telegram（@djkkdcx）_17_78
+      - 美国_Telegram（@djkkdcx）_18_79
+      - 美国_Telegram（@djkkdcx）_19_80
+      - "美国_Telegram（@djkkdcx）\r_8_81"
+      - "美国_Telegram（@djkkdcx）\r_9_82"
+      - "美国_Telegram（@djkkdcx）\r_10_83"
+      - 美国_Telegram（@djkkdcx）_20_84
+      - 美国_Telegram（@djkkdcx）_21_85
+      - "美国_Telegram（@djkkdcx）\r_11_86"
+      - 美国_Telegram（@djkkdcx）_22_87
+      - "美国_Telegram（@djkkdcx）\r_12_88"
+      - "美国_Telegram（@djkkdcx）\r_13_89"
+      - "美国_Telegram（@djkkdcx）\r_14_90"
+      - 美国_Telegram（@djkkdcx）_23_91
+      - "美国_Telegram（@djkkdcx）\r_15_92"
+      - "美国_Telegram（@djkkdcx）\r_16_93"
+      - 美国_Telegram（@djkkdcx）_24_94
+      - 美国_Telegram（@djkkdcx）_25_95
+      - "美国_Telegram（@djkkdcx）\r_17_96"
+      - "马耳他_Telegram（@djkkdcx）\r_97"
+      - "卢森堡_Telegram（@djkkdcx）\r_1_98"
+      - "卢森堡_Telegram（@djkkdcx）\r_2_99"
+      - "立陶宛_Telegram（@djkkdcx）\r_1_100"
+      - "立陶宛_Telegram（@djkkdcx）\r_2_101"
+      - "立陶宛_Telegram（@djkkdcx）\r_3_102"
+      - 荷兰_Telegram（@djkkdcx）_103
+      - "俄罗斯联邦_Telegram（@djkkdcx）\r_104"
+      - "保加利亚_Telegram（@djkkdcx）\r_105"
+      - 阿联酋_Telegram（@djkkdcx）_106
+      - "阿联酋_Telegram（@djkkdcx）\r_107"
 
 rules:
 # 本地/局域网地址
