@@ -22,6 +22,4 @@ TG电报代理频道🔗 https://t.me/bkjdfg
 
 🐔 clash订阅2: https://mirror.ghproxy.com/https://raw.githubusercontent.com/Daphnemgt/jiedian/main/clash.yaml
 
-🐔如果2vray镜像不管用，请用这个订阅链接: https://ydzhi.cfd/
-
 🐔 节点已更新！如果节点失效请到TG频道反馈：https://t.me/jjffdcn
